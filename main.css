@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "cinzel";
+    src: url(cinzel-variableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "JosefinSlab-Regular";
+    src: url(JosefinSlab-Regular.ttf);
+}
+
+.hflex {
+    height: 70px;
+    width: 100%;
+    background-color: #062339;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hbar {
+    position: relative;
+    top: 25px;
+    left: 41%;
+}
+
+.hlog {
+    height: 130px;
+    width: auto;
+    margin-top: -25px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "cinzel";
+    padding: 10px;
+    top: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.fone {
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.utop {
+    visibility: hidden;
+}
+.top {
+    font-family: "cinzel";
+    font-size: 40px;
+}
+
+.btop {
+    margin: 30px;
+}
+
+.cur {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+p {
+    font-family: "JosefinSlab-Regular";
+}
+
+.wedd {
+    width: 100%;
+    height: auto;
+}
+
+.folt {
+    width: 100%;
+    height: auto;
+}
+
+.fly {
+    width: 100%;
+    height: auto;
+}
+
+.shoot {
+    width: 100%;
+    height: auto;
+}
+
+.colafo {
+    height: 300px;
+    width: 100%;
+    background-color: #062339;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fo-logo img {
+    height: 130px;
+    width: auto;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.fo-logo{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 150px;
+}
+
+.fo-logo p {
+    position: absolute;
+    margin-left: 73px;
+    bottom: 10px;
+}
+.text-r{
+    color: white;
+    font-family: "JosefinSlab-Regular";
+    position: relative;
+    bottom: 20px;
+    margin-left: 150px;
+}
+
+.text {
+    color: white;
+    font-family: "JosefinSlab-Regular";
+    position: relative;
+    display: inline;
+    top: 110px;
+    align-content: center;
+    margin-left: 360px;
+}
+
+.fote {
+    font-family: "JosefinSlab-Regular";
+    padding: 3px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.flex-social {
+    color: white;
+    font-family: "cinzel";
+    margin-left: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 900px;
+}
+
+.flex-social li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "JosefinSlab-Regular";
+
+}
+
+.rights {
+    text-decoration: none;
+    color: white;
+    font-family: "JosefinSlab-Regular";
+    position: absolute;
+    margin-bottom: 20px;
+    left: 20%;
+    
+    
+}
