@@ -19,43 +19,134 @@ body {
 }
 
 .hflex {
-    position: fixed;
-    top: 0px;
-    width: 100%;
     height: 70px;
+    width: 100%;
     background-color: #062339;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
     z-index: 10;
 }
 
 .hbar {
-    position: relative;
-    top: 25px;
-    left: 41%;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .hlog {
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #062339;
     height: 130px;
     width: auto;
-    margin-top: -25px;
-    margin-left: 50px;
-    position: absolute;
+    border-radius: 80px;
+    margin-left: 90px;
+    margin-top: -15px;
 }
 
-.menu a{
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 530px;
+    padding: 0px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block
+}
+
+.menu ul li a{
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     font-size: 14px;
     font-family: "cinzel";
     padding: 10px;
-    top: 50%;
 }
 
 .menu a:hover {
     color: #03aefd;
 }
 
+.hamburguer {
+    display: flex;
+    justify-content: space-evenly;
+    color: #F5F5F5;
+    width: 30px;
+    height: 30px;
+    margin-right: 120px;
+    margin-top: 11px;
+    position: relative;
+}
+
+
+.hamburguer ul li {
+    list-style: none;
+}
+
+.hamburguer li a {
+    font-family: "cinzel";
+    font-size: 14px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.hamb-menu {
+    width: 140px;
+    height: 25px;
+    display: block;
+    padding-top: 2px;
+    padding-left: 15px;
+    align-content: start;
+    text-align: left;
+    margin: 0px;
+    margin-left: 100px;
+    color: #062339;
+    background-color: #03f5fd;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.hamb-menu:hover{
+    color: #941e09;
+    font-size: 16px;
+}
+
+.hamb-social {
+    width: 150px;
+    height: 30px;
+    color: #062339;
+    background-color: #03f5fd;
+    width: 140px;
+    padding: 5px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.hamb-social:hover {
+        color: #941e09;
+        padding: 3px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+.hamburguer:hover  {
+    color: #03aefd;
+}
+
+
+.hamburguer:hover .submenu{
+    display: block;
+}
 
 .fone {
     width: 100%;
@@ -71,6 +162,7 @@ body {
     color: #062339;
     font-size: 40px;
     font-weight: normal;
+    width: auto;
     margin-top: 185px;
     margin-left: 25%;
     position: absolute;
@@ -92,7 +184,7 @@ body {
 
 .container {
     max-width: 1800px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
 }
@@ -123,18 +215,28 @@ body {
     object-fit: contain;
 }
 
-.tm-slide::after {
+.tm-slide:after {
     position: absolute;
+
   }
 
-  .tm-slide:hover{
+.tm-slide:hover{
     transform: scale(1.2);
-  }
+}
 
-.watch-off img{
-    width: 100px;
-    height: 100px;
-    padding: 30px;
+.wa-cont {
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 1400px;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+.wa-bottom {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
 
 .max {
@@ -147,13 +249,13 @@ body {
 .cur {
     width: 100%;
     height: auto;
-    margin-top: 0px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    padding: 0px;
+    margin: 0px;
 }
 
-.cur--text  {
-    z-index: 2;
+.cur--title  {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 36px;
@@ -161,15 +263,43 @@ body {
     position: absolute;
     display: flex;
     flex-flow: row wrap;
-    padding: 0 600px 0 600px;
     justify-content: center;
+    width: 1000px;
+    height: 80px;
+    margin-top: 150px;
 }
 
+.cur--text {
+    position: absolute;
+    margin-top: 350px;
+    padding: 0px 30px 0px 30px;
+    height: 460px;
+    width: 300px;
+    margin-left: 160px;
+    color: #103357;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    background-color: #fae9a66b;
+    border-radius: 8px;
+}
+
+.column-two {
+    position: absolute;
+    margin-top: 120px;
+    padding: 0px 30px 0px 30px;
+    height: 690px;
+    width: 300px;
+    margin-left: 1250px;
+    color: #103357;
+    font-family: "JosefinSlab-Regular";
+    font-size: 17px;
+    background-color: #fae9a66b;
+    border-radius: 8px;
+}
 
 .cur--im {
     width: 100%;
     height: auto;
-    margin-top: 0px;
 }
 
 .wedd {
@@ -398,3 +528,20 @@ a {
     color: #03aefd;
     cursor: pointer;
 }
+
+.lern-with {
+    width: 100%;
+    height: 800px;
+    margin: 150px 300px 20px 300px;
+}
+
+.lern-title {
+    font-family: "cinzel";
+    font-size: 36px;
+    text-align: center;
+    
+}
+.card{
+    margin-top: 50px;
+}
+
