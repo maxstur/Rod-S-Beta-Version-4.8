@@ -446,7 +446,7 @@ body {
     height: auto;
 }
 
-.strowberry {
+.strawberry {
     height: auto;
     width: 100%;
     display: flex;
@@ -455,7 +455,7 @@ body {
     position: relative;
 }
 
-.strowberry-title {
+.strawberry-title {
     position: absolute;
     font-family: "cincel";
     font-size: 36px;
@@ -464,7 +464,7 @@ body {
     color: #ee1515;
 }
 
-.strowberry-text {
+.strawberry-text {
     position: absolute;
     flex-direction: column;
     width: 1200px;
