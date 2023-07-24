@@ -78,7 +78,6 @@ body {
 
 .hamburguer {
     display: flex;
-    justify-content: space-evenly;
     color: #F5F5F5;
     width: 30px;
     height: 30px;
@@ -95,24 +94,18 @@ body {
 .hamburguer li a {
     font-family: "cinzel";
     font-size: 14px;
-    margin-left: auto;
     text-align: left;
 }
 
 .hamb-menu {
-    width: 140px;
-    height: 25px;
-    display: block;
-    padding-top: 2px;
-    padding-left: 15px;
-    align-content: start;
-    text-align: left;
-    margin: 0px;
-    margin-left: 100px;
+    height: 30px;
+    width: 270px;
     color: #062339;
-    background-color: #03f5fd;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
+    background-color: #e6f7ff;
+    margin-left: -22px;
+    display: block;
+    padding-left: 75px;
+    padding-top: 3px;
 }
 .hamb-menu:hover{
     color: #941e09;
@@ -120,24 +113,51 @@ body {
 }
 
 .hamb-social {
-    width: 150px;
     height: 30px;
     color: #062339;
-    background-color: #03f5fd;
-    width: 140px;
+    background-color: #e6f7ff;
+    width: 270px;
     padding: 5px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    margin-left: -22px;
+    margin-top: 0px;
 }
+
 
 .hamb-social:hover {
         color: #941e09;
         padding: 3px;
 }
 
+
+ .submenu .button-signUp {
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: "cinzel";
+    font-size: 14px;
+    color: #062339;
+    border: 1px solid #062339;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339 ;
+}
+
 .submenu {
     display: none;
     position: absolute;
+    padding-top: 8px;
+    margin-left: -240px;
+    width: 290px;
+    height: 380px;
+    border-radius: 8px;
+    background-color: #c3e8fa;
+    box-shadow: -5px 5px 10px #06233988;
 }
 .hamburguer:hover  {
     color: #03aefd;
@@ -265,15 +285,15 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     width: 1000px;
-    height: 80px;
+    height: 70px;
     margin-top: 150px;
 }
 
 .cur--text {
     position: absolute;
     margin-top: 350px;
-    padding: 0px 30px 0px 30px;
-    height: 460px;
+    padding: 15px;
+    height: 430px;
     width: 300px;
     margin-left: 160px;
     color: #103357;
@@ -286,8 +306,8 @@ body {
 .column-two {
     position: absolute;
     margin-top: 120px;
-    padding: 0px 30px 0px 30px;
-    height: 690px;
+    padding: 15px;
+    height: 620px;
     width: 300px;
     margin-left: 1250px;
     color: #103357;
@@ -302,9 +322,87 @@ body {
     height: auto;
 }
 
+.ww {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.ww-title {
+    position: absolute;
+    font-family: "cincel";
+    font-size: 36px;
+    margin-bottom: 660px;
+    color: #03aefd;
+
+}
+
+.w-text {
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 830px;
+    padding: 15px;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    color: #ea0946;
+    background-color: #faa6c36b;
+    border-radius: 8px;
+}
+
+.ww-text {
+    position: absolute;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 190px;
+    margin-left: 900px;
+    padding: 15px;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    color: #ea0946;
+    background-color: #faa6c36b;
+    border-radius: 8px;
+}
+
 .wedd {
     width: 100%;
     height: auto;
+}
+
+.ve-ft {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.ve-title {
+    position: absolute;
+    font-family: "cincel";
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: -1200px;
+    color: #3ef70b;
+}
+
+.ve-text {
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 210px;
+    margin-left: -390px;
+    padding: 15px;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    color: #1ffb02;
+    background-color: #087304cb;
+    border-radius: 8px;
 }
 
 .folt {
@@ -312,11 +410,73 @@ body {
     height: auto;
 }
 
+.fw {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.fw-title {
+    position: absolute;
+    font-family: "cincel";
+    font-size: 36px;
+    margin-bottom: 650px;
+    margin-left: -700px;
+    color: #fa6103;
+}
+
+.fw-text {
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 610px;
+    margin-left: 90px;
+    padding: 15px;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    color: #fa6103;
+    background-color: #3c1801;
+    border-radius: 8px;
+}
 .fly {
     width: 100%;
     height: auto;
 }
 
+.strowberry {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.strowberry-title {
+    position: absolute;
+    font-family: "cincel";
+    font-size: 36px;
+    margin-bottom: 590px;
+    margin-left: -1240px;
+    color: #ee1515;
+}
+
+.strowberry-text {
+    position: absolute;
+    flex-direction: column;
+    width: 1200px;
+    margin-bottom: 550px;
+    margin-left: 300px;
+    padding: 15px;
+    font-family: "JosefinSlab-Regular";
+    font-size: 18px;
+    color: #021600;
+    background-color: #fcdede;
+    border-radius: 8px;
+}
 .shoot {
     width: 100%;
     height: auto;
@@ -529,15 +689,17 @@ a {
     cursor: pointer;
 }
 
-.lern-with {
+.learn-with {
     width: 100%;
     height: 800px;
-    margin: 150px 300px 20px 300px;
+    margin: 150px 100px 20px 300px;
+    background-color: #e6f7ff;
 }
 
-.lern-title {
+.learn-title {
     font-family: "cinzel";
     font-size: 36px;
+    display: inline-block;
     text-align: center;
     
 }
