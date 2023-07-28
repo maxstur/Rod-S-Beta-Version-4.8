@@ -19,44 +19,32 @@ body {
 }
 
 .hflex {
-    height: 70px;
+    height: 5rem;
     width: 100%;
     background-color: #062339;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    position: fixed;
     top: 0;
     z-index: 10;
 }
 
 .hbar {
-    height: 70px;
-    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 
 .hlog {
-    z-index: 3;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    z-index: 4;
     background-color: #062339;
-    height: 130px;
+    height: 8.3rem;
     width: auto;
-    border-radius: 80px;
-    margin-left: 90px;
+    border-radius: 5rem;
     margin-top: -15px;
+    position: absolute;
 }
 
 .menu{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-right: 530px;
+    margin-top: 1.5rem;
     padding: 0px;
 }
 
@@ -68,9 +56,9 @@ body {
 .menu ul li a{
     text-decoration: none;
     color: #F5F5F5;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: "cinzel";
-    padding: 10px;
+    padding: 1rem;
 }
 
 .menu a:hover {
@@ -80,13 +68,10 @@ body {
 .hamburguer {
     display: flex;
     color: #F5F5F5;
-    width: 30px;
-    height: 30px;
-    margin-right: 120px;
-    margin-top: 16px;
-    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.1rem;
 }
-
 
 .hamburguer ul li {
     list-style: none;
@@ -94,10 +79,9 @@ body {
 
 .hamburguer li a {
     font-family: "cinzel";
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: left;
 }
-
 
 .icon-ham {
     transform: scale(2);
@@ -105,103 +89,56 @@ body {
 
 .sub-li {
     background-color: #e6f7ff;
-    width: 270px;
-    height: 280px;
-    margin-left: -22px;
+    width: 16.9rem;
+    height: 17.5rem;
+    margin-left: -1.4rem;
     border-radius: 8px;
+    position: absolute;
+    z-index: 4;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
-    .hflex {
-        position: fixed;
-        top: 0;
-        height: 35px;
-        width: auto;
-        background-color: #062339;
-        z-index: 10;
-    }
-    .hbar {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        list-style: none;
-        align-items: center;
-    }
-    .hlog {
-        z-index: 3;
-        justify-content: space-evenly;
-        background-color: #062339;
-        height: 60px;
-        width: auto;
-        border-radius: 80px;
-    }
-    .menu ul li a{
-        text-decoration: none;
-        color: #F5F5F5;
-        font-size: 10px;
-        font-family: "cinzel";
-        padding: 1px;
-    }
-    .menu ul li a:hover {
-        color: #03aefd;
-    }
-    .hamburguer {
-        color: #6d0404;
-        width: 10px;
-        height: 10px;
-    }
-    .hamb-menu {
-        height: 30px;
-        width: 200px;
-        color: #062339;
-        margin-left: 0px;
-        display: block;
-        padding-left: 70px;
-        padding-top: 3px;
-    }
-
-}
 .hamb-menu {
-    height: 30px;
-    width: 270px;
+    height: 1.8rem;
+    width: 16.8rem;
     color: #062339;
-    margin-left: 0px;
     display: block;
-    padding-left: 75px;
-    padding-top: 3px;
+    padding-left: 5rem;
+    padding-top: 0.3rem;
+    z-index: 4;
 }
 .hamb-menu:hover{
     color: #941e09;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .hamb-social {
-    height: 30px;
+    height: 1.8rem;
     color: #062339;
-    width: 270px;
-    padding: 0px;
-    margin-top: 2px;
-    margin-left: 150px;
+    width: 16.8rem;
+    padding: 0rem;
+    margin-top: 0.22rem;
+    margin-left: 9.4rem;
     transform: scale(1.2);
 }
 
 .hamb-social:hover {
         color: #941e09;
-        padding: 3px;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
 }
 
- .submenu .button-signUp {
-    margin-top: 30px;
-    margin-left: 25px;
+.submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
     font-family: "cinzel";
-    font-size: 14px;
+    font-size: 0.85rem;
     color: #062339;
-    border: 1px solid #062339;
-    border-radius: 5px;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
     display: inline-block;
-    padding: 5px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 0.4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .button-signUp:hover {
@@ -218,7 +155,7 @@ body {
     height: 380px;
     border-radius: 8px;
     background-color: #c3e8fa;
-    box-shadow: -5px 5px 10px #06233988;
+    box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
 }
 .hamburguer:hover  {
     color: #03aefd;
@@ -235,6 +172,7 @@ body {
 
 .utop {
     visibility: hidden;
+    display: none;
 }
 
 .top {
@@ -246,7 +184,7 @@ body {
     margin-top: 185px;
     margin-left: 25%;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
 }
 
 .ttop {
@@ -298,7 +236,7 @@ body {
 .tm-slide:after {
     position: absolute;
 
-  }
+}
 
 .tm-slide:hover{
     transform: scale(1.2);
@@ -627,7 +565,9 @@ section .mi--form {
 .colafo {
     height: 300px;
     width: 100%;
-    background-color: #062339;
+    background-color: #062339;  
+}
+.footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -749,133 +689,103 @@ a {
     cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 560px) and (max-width: 767px) {
+    *.container {
+        max-width: 100%; 
+        margin: 0 auto;
+        padding: 1rem;
+    }
     .hflex {
-        height: 70px;
-        width: 100%;
-        background-color: #062339;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
         position: fixed;
         top: 0;
+        height: 3rem;
+        width: 100%;
+        background-color: #062339;
         z-index: 10;
     }
-    
     .hbar {
-        height: 70px;
-        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
+        align-items: center;
     }
-    
     .hlog {
         z-index: 3;
-        display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         background-color: #062339;
-        height: 130px;
+        height: 60px;
         width: auto;
         border-radius: 80px;
-        margin-left: 90px;
-        margin-top: -15px;
     }
-    
     .menu{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        margin-right: 530px;
-        padding: 0px;
+        margin-top: 10px;
+        padding: 3px;
     }
-    
     .menu li {
         list-style: none;
-        display: inline-block
+        display: inline-block;
     }
-    
     .menu ul li a{
         text-decoration: none;
         color: #F5F5F5;
-        font-size: 14px;
+        font-size: 10px;
         font-family: "cinzel";
-        padding: 10px;
+        padding: 1px;
     }
-    
-    .menu a:hover {
-        color: #03aefd;
-    }
-    
     .hamburguer {
-        display: flex;
-        color: #F5F5F5;
-        width: 30px;
-        height: 30px;
-        margin-right: 120px;
-        margin-top: 16px;
-        position: relative;
+        color: #f5f5f5;
+        width: 10px;
+        height: 10px;
     }
-    
-    
-    .hamburguer ul li {
-        list-style: none;
-    }
-    
-    .hamburguer li a {
-        font-family: "cinzel";
-        font-size: 14px;
-        text-align: left;
-    }
-    
-    
-    .icon-ham {
-        transform: scale(2);
-    }
-    
-    .sub-li {
-        background-color: #e6f7ff;
-        width: 270px;
-        height: 280px;
-        margin-left: -22px;
-        border-radius: 8px;
-    }
-    
     .hamb-menu {
         height: 30px;
-        width: 270px;
+        width: 50px;
         color: #062339;
         margin-left: 0px;
         display: block;
-        padding-left: 75px;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 12px;
+    }
+    .hamb-social {
+        color: #062339;
+        width: 20px;
+        padding: 0px;
+        transform: scale(1.1);
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 180px;
+        height: 230px;
+        border-radius: 8px;
+    }
+    .hamb-menu {
+        height: 20px;
+        width: 150px;
+        color: #062339;
+        display: block;
+        padding-left: 20px;
         padding-top: 3px;
     }
     .hamb-menu:hover{
         color: #941e09;
-        font-size: 16px;
+        font-size: 12px;
     }
-    
     .hamb-social {
-        height: 30px;
+        height: 20px;
         color: #062339;
-        width: 270px;
+        width: 180px;
         padding: 0px;
         margin-top: 2px;
-        margin-left: 150px;
-        transform: scale(1.2);
     }
-    
     .hamb-social:hover {
             color: #941e09;
-            padding: 3px;
     }
-    
-     .submenu .button-signUp {
+    .submenu .button-signUp {
         margin-top: 30px;
-        margin-left: 25px;
         font-family: "cinzel";
-        font-size: 14px;
+        font-size: 13px;
         color: #062339;
         border: 1px solid #062339;
         border-radius: 5px;
@@ -884,19 +794,15 @@ a {
         padding-left: 60px;
         padding-right: 60px;
     }
-    
     .button-signUp:hover {
         color: #e6f7ff;
         background-color: #062339 ;
     }
-    
     .submenu {
         display: none;
         position: absolute;
         padding-top: 8px;
-        margin-left: -240px;
-        width: 290px;
-        height: 380px;
+        height: 340px;
         border-radius: 8px;
         background-color: #c3e8fa;
         box-shadow: -5px 5px 10px #06233988;
@@ -905,31 +811,21 @@ a {
         color: #03aefd;
     }
     
-    .hamburguer:hover .submenu{
-        display: block;
-    }
-    
     .fone {
         width: 100%;
         height: auto;
+        display: flex;
+        border: 1px solid;
     }
-    
-    .utop {
-        visibility: hidden;
-    }
-    
     .top {
         font-family: "cinzel";
         color: #062339;
-        font-size: 40px;
+        font-size: 18px;
         font-weight: normal;
         width: auto;
-        margin-top: 185px;
-        margin-left: 25%;
         position: absolute;
         z-index: 1;
     }
-    
     .ttop {
         margin-top: 300px;
         flex-flow: row wrap;
@@ -1199,19 +1095,14 @@ a {
     .strawberry-title {
         position: absolute;
         font-family: "cincel";
-        font-size: 36px;
-        margin-bottom: 590px;
-        margin-left: -1240px;
+        font-size: 1rem;
         color: #ee1515;
     }
     
     .strawberry-text {
         position: absolute;
         flex-direction: column;
-        width: 1200px;
-        margin-bottom: 550px;
-        margin-left: 300px;
-        padding: 15px;
+        width: 2rem;
         font-family: "JosefinSlab-Regular";
         font-size: 18px;
         color: #021600;
@@ -1223,45 +1114,36 @@ a {
         height: auto;
     }
     
+    .signUp {
+        height: 100rem;
+        width: 100%;
+    }
     section .mi--form {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
     }
-    
     .mi--form {
-        height: 670px;
-        width: 570px;
+        height: 30rem;
+        width: 2.7rem;
         border-radius: 3px;
         background-color: #062339;
-        position: absolute;
         font-family: "JosefinSlab-Regular";
         color: #03aefd;
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
-        margin-top: 130px;
-        margin-left: 555px;
         box-shadow: 7px 12px 36px #062339;
     }
-    
     .sus {
         font-family: "cinzel";
-        font-size: 24px;
+        font-size: 2rem;
         color: white;
-        margin-top: 0px;
-        margin-bottom: 40px;
     }
-    
     .control {
-        width: 70%;
-        height: 28px;
-        margin: 5px;
         color: gray;
         background-color: #062339;
         border-radius: 3px;
         border: 1px solid #03aefd;
-        padding-left: 20px;
         font-family: "cinzel";
         font-size: 11px;
     }
@@ -1269,7 +1151,6 @@ a {
     .mi--form p a {
         font-family: "cinzel";
         font-size: 13px;
-        margin-top: 70px;
     }
     
     .mi--form a p .boton:hover {
@@ -1277,9 +1158,6 @@ a {
     }
     
     .mi--form .boton {
-        width:220px;
-        height: 35px;
-        margin-bottom: 30px;
         padding: 5px;
         background-color: #03aefd;
         border: none;
@@ -1287,7 +1165,6 @@ a {
         font-family: "cinzel";
         color: #062339;
         font-size: 12px;
-        text-align: center;
     }
     
     .mi--form .boton:hover {
@@ -1302,134 +1179,97 @@ a {
     
     .bform {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     
     .colafo {
-        height: 300px;
+        height: 50rem;
         width: 100%;
         background-color: #062339;
+    }
+    .footer {
         display: flex;
-        flex-direction: row;
+        flex-flow: column wrap;
         align-items: center;
-        padding: 10px;
+        padding: auto;
+        margin: auto;
+        position: relative;
     }
-    
     .sup--part {
-        height: 270px;
-        width: 1300px;
-        justify-content: center;
+        height: 15rem;
+        width: 100%;
+        margin: auto;
     }
-    
     .logo-cont {
-        width: 250px;
+        width: 25rem;
         height: 100%;
-        padding-left: 20px;
-        margin-left: 150px;
-    
     }
-    
     .fo-logo img {
-        height: 130px;
+        height: 10rem;
         width: auto;
     }
-    
     .fo-logo{
         color: white;
-        font-size: 12px;
+        font-size: 1rem;
         position: relative;
-        bottom: 0px;
-        margin-left: 50px;
-    }
-    
-    .fo-logo p {
-        position: absolute;
-        margin-left: 23px;
-        bottom: 10px;
     }
     .text-r{
         color: white;
         font-family: "JosefinSlab-Regular";
-        position: relative;
-        bottom: 20px;
-        margin-left: 0px;
     }
-    
     .text {
         color: white;
         font-family: "JosefinSlab-Regular";
         position: relative;
-        display: inline;
-        top: 110px;
-        align-content: center;
-        margin-left: 360px;
+        margin: auto;
     }
-    
     .fote {
         font-family: "JosefinSlab-Regular";
-        padding: 3px;
-        font-size: 12px;
-        margin-top: 30px;
-        margin-left: 25px;
+        font-size: 1rem;
+        margin: auto;
     }
-    
     .av--footer {
-        width: 700px;
-        height: 120px;
+        height: 25rem;
+        width: 100%;
         color: white;
         font-family: "cinzel";
-        margin-left: 600px;
-        margin-top: -210px;
-        display: flex;
-        flex-flow: column wrap;
+        position: relative;
+        padding: 0rem;
+        margin-top: 2rem;
+        margin-left: 5rem;
     }
-    
-    h6 {
-        margin-bottom: 20px;
-        font-size: 12px;   
+    .flex-social h6 {
+        font-size: 0.8rem;
+        margin-left: 2rem;
+        padding: 0rem;
     }
-    
-    .flex-social li {
+    .flex-social li{
         list-style: none;
-        margin-right: 80px;
     }
-    
     a {
         text-decoration: none;
         color: white;
         font-family: "JosefinSlab-Regular";
-    
     }
-    
     .flex-social a:hover {
         color: #03aefd;
         cursor: pointer;
     }
-    
     .rights {
         text-decoration: none;
         color: white;
-        position: absolute;
-        margin-bottom: 20px;
-        left: 22%;
         font-family: "cinzel";
+        margin-top: 21rem;
+        margin-left: 5rem;
     }
-    
     .rights a {
-        font-family: "cinzel";
-        font-size: 11px;
+        font-size: 0.7rem;
     }
-    
-    .rights .text {
-        font-family: "cinzel";
-        font-size: 11px;
-    }
-    
     .rights p a:hover{
         color: #03aefd;
         cursor: pointer;
     }
-    
+
 }
 
 .learn-with {
