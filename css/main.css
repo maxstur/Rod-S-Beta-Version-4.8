@@ -29,8 +29,7 @@ header {
 }
 
 .hflex {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
+margin: 0;
 }
 
 .hbar {
@@ -49,11 +48,18 @@ header {
 
 .menu{
     margin-top: 1.4rem;
+    width: 25rem;
+    justify-content: center;
+}
+
+.menu-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
 }
 
 .menu li {
     list-style: none;
-    display: inline-block;
 }
 
 .menu ul li a{
@@ -61,7 +67,7 @@ header {
     color: #F5F5F5;
     font-size: 0.9rem;
     font-family: "cinzel";
-    margin-right: 1.6rem;
+    margin-right: 1rem;
 }
 
 .menu a:hover {
@@ -583,8 +589,8 @@ header {
     width: 24rem;
     height: 2.3rem;
     padding-left: 1rem;
-    color: gray;
-    background-color: #062339;
+    color: #e1e1e1f5;
+    background-color: #a6d6fd;
     border-radius: 0.2rem;
     border: 0.1rem solid #03aefd;
     font-family: "cinzel";
@@ -713,13 +719,13 @@ header {
 }
 
 h6 {
-    margin-bottom: 1.5rem;
-    font-size: 0.8rem;   
+    font-size: 0.8rem;  
 }
 
 .flex-social li {
     list-style: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0;
 }
 
 a {
