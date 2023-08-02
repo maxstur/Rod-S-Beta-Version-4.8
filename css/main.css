@@ -429,6 +429,8 @@ header {
     align-items: center;
     z-index: 5;
     margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .ve-text {
@@ -479,6 +481,8 @@ header {
     align-items: center;
     z-index: 5;
     margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .fw-text {
     padding: 1rem;
@@ -544,6 +548,8 @@ header {
     color: #021600;
     background-color: #fcdede;
     border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .shoot-img {
     width: 35%;
@@ -640,7 +646,7 @@ header {
     border-radius: 0.2rem;
     font-family: "cinzel";
     color: #062339;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -842,6 +848,14 @@ a {
     }
     .shoot-img{
         margin-top: rem;
+    }
+}
+@media screen and (max-width: 782px) {
+    .inf--part {
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width: 553px){
