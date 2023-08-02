@@ -816,6 +816,17 @@ a {
         margin-top: 3rem;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .inf--part {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width: 836px) {
     .cur--im{
         margin-top: 0rem;
@@ -832,8 +843,6 @@ a {
     .shoot-img{
         margin-top: rem;
     }
-
-
 }
 @media screen and (max-width: 553px){
     header {
