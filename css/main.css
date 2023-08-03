@@ -252,17 +252,23 @@ header {
 
 .wa-cont {
     position: fixed;
-    top: 35rem;
-    left: 95rem;
-    transform: scale(3rem);
+    transform: scale(0.8); 
+    bottom: 19rem;
+    right: 8rem;
     z-index: 9;
+}
+
+.wa-align {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .wa-bottom {
     width: 3rem;
     height: 3rem;
-    border-radius: 2.8rem;
-    position: absolute;
+    border-radius: 50%;
+    border: 0.3rem groove #062339;
+    transition: width 0.15s, height 0.15s;
 }
 
 .wa-cont:hover .wa-bottom {
@@ -710,14 +716,14 @@ header {
 .slogan {
     display: block;
     font-family: "cinzel";
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #f5f5f5;
     margin-bottom: 1rem;
 }
 
 .fote {
     font-family: "JosefinSlab-Regular";
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #f5f5f5;
     margin-bottom: 1.5rem;
 }
@@ -785,6 +791,16 @@ a {
     cursor: pointer;
 }
 
+@media screen and (min-width: 1312px) {
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 19rem;
+        right: 4rem;
+        z-index: 9;
+    }
+
+}
 @media screen and (max-width: 1311px) {
     .tm-wrapper{
         margin-left: 1.5rem;
@@ -822,8 +838,62 @@ a {
         margin-top: 3rem;
     }
 }
-
+@media screen and (max-width: 1075px) {
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 20rem;
+        right: 4.5rem;
+        z-index: 9;
+    }
+}
 @media screen and (max-width: 850px) {
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 20rem;
+        right: 3rem;
+        z-index: 9;
+    }
+    .mi--form {
+        height: 30rem;
+        width: 25rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "JosefinSlab-Regular";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .control {
+        width: 20rem;
+        height: 2.3rem;
+        padding-left: 1rem;
+        color: #e1e1e1f5;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.8rem;
+    }
+    h6 {
+        padding-left: 2rem; 
+    }
     .inf--part {
         margin-top: 2rem;
         display: flex;
@@ -963,6 +1033,132 @@ a {
             color: #941e09;
             margin-left: 11.4rem;
             transform: scale(1.4);
+    }
+    
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    
+    .submenu {
+        display: none;
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -12rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+}
+@media screen and (max-width: 320px){
+    header {
+        height: 3rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background-color: #062339;
+    }
+
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .hlog {
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0.1rem;
+        border-radius: 5rem;
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .hamburguer {
+        display: flex;
+        color: #F5F5F5;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 1rem;
+        justify-content: end;
+    }
+    
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.4rem;
+        text-decoration: none;
+    }
+    
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    
+    .hamb-menu {
+        height: 1.8rem;
+        width: 16rem;
+        margin-left: -1rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
     }
     
     .submenu .button-signUp {
