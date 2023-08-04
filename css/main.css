@@ -787,11 +787,29 @@ a {
     color: #03aefd;
     cursor: pointer;
 }
-
+@media screen and (max-width: 2560px) {
+    .fone {
+        height: 60rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 65rem;
+        right: 13rem;
+        z-index: 9;
+    }
+}
 @media screen and (max-width: 1200px) {
     .tm-wrapper{
         margin-left: 4rem;
         margin-right: 4rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 15rem;
+        right: 4rem;
+        z-index: 9;
     }
     .sup--part{
         height: 25rem;
