@@ -627,14 +627,14 @@ header {
 
 .control {
     width: 24rem;
-    height: 2.3rem;
+    height: 2.8rem;
     padding-left: 1rem;
-    color: #e1e1e1f5;
+    color: #0d2337;
     background-color: #a6d6fd;
     border-radius: 0.2rem;
     border: 0.1rem solid #03aefd;
     font-family: "cinzel";
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .terms-form-cond {
@@ -3247,22 +3247,63 @@ a {
 
 
 /*Para página de Sign In*/
+.mi--forms{
+    width: 32rem;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+}
+.suss {
+    font-family: "cinzel";
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+.controls {
+    width: 24rem;
+    height: 2.8rem;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.9rem;
+}
+.between-controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
+}
 .botono {
     width:220px;
-    height: 35px;
-    margin-bottom: 30px;
-    padding: 5px;
+    height: 2.8rem;
+    margin: 2rem;
     background-color: #f17930;
     border: none;
     border-radius: 5px;
     font-family: "cinzel";
     color: #062339;
-    font-size: 12px;
+    font-size: 1rem;
     text-align: center;
 }
-
 .botono:hover {
     color: #f5f5f5;
     cursor: pointer;
+}
+.terms-forms {
+    font-family: "JosefinSlab-Regular";
+    font-weight: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
