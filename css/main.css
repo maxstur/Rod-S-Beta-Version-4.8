@@ -809,6 +809,170 @@ a {
     cursor: pointer;
 }
 @media screen and (max-width: 2560px) {
+    @font-face {
+        font-family: "cinzel";
+        src: url(cinzel-variableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Regular";
+        src: url(JosefinSlab-Regular.ttf);
+    }
+    header {
+        height: 4.5rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background-color: #062339;
+    }
+    
+    .hflex {
+        margin: 0;
+    }
+    
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .hlog {
+        z-index: 4;
+        background-color: #062339;
+        height: 8.3rem;
+        border-radius: 5rem;
+        margin-top: -0.4rem;
+    }
+    
+    .menu{
+        margin-top: 1.4rem;
+        width: 25rem;
+        justify-content: center;
+    }
+    
+    .menu-center {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+    }
+    
+    .menu li {
+        list-style: none;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 0.9rem;
+        font-family: "cinzel";
+        margin-right: 1rem;
+    }
+    
+    .menu a:hover {
+        color: #03aefd;
+    }
+    
+    .hamburguer {
+        display: flex;
+        color: #F5F5F5;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 1rem;
+        justify-content: end;
+    }
+    
+    .hamburguer ul li {
+        list-style: none;
+    }
+    
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 16.9rem;
+        height: 17.5rem;
+        margin-left: -1.4rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    
+    .hamb-menu {
+        height: 1.8rem;
+        width: 16.8rem;
+        color: #062339;
+        display: block;
+        padding-left: 5rem;
+        padding-top: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        padding: 0rem;
+        margin-top: 0.22rem;
+        margin-left: 9.4rem;
+        transform: scale(1.2);
+    }
+    
+    .hamb-social:hover {
+            color: #941e09;
+            margin-left: 11.4rem;
+            transform: scale(1.4);
+    }
+    
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 2.8rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    
+    .submenu {
+        display: none;
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -13rem;
+        width: 18rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
     .fone {
         height: 60rem;
     }
@@ -836,6 +1000,101 @@ a {
     .wa-cont:hover .wa-bottom {
         width: 3.3rem;
         height: 3.3rem;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 45rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "JosefinSlab-Regular";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: #03aefd;
+    }
+    
+    .terms-form {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: #03aefd;
+    }
+    
+    .mi--form .boton {
+        width: 15rem;
+        height: 2.5rem;
+        justify-content: center;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .mi--form a .boton:hover {
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: #03aefd;
     }
     .colafo {
         width: 100%;
@@ -960,8 +1219,278 @@ a {
         cursor: pointer;
     }
 }
+@media screen and (max-width: 1800px) {
+    @font-face {
+        font-family: "cinzel";
+        src: url(cinzel-variableFont_wght.ttf);
+    }
+    
+    @font-face {
+        font-family: "JosefinSlab-Regular";
+        src: url(JosefinSlab-Regular.ttf);
+    }
+    .fone {
+        height: 60rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.9); 
+        bottom: 4rem;
+        right: 5rem;
+        z-index: 9;
+    }
+    
+    .wa-align {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .wa-bottom {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: 0.3rem groove #062339;
+        transition: width 0.15s, height 0.15s;
+    }
+    .wa-cont:hover .wa-bottom {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+    .sign-Up {
+        height: 110vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+    }
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 40rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        font-family: "JosefinSlab-Regular";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: #03aefd;
+    }
+    
+    .terms-form {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: #03aefd;
+    }
+    
+    .mi--form .boton {
+        width: 15rem;
+        height: 2.5rem;
+        justify-content: center;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .mi--form a .boton:hover {
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: #03aefd;
+    }
+    .colafo {
+        width: 100%;
+        background-color: #062339;  
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    
+    .sup--part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+    
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fo-logo img {
+        display: inline;
+        height: 9rem;
+        width: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #f5f5f5;
+        margin-bottom: 1rem;
+    }
+    .fote {
+        font-family: "JosefinSlab-Regular";
+        font-weight: normal;
+        font-size: 1rem;
+        color: #f5f5f5;
+        margin-bottom: 1.5rem;
+    }
+    
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: white;
+        font-family: "cinzel";
+    }
+    
+    .flex-social {
+        flex: 1;
+        margin-right: 1rem;
+        width: 12rem;
+    }
+    
+    h6 {
+        font-size: 0.8rem;  
+    }
+    
+    .flex-social li {
+        list-style: none;
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: "JosefinSlab-Regular";
+    }
+    
+    .flex-social a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .inf--part {
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    
+    .rights a {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+    }
+    
+    .rights .text {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+    }
+    
+    .rights p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
 }
+
 @media screen and (max-width: 1200px) {
+    @font-face {
+        font-family: "cinzel";
+        src: url(cinzel-variableFont_wght.ttf);
+    }
+    
+    @font-face {
+        font-family: "JosefinSlab-Regular";
+        src: url(JosefinSlab-Regular.ttf);
+    }
     .tm-wrapper{
         margin-left: 4rem;
         margin-right: 4rem;
@@ -972,6 +1501,109 @@ a {
         bottom: 15rem;
         right: 4rem;
         z-index: 9;
+    }
+    .sign-Up {
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "JosefinSlab-Regular";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: #03aefd;
+    }
+    
+    .terms-form {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: #03aefd;
+    }
+    
+    .mi--form .boton {
+        width: 15rem;
+        height: 2.5rem;
+        justify-content: center;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .mi--form a .boton:hover {
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: #03aefd;
     }
     .colafo {
         width: 100%;
