@@ -180,7 +180,7 @@ header {
     width: 100%;
     height: 150vh;
     margin: 0;
-    background-image: linear-gradient(to right bottom, #ff0000, #ff9900, #00ff00, #0000ff);
+    background-image: linear-gradient(to bottom, #ebd702, #ea0946);
 }
   
 .container {
@@ -199,7 +199,8 @@ header {
 .utop {
     font-family: "cinzel";
     font-size: 0.7rem;
-    color: #f5f5f5;
+    color: #fffefe;
+    text-shadow: 1px 2px 2px #a2a1a1;
 }
   
 .top {
@@ -212,7 +213,6 @@ header {
 .ttop {
     color: #062339;
     font-family: "JosefinSlab-Regular";
-    font-weight: bolder;
 }
 
 .tm-wrapper {
@@ -253,7 +253,7 @@ header {
 .wa-cont {
     position: fixed;
     transform: scale(0.8); 
-    bottom: 19rem;
+    bottom: 7rem;
     right: 8rem;
     z-index: 9;
 }
@@ -321,6 +321,7 @@ header {
     padding: 1rem;
     color: #103357;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     background-color: #fae9a66b;
     border-radius: 0.3rem;
@@ -331,6 +332,7 @@ header {
     width: 20rem;
     color: #103357;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     background-color: #fae9a66b;
     border-radius: 0.3rem;
@@ -384,6 +386,7 @@ header {
     width: 30rem;
     padding: 15px;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     color: #ea0946;
     background-color: #faa6c36b;
@@ -394,6 +397,7 @@ header {
     padding: 1rem;
     width: 30rem;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     color: #ea0946;
     background-color: #faa6c36b;
@@ -438,11 +442,16 @@ header {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
+.video-editing {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.8rem;
+}
 .ve-text {
     padding: 1rem;
     width: 50rem;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     color: #1ffb02;
     background-color: #087304cb;
@@ -490,10 +499,16 @@ header {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.fly__text--title  {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.8rem;
+}
 .fw-text {
     padding: 1rem;
     width: 50rem;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1.1rem;
     color: #fa6103;
     background-color: #3c1801;
@@ -541,7 +556,7 @@ header {
 .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     color: #ee1515;
     z-index: 6;
 }
@@ -550,6 +565,7 @@ header {
     padding: 1rem;
     width: 50rem;
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 18px;
     color: #021600;
     background-color: #fcdede;
@@ -572,7 +588,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom,  #750086, #ea0946, #f17930, #ebd702, #f5f5f5)
+    background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
 }
 
 .form-container {
@@ -699,20 +715,24 @@ header {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
-
+.footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
 .fo-logo img {
-    display: block;
+    display: inline;
     height: 9rem;
     width: auto;
-    margin-left: 3rem;
 }
-
 .slogan {
     display: block;
     font-family: "cinzel";
+    font-weight: normal;
     font-size: 0.8rem;
     color: #f5f5f5;
     margin-bottom: 1rem;
@@ -720,6 +740,7 @@ header {
 
 .fote {
     font-family: "JosefinSlab-Regular";
+    font-weight: normal;
     font-size: 1rem;
     color: #f5f5f5;
     margin-bottom: 1.5rem;
@@ -793,10 +814,55 @@ a {
     }
     .wa-cont {
         position: fixed;
-        transform: scale(0.8); 
-        bottom: 65rem;
-        right: 13rem;
+        transform: scale(0.9); 
+        bottom: 4rem;
+        right: 5rem;
         z-index: 9;
+    }
+    
+    .wa-align {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .wa-bottom {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: 0.3rem groove #062339;
+        transition: width 0.15s, height 0.15s;
+    }
+    
+    .wa-cont:hover .wa-bottom {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #f5f5f5;
+        margin-bottom: 1rem;
+    }
+    .fote {
+        font-family: "JosefinSlab-Regular";
+        font-weight: normal;
+
     }
 }
 @media screen and (max-width: 1200px) {
@@ -811,203 +877,252 @@ a {
         right: 4rem;
         z-index: 9;
     }
-    .sup--part{
-        height: 25rem;
+    .colafo {
         width: 100%;
-        margin-bottom: 4rem;
+        background-color: #062339;  
     }
-    .av--footer{
-        margin-top: 3rem;
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    
+    .sup--part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+    
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fo-logo img {
+        display: inline;
+        height: 9rem;
+        width: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #f5f5f5;
         margin-bottom: 1rem;
     }
-     h6 {
-        padding-left: 2rem; 
+    .fote {
+        font-family: "JosefinSlab-Regular";
+        font-weight: normal;
+        font-size: 1rem;
+        color: #f5f5f5;
+        margin-bottom: 1.5rem;
     }
+    
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: white;
+        font-family: "cinzel";
+    }
+    
+    .flex-social {
+        flex: 1;
+        margin-right: 1rem;
+        width: 12rem;
+    }
+    
+    h6 {
+        font-size: 0.8rem;  
+    }
+    
+    .flex-social li {
+        list-style: none;
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: "JosefinSlab-Regular";
+    }
+    
+    .flex-social a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
     .inf--part {
-        margin-top: 2rem;
+        height: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    
+    .rights a {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+    }
+    
+    .rights .text {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+    }
+    
+    .rights p a:hover {
+        color: #03aefd;
+        cursor: pointer;
     }
 }
 
 
 
 @media screen and (max-width: 1075px) {
-    .wa-cont {
+    header {
         position: fixed;
-        transform: scale(0.8); 
-        bottom: 20rem;
-        right: 3rem;
-        z-index: 9;
-    }
-    .mi--form {
-        height: 30rem;
-        width: 25rem;
-        border-radius: 0.3rem;
-        margin-top: 0rem;
-        font-family: "JosefinSlab-Regular";
-        color: #03aefd;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        top: 0;
+        height: 4rem;
+        width: 100%;
+        z-index: 10;
         background-color: #062339;
-        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
     }
-    .sus {
-        font-family: "cinzel";
-        font-size: 1.3rem;
-        color: white;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-    }
-    .between-control {
+    .hbar {
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0rem 2rem;
     }
-    .control {
-        width: 20rem;
-        height: 2.3rem;
-        padding-left: 1rem;
-        color: #e1e1e1f5;
-        background-color: #a6d6fd;
-        border-radius: 0.2rem;
-        border: 0.1rem solid #03aefd;
-        font-family: "cinzel";
-        font-size: 0.8rem;
+    .hlog {
+        z-index: 4;
+        height: 5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
     }
-    h6 {
-        padding-left: 2rem; 
-    }
-    .inf--part {
-        margin-top: 4rem;
-        display: flex;
-        justify-content: center;
+    .hamburguer {
         align-items: center;
+        color: #F5F5F5;
+        width: 1rem;
+        height: 1rem;
     }
-}
-@media screen and (max-width: 768px){
-    .fone {
-        height: 70rem;
+    .hamburguer ul li {
+        list-style: none;
     }
-    .red-yellow{
-        margin-top: 9rem;
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
     }
-    .menu {
-        display: none;
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+        margin-left: -1rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
     }
     
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -14rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
     .wa-cont {
         position: fixed;
         transform: scale(0.8); 
-        bottom: 12rem;
-        right: 3rem;
+        bottom: 8rem;
+        right: 2rem;
         z-index: 9;
-    }
-    .max {
-        width: 100%;
-        height: auto;
-    }
-    .cur {
-        height: auto;
-        width: 100%;
-    }
-    .ese {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .cur--title  {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .cur--title br {
-        display: none;
-    }
-    .container-ese-text {
-        width: auto;
-        height: 140vh;
-        font-size: 1rem;
-       
-    }
-    .title-text {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
     }
     .cur--im {
         width: 70%;
         height: 70%;
         margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .wedd{
-        height: 150vh;
-        width: auto;
-    }
-    .ww {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ww-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .wandw {
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .w-text-title {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .w-text {
-        width: 30rem;
-        padding: 15px;
-        font-family: "JosefinSlab-Regular";
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .ww-text {
-        padding: 1rem;
-        width: 30rem;
-        font-family: "JosefinSlab-Regular";
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
         margin-bottom: 1rem;
     }
     .im-wedd {
@@ -1016,97 +1131,10 @@ a {
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
-    .folt {
-        height: auto;
-        width: 100%;
-    }
-    .ve-ft {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ve-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        color: #32d705;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .video-editing{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-    }
-    .content-text-ve {
-        height: 60vh;
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 0rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .ve-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "JosefinSlab-Regular";
-        font-size: 18px;
-        color: #1ffb02;
-        background-color: #087304cb;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
     .folt-im {
         width: 70%;
         height: 70%;
         margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .fly {
-        width: 100%;
-        height: auto;
-    }
-    .fw-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        color: #fa6103;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .content-fly-text  {
-        height: 60vh;
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .fly__text--title{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-    }
-    .fw-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "JosefinSlab-Regular";
-        font-size: 18px;
-        color: #fa6103;
-        background-color: #3c1801;
-        border-radius: 8px;
         margin-bottom: 1rem;
     }
     .fly-img {
@@ -1114,57 +1142,6 @@ a {
         height: 70%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
-    }
-    .shoot {
-        height: auto;
-        width: 100%;
-    }
-    .strawberry {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    
-    .strawberry-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        color: #ee1515;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    
-    .content-text-straw {
-        height: 60vh;
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 1rem;
-    }
-    
-    .title-text-straw {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #ee1515;
-        z-index: 6;
-    }
-    
-    .strawberry-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "JosefinSlab-Regular";
-        font-size: 18px;
-        color: #021600;
-        background-color: #fcdede;
-        border-radius: 8px;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .shoot-img {
         width: 70%;
@@ -1209,52 +1186,20 @@ a {
         font-size: 0.8rem;
     }
     .sup--part{
-        height: 30rem;
+        height: 43rem;
     }
-    .fo-logo img {
-        margin-left: 3rem;
+
+    h6 {
+        padding-left: 2rem; 
     }
-    .av--footer {
+    .inf--part {
+        margin-top: 4rem;
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
-    }
-    .flex-social {
-        flex: 10;
-        margin-right: 0rem;
-        width: 16rem;
-        margin-top: 1rem;
-    }
-    .text{
-        margin-top: 3rem;
-    }
-    .inf--part{
-        margin-top: 3rem;
+        align-items: center;
     }
 }
-@media screen and (max-width: 560px) {
-    .sup--part{
-        height: 85vh;
-    }
-    .fote br{
-        display: none;
-    }
-    .av--footer {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    .flex-social {
-        flex: 10;
-        margin-right: 0rem;
-        width: 16rem;
-        margin-top: 1rem;
-    }
-    .text{
-        margin-top: 3rem;
-    }
-}
-@media screen and (max-width: 425px){
+@media screen and (max-width: 599px) {
     header {
         position: fixed;
         top: 0;
@@ -1277,6 +1222,404 @@ a {
     }
     .menu {
         display: none;
+    }
+    .hamburguer {
+        align-items: center;
+        color: #F5F5F5;
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+        margin-left: -1rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -14rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .fone {
+        height: 60rem;
+    }
+    .red-yellow{
+        margin-top: 7rem;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 2rem;
+    }
+    .tm-wrapper{
+        margin-top: 33rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 16rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    .max {
+        width: 100%;
+        height: auto;
+    }
+    .cur {
+        height: auto;
+        width: 100%;
+    }
+    .ese {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .cur--title  {
+        width: 34rem;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.9rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        color: #0d2337;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .cur--title br {
+        display: none;
+    }
+    .container-ese-text {
+        height: 117vh;
+  
+    }
+    .title-text {
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.7rem;
+        color: #103357;
+        z-index: 6;
+    }
+    .cur--im {
+        width: 70%;
+        height: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .wedd{
+        height: 150vh;
+        width: auto;
+    }
+    .ww {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .ww-title {
+        width: 34rem;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.9rem;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        color: #0d2337;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .wandw {
+        height: 148vh;
+        width: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .w-text-title {
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.7rem;
+        color: #103357;
+        z-index: 6;
+    }
+    .w-text {
+        width: 30rem;
+        padding: 15px;
+        font-family: "JosefinSlab-Regular";
+        font-size: 18px;
+        color: #ea0946;
+        background-color: #faa6c36b;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+    .ww-text {
+        padding: 1rem;
+        width: 30rem;
+        font-family: "JosefinSlab-Regular";
+        font-size: 18px;
+        color: #ea0946;
+        background-color: #faa6c36b;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+    .im-wedd {
+        width: 70%;
+        height: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .folt {
+        height: 110vh;
+        width: auto;
+    }
+    .ve-ft {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    .ve-title {
+        width: 34rem;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.9rem;
+        margin-top: 1rem;
+        color: #32d705;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .video-editing{
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.7rem;
+    }
+    .content-text-ve {
+        height: 65vh;
+        width: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .ve-text {
+        padding: 1rem;
+        width: 50rem;
+        font-family: "JosefinSlab-Regular";
+        font-size: 18px;
+        color: #1ffb02;
+        background-color: #087304cb;
+        border-radius: 8px;
+        margin-bottom: 10rem;
+    }
+    .folt-im {
+        width: 70%;
+        height: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .fw-title {
+        width: 34rem;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.9rem;
+        margin-top: 5rem;
+        color: #fa6103;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .content-fly-text  {
+        height: 76vh;
+        width: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 10rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .fw-text {
+        padding: 1rem;
+        width: 50rem;
+        font-family: "JosefinSlab-Regular";
+        font-size: 18px;
+        color: #fa6103;
+        background-color: #3c1801;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+    }
+    .fly-img {
+        width: 70%;
+        height: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .shoot {
+        height: 160vh;
+        width: auto;
+    }
+    .strawberry {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    
+    .strawberry-title {
+        width: 34rem;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.9rem;
+        margin-top: 3rem;
+        color: #ee1515;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .content-text-straw {
+        height: 70vh;
+        width: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
+    }
+    
+    .title-text-straw {
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.7rem;
+        color: #ee1515;
+        z-index: 6;
+    }
+    
+    .strawberry-text {
+        padding: 1rem;
+        width: 50rem;
+        font-family: "JosefinSlab-Regular";
+        font-size: 18px;
+        color: #021600;
+        background-color: #fcdede;
+        border-radius: 8px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .shoot-img {
+        width: 70%;
+        height: 70%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    header {
+        position: fixed;
+        top: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
     }
     .menu {
         display: none;
@@ -1713,9 +2056,38 @@ a {
         margin-bottom: 1rem;
         font-size: 1rem;
     }
-    
+    .sup--part {
+        height: 47rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
 }
 @media screen and (max-width: 375px){
+    @font-face {
+        font-family: "cinzel";
+        src: url(cinzel-variableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Regular";
+        src: url(JosefinSlab-Regular.ttf);
+    }
     header {
         position: fixed;
         top: 0;
@@ -1837,10 +2209,20 @@ a {
     .red-yellow{
         margin-top: 5rem;
     }
+    .utop {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+        color: #fffefe;
+        text-shadow: 1px 2px 2px #a2a1a1;
+    }
     .top {
         font-family: "cinzel";
         color: #062339;
         font-size: 2rem;
+    }
+    .ttop {
+    color: #062339;
+    font-family: "JosefinSlab-Regular";
     }
     .tm-wrapper{
         margin-top: 33rem;
@@ -1859,7 +2241,7 @@ a {
     .wa-cont {
         position: fixed;
         transform: scale(0.8); 
-        bottom: 15rem;
+        top: 42.5rem;
         right: 2rem;
         z-index: 9;
     }
@@ -2183,6 +2565,20 @@ a {
     }
     .sup--part{
         height: 53rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
     }
     .fote br{
         display: none;
