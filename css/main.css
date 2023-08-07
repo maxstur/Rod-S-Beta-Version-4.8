@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "JosefinSlab-Regular";
-    src: url(../fonts/JosefinSlab-Regular.ttf);
+    src: url(../JosefinSlab-Regular.ttf);
 }
 
 * {
@@ -3907,7 +3907,11 @@ a {
 }
 .topics {
     font-family: "JosefinSlab-Regular";
-    
+    text-decoration: none;
+}
+.topics .topics__words {
+    font-family: "JosefinSlab-Regular";
+    text-decoration: none;
 }
 .aside__index{
     margin-top: 2rem;
