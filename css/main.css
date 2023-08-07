@@ -1,11 +1,11 @@
 @font-face {
     font-family: "cinzel";
-    src: url(../cinzel-variableFont_wght.ttf);
+    src: url(../fonts/cinzel-variableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "JosefinSlab-Regular";
-    src: url(../JosefinSlab-Regular.ttf);
+    src: url(../fonts/JosefinSlab-Regular.ttf);
 }
 
 * {
