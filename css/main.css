@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "cinzel";
-    src: url(./fonts/cinzel-variableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "JosefinSlab-Regular";
-    src: url(../fonts/JosefinSlab-Regular.ttf) format("truetype");
-}
-
 * {
     padding: 0;
     margin: 0;
