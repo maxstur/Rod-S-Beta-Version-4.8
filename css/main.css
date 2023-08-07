@@ -4163,12 +4163,12 @@ a {
 @media screen and (min-width: 1024px) {
     @font-face {
         font-family: "cinzel";
-        src: url(cinzel-variableFont_wght.ttf);
+        src: url(../cinzel-variableFont_wght.ttf);
     }
 
     @font-face {
         font-family: "JosefinSlab-Regular";
-        src: url(JosefinSlab-Regular.ttf);
+        src: url(../JosefinSlab-Regular.ttf);
     }
     .mi--forms{
         width: 25rem;
