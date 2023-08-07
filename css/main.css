@@ -187,14 +187,14 @@ header {
 }
   
 .utop {
-    font-family: "cinzel";
+    font-family: "serif";
     font-size: 0.7rem;
     color: #fffefe;
     text-shadow: 1px 2px 2px #a2a1a1;
 }
   
 .top {
-    font-family: "cinzel";
+    font-family: "Cinzel";
     color: #062339;
     font-size: 3rem;
     font-weight: normal;
@@ -202,7 +202,7 @@ header {
   
 .ttop {
     color: #062339;
-    font-family: "JosefinSlab-Regular";
+    font-family: "Josefin Sans";
 }
 
 .tm-wrapper {
