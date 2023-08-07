@@ -2345,15 +2345,6 @@ a {
 }
 
 @media screen and (max-width: 425px){
-    @font-face {
-        font-family: "cinzel";
-        src: url(cinzel-variableFont_wght.ttf);
-    }
-    
-    @font-face {
-        font-family: "JosefinSlab-Regular";
-        src: url(JosefinSlab-Regular.ttf);
-    }
     header {
         position: fixed;
         top: 0;
@@ -2833,14 +2824,6 @@ a {
     }
 }
 @media screen and (max-width: 375px){
-    @font-face {
-        font-family: "cinzel";
-        src: url(cinzel-variableFont_wght.ttf);
-    }
-    @font-face {
-        font-family: "JosefinSlab-Regular";
-        src: url(JosefinSlab-Regular.ttf);
-    }
     header {
         position: fixed;
         top: 0;
@@ -3910,7 +3893,7 @@ a {
     text-decoration: none;
 }
 .topics .topics__words {
-    font-family: "JosefinSlab-Regular";
+  
     text-decoration: none;
 }
 .aside__index{
