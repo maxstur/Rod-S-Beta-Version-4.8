@@ -1,6 +1,6 @@
 @font-face {
     font-family: "cinzel";
-    src: url(../fonts/cinzel-variableFont_wght.ttf);
+    src: url(./fonts/cinzel-variableFont_wght.ttf);
 }
 
 @font-face {
@@ -3494,8 +3494,8 @@ a {
         font-size: 2rem;
     }
     .ttop {
-    color: #062339;
-    font-family: "JosefinSlab-Regular";
+        color: #062339;
+        font-family: "JosefinSlab-Regular";
     }
     .tm-wrapper{
         margin-top: 33rem;
@@ -3904,8 +3904,10 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-
-
+}
+.topics {
+    font-family: "JosefinSlab-Regular";
+    
 }
 .aside__index{
     margin-top: 2rem;
