@@ -3873,35 +3873,85 @@ a {
     }
 }
 
+
+
 /*Para página lern-with*/
 
 
-.learn-with {
-    width: 100%;
-    height: 100vh;
-    background-color: #5cb6e031;
-    display: grid;
-}
-
-.learn-title {
+@font-face {
     font-family: "cinzel";
-    font-size: 36px;
-    color: #062339;
-    margin-top: 100px;
-    grid-template-columns: (1, 1fr);
-    grid-template-rows: 80px;
+    src: url(cinzel-variableFont_wght.ttf);
+}
+@font-face {
+    font-family: "JosefinSlab-Regular";
+    src: url(JosefinSlab-Regular.ttf);
+}
+.display--learn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 8rem;
     justify-content: center;
     align-items: center;
+    padding: 0.3rem;
 }
+.h2__title--blue  {
+    font-family: "cinzel";
+    font-size: 2.4rem;
+    color: #062339;
+}
+.main__section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 3rem;
+
+}
+.aside__index{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.topics {
+    
+}
+.section__cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 
 .card {
     width: 18.2rem;
-    border:0.1rem solid #0000ff;
+    border:0.1rem solid #dddddd;
+    border-radius: 0.3rem;
 }
 .card img{
     width: 18rem;
-    height: auto;
-   
+    height: auto;  
+}
+.card-title {
+    font-family: "cinzel";
+    font-size: 1.8rem;
+}
+.card-text {
+    font-family: "JosefinSlab-Regular";
+    font-size: 1rem;
+}
+.card a {
+    color:#c3e8fa;
+    background-color: #0d2337;
+    border: 0.1rem solid #0d2337;
+}
+.card a:hover{
+    color: #f5f5f5f5;
+    background-color: #0d2337;
+    border: 0.1rem solid #f5f5f5;
 }
 
 
