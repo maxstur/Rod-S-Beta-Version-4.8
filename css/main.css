@@ -296,7 +296,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 10rem;
+    margin-bottom: 22rem;
 }
 .title-text {
     font-family: "Cinzel";
@@ -362,7 +362,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 5rem;
+    margin-bottom: 15rem;
 }
 .w-text-title {
     font-family: "Cinzel";
@@ -391,7 +391,7 @@ header {
     color: #ea0946;
     background-color: #faa6c36b;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 .im-wedd {
     width: 35%;
@@ -412,22 +412,23 @@ header {
 }
 
 .ve-title {
+    height: auto;
     width: 34rem;
     font-family: "Cinzel";
     font-weight: normal;
     font-size: 2.4rem;
-    margin-top: 12rem;
+    margin-top: 14rem;
     color: #32d705;
 }
 .content-text-ve {
-    height: 30rem;
+    height: 48rem;
     width: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 5rem;
+    margin-bottom: 40rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -445,7 +446,7 @@ header {
     color: #1ffb02;
     background-color: #087304cb;
     border-radius: 8px;
-    margin-bottom: 5rem;
+    margin-bottom: 17rem;
 }
 
 .folt-im {
@@ -477,7 +478,7 @@ header {
     color: #fa6103;
 }
 .content-fly-text  {
-    height: 60vh;
+    height: 65vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -532,14 +533,14 @@ header {
 }
 
 .content-text-straw {
-    height: 60vh;
-    width: auto;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 5rem;
+    margin-bottom: 20rem;
 }
 
 .title-text-straw {
@@ -560,7 +561,7 @@ header {
     background-color: #fcdede;
     border-radius: 8px;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
 }
 .shoot-img {
     width: 35%;
@@ -979,7 +980,8 @@ a {
         width: 35rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         color: #03aefd;
         display: flex;
         flex-flow: row wrap;
@@ -1115,7 +1117,7 @@ a {
         margin-bottom: 1rem;
     }
     .fote {
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
         font-weight: normal;
         font-size: 1rem;
         color: #f5f5f5;
@@ -1149,7 +1151,8 @@ a {
     a {
         text-decoration: none;
         color: white;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;;
     }
     
     .flex-social a:hover {
@@ -1231,7 +1234,8 @@ a {
         height: 40rem;
         width: 35rem;
         border-radius: 0.3rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         color: #03aefd;
         display: flex;
         flex-flow: row wrap;
@@ -1367,7 +1371,7 @@ a {
         margin-bottom: 1rem;
     }
     .fote {
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
         font-weight: normal;
         font-size: 1rem;
         color: #f5f5f5;
@@ -1401,7 +1405,8 @@ a {
     a {
         text-decoration: none;
         color: white;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
     }
     
     .flex-social a:hover {
@@ -1470,7 +1475,8 @@ a {
         width: 35rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         color: #03aefd;
         display: flex;
         flex-flow: row wrap;
@@ -1606,8 +1612,8 @@ a {
         margin-bottom: 1rem;
     }
     .fote {
-        font-family: "JosefinSlab-Regular";
-        font-weight: normal;
+        font-family: "Rubik";
+        font-weight: normal;    
         font-size: 1rem;
         color: #f5f5f5;
         margin-bottom: 1.5rem;
@@ -1640,7 +1646,8 @@ a {
     a {
         text-decoration: none;
         color: white;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
     }
     
     .flex-social a:hover {
@@ -1828,7 +1835,8 @@ a {
         width: 25rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         color: #03aefd;
         display: flex;
         flex-flow: row wrap;
@@ -2103,7 +2111,8 @@ a {
     .w-text {
         width: 30rem;
         padding: 15px;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #ea0946;
         background-color: #faa6c36b;
@@ -2113,7 +2122,8 @@ a {
     .ww-text {
         padding: 1rem;
         width: 30rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #ea0946;
         background-color: #faa6c36b;
@@ -2165,7 +2175,8 @@ a {
     .ve-text {
         padding: 1rem;
         width: 50rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #1ffb02;
         background-color: #087304cb;
@@ -2203,7 +2214,8 @@ a {
     .fw-text {
         padding: 1rem;
         width: 50rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #fa6103;
         background-color: #3c1801;
@@ -2259,7 +2271,8 @@ a {
     .strawberry-text {
         padding: 1rem;
         width: 50rem;
-        font-family: "JosefinSlab-Regular";
+        font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #021600;
         background-color: #fcdede;
@@ -2465,7 +2478,7 @@ a {
         margin-bottom: 1rem;
     }
     .wedd{
-        height: 150vh;
+        height: 170vh;
         width: auto;
     }
     .ww {
@@ -2485,7 +2498,7 @@ a {
         margin-right: 1rem;
     }
     .wandw {
-        height: 148vh;
+        height: 162vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2507,6 +2520,7 @@ a {
         width: 30rem;
         padding: 15px;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #ea0946;
         background-color: #faa6c36b;
@@ -2530,7 +2544,7 @@ a {
         margin-bottom: 1rem;
     }
     .folt {
-        height: 110vh;
+        height: 120vh;
         width: auto;
     }
     .ve-ft {
@@ -2561,7 +2575,7 @@ a {
         justify-content: space-evenly;
         align-items: center;
         z-index: 5;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -2569,6 +2583,7 @@ a {
         padding: 1rem;
         width: 50rem;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #1ffb02;
         background-color: #087304cb;
@@ -2607,6 +2622,7 @@ a {
         padding: 1rem;
         width: 50rem;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #fa6103;
         background-color: #3c1801;
@@ -2641,7 +2657,7 @@ a {
     }
     
     .content-text-straw {
-        height: 70vh;
+        height: 78vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2663,6 +2679,7 @@ a {
         padding: 1rem;
         width: 50rem;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #021600;
         background-color: #fcdede;
@@ -2686,6 +2703,7 @@ a {
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
+        font-size: 0.9rem;
         color: #03aefd;
         display: flex;
         flex-flow: row wrap;
@@ -3069,6 +3087,7 @@ a {
         padding: 1rem;
         width: 50rem;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #1ffb02;
         background-color: #087304cb;
@@ -3107,6 +3126,7 @@ a {
         padding: 1rem;
         width: 50rem;
         font-family: "Rubik";
+        font-weight: normal;
         font-size: 18px;
         color: #fa6103;
         background-color: #3c1801;
