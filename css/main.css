@@ -421,14 +421,14 @@ header {
     color: #32d705;
 }
 .content-text-ve {
-    height: 48rem;
+    height: 30rem;
     width: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 40rem;
+    margin-bottom: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -2694,6 +2694,7 @@ a {
         margin-bottom: 1rem;
     }
     .terms-form-cond{
+        font-size: 0.8rem;
         margin-top: 1rem;
         margin-bottom: 1.7rem;
     }
@@ -2743,12 +2744,12 @@ a {
         border-radius: 0.2rem;
         font-family: "cinzel";
         color: #062339;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-align: center;
     }
     .terms-form{
         margin-bottom: 1rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .sup--part {
         height: 47rem;
@@ -2771,6 +2772,10 @@ a {
         margin: 0 auto;
         max-width: 100%;
         height: auto;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
     }
 }
 @media screen and (max-width: 375px){
