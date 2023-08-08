@@ -1,19 +1,15 @@
 {
   "name": "rod",
   "version": "1.0.0",
-  "description": "Rod's Designs (English)",
+  "description": "Rod'S  Designs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxstur/Rod-S-Beta-Version-4.8.git"
+    "url": "https://maxstur.github.io/Rod-S-Beta-Version-4.8/"
   },
   "author": "Max",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maxstur/Rod-S-Beta-Version-4.8/issues"
-  },
-  "homepage": "https://github.com/maxstur/Rod-S-Beta-Version-4.8#readme"
+  "license": "ISC"
 }
