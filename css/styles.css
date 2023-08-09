@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@media only screen and (min-width: 1076px) {
+  body .max {
+    width: 35%;
+    height: 35%;
+  }
+}
+
 header {
   height: 4.5rem;
   width: 100%;
@@ -307,7 +314,7 @@ header {
   color: #103357;
   font-family: "Rubik", sans-serif;
   font-weight: normal;
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   background-color: rgba(250, 233, 166, 0.4196078431);
   border-radius: 0.3rem;
   margin-bottom: 2rem;
