@@ -1,11 +1,4 @@
 @charset "UTF-8";
-@media only screen and (min-width: 1076px) {
-  body .max {
-    width: 35%;
-    height: 35%;
-  }
-}
-
 header {
   height: 4.5rem;
   width: 100%;
@@ -653,10 +646,18 @@ header {
 }
 
 .terms-form-cond {
-  font-family: "cinzel";
-  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+.terms-form-cond a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .terms-form-cond a:hover {
@@ -664,10 +665,18 @@ header {
 }
 
 .terms-form {
-  font-family: "cinzel";
-  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
   margin-top: 1rem;
   text-align: center;
+}
+
+.terms-form a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .terms-form a:hover {
@@ -683,7 +692,6 @@ header {
   border-radius: 0.2rem;
   font-family: "cinzel";
   color: #0d2337;
-  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -783,6 +791,7 @@ h6 {
 }
 
 .flex-social li {
+  text-decoration: none;
   list-style: none;
   margin-bottom: 0.2rem;
   margin-left: 0;
@@ -792,6 +801,11 @@ a {
   text-decoration: none;
   color: #F5F5F5;
   font-family: "Rubik";
+}
+
+.flex-social a {
+  text-decoration: none;
+  color: #F5F5F5;
 }
 
 .flex-social a:hover {
@@ -807,12 +821,13 @@ a {
 }
 
 .rights {
-  text-decoration: none;
   color: #F5F5F5;
   font-family: "cinzel";
 }
 
 .rights a {
+  color: #F5F5F5;
+  text-decoration: none;
   font-family: "cinzel";
   font-size: 0.7rem;
 }
