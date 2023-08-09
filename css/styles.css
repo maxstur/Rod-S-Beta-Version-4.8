@@ -5,7 +5,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: #062339;
+  background-color: #0d2337;
 }
 
 .hflex {
@@ -20,7 +20,7 @@ header {
 
 .hlog {
   z-index: 4;
-  background-color: #062339;
+  background-color: #0d2337;
   height: 8.3rem;
   border-radius: 5rem;
   margin-top: -0.4rem;
@@ -91,7 +91,7 @@ header {
 .hamb-menu {
   height: 1.8rem;
   width: 16.8rem;
-  color: #062339;
+  color: #0d2337;
   display: block;
   padding-left: 5rem;
   padding-top: 0.3rem;
@@ -105,7 +105,7 @@ header {
 
 .hamb-social {
   height: 1.8rem;
-  color: #062339;
+  color: #0d2337;
   width: 16.8rem;
   padding: 0rem;
   margin-top: 0.22rem;
@@ -124,8 +124,8 @@ header {
   margin-left: 2.8rem;
   font-family: "cinzel";
   font-size: 0.85rem;
-  color: #062339;
-  border: 0.1rem solid #062339;
+  color: #0d2337;
+  border: 0.1rem solid #0d2337;
   border-radius: 0.4rem;
   display: inline-block;
   padding: 0.4rem;
@@ -134,8 +134,8 @@ header {
 }
 
 .button-signUp:hover {
-  color: #e6f7ff;
-  background-color: #062339;
+  color: #F5F5F5;
+  background-color: #0d2337;
 }
 
 .submenu {
@@ -181,19 +181,19 @@ header {
 .utop {
   font-family: "Cinzel";
   font-size: 0.7rem;
-  color: #fffefe;
+  color: #F5F5F5;
   text-shadow: 1px 2px 2px #a2a1a1;
 }
 
 .top {
   font-family: "Cinzel";
-  color: #062339;
+  color: #0d2337;
   font-size: 3rem;
 }
 
 .ttop {
-  color: #062339;
-  font-family: "Rubik";
+  color: #0d2337;
+  font-family: "Rubik", sans-serif;
 }
 
 .tm-wrapper {
@@ -248,7 +248,7 @@ header {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: 0.3rem groove #062339;
+  border: 0.3rem groove #0d2337;
   transition: width 0.15s, height 0.15s;
 }
 
@@ -305,9 +305,9 @@ header {
   width: 20rem;
   padding: 1rem;
   color: #103357;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   background-color: rgba(250, 233, 166, 0.4196078431);
   border-radius: 0.3rem;
   margin-bottom: 2rem;
@@ -317,7 +317,7 @@ header {
   padding: 1rem;
   width: 20rem;
   color: #103357;
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: normal;
   font-size: 1.1rem;
   background-color: rgba(250, 233, 166, 0.4196078431);
@@ -370,7 +370,7 @@ header {
   font-family: "Cinzel";
   font-weight: normal;
   font-size: 1.8rem;
-  color: #103357;
+  color: #0d2337;
   z-index: 6;
 }
 
@@ -545,7 +545,7 @@ header {
   font-weight: normal;
   font-size: 2.4rem;
   margin-top: 12rem;
-  color: #ee1515;
+  color: #ea0946;
 }
 
 .content-text-straw {
@@ -563,7 +563,7 @@ header {
   font-family: "cinzel";
   font-weight: normal;
   font-size: 1.8rem;
-  color: #ee1515;
+  color: #ea0946;
   z-index: 6;
 }
 
@@ -573,8 +573,8 @@ header {
   font-family: "Rubik";
   font-weight: normal;
   font-size: 18px;
-  color: #021600;
-  background-color: #fcdede;
+  color: #0d2337;
+  background-color: rgba(250, 166, 195, 0.4196078431);
   border-radius: 8px;
   margin-left: 1rem;
   margin-right: 5rem;
@@ -595,7 +595,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+  background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #F5F5F5);
 }
 
 .form-container {
@@ -615,14 +615,14 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #062339;
-  box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  background-color: #0d2337;
+  box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
 }
 
 .sus {
   font-family: "cinzel";
   font-size: 1.6rem;
-  color: white;
+  color: #F5F5F5;
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
@@ -638,7 +638,7 @@ header {
   height: 2.8rem;
   padding-left: 1rem;
   color: #0d2337;
-  background-color: #a6d6fd;
+  background-color: #e6f7ff;
   border-radius: 0.2rem;
   border: 0.1rem solid #03aefd;
   font-family: "cinzel";
@@ -675,13 +675,13 @@ header {
   border: none;
   border-radius: 0.2rem;
   font-family: "cinzel";
-  color: #062339;
+  color: #0d2337;
   font-size: 0.8rem;
   text-align: center;
 }
 
 .mi--form a .boton:hover {
-  color: #f5f5f5;
+  color: #F5F5F5;
   cursor: pointer;
 }
 
@@ -696,7 +696,7 @@ header {
 
 .colafo {
   width: 100%;
-  background-color: #062339;
+  background-color: #0d2337;
 }
 
 .footer {
@@ -745,7 +745,7 @@ header {
   font-family: "cinzel";
   font-weight: normal;
   font-size: 0.8rem;
-  color: #f5f5f5;
+  color: #F5F5F5;
   margin-bottom: 1rem;
 }
 
@@ -753,7 +753,7 @@ header {
   font-family: "Rubik";
   font-weight: normal;
   font-size: 1rem;
-  color: #f5f5f5;
+  color: #F5F5F5;
   margin-bottom: 1.5rem;
 }
 
@@ -761,7 +761,7 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  color: white;
+  color: #F5F5F5;
   font-family: "cinzel";
 }
 
@@ -783,7 +783,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #F5F5F5;
   font-family: "Rubik";
 }
 
@@ -801,7 +801,7 @@ a {
 
 .rights {
   text-decoration: none;
-  color: white;
+  color: #F5F5F5;
   font-family: "cinzel";
 }
 
@@ -1004,7 +1004,7 @@ a {
   .sus {
     font-family: "cinzel";
     font-size: 1.6rem;
-    color: white;
+    color: #F5F5F5;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -1055,7 +1055,7 @@ a {
     text-align: center;
   }
   .mi--form a .boton:hover {
-    color: #f5f5f5;
+    color: #F5F5F5;
     cursor: pointer;
   }
   .mi--form p a:hover {
@@ -1111,21 +1111,21 @@ a {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 0.8rem;
-    color: #f5f5f5;
+    color: #F5F5F5;
     margin-bottom: 1rem;
   }
   .fote {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1rem;
-    color: #f5f5f5;
+    color: #F5F5F5;
     margin-bottom: 1.5rem;
   }
   .av--footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    color: white;
+    color: #F5F5F5;
     font-family: "cinzel";
   }
   .flex-social {
@@ -1143,7 +1143,7 @@ a {
   }
   a {
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     font-family: "Rubik";
     font-weight: normal;
   }
@@ -1159,7 +1159,7 @@ a {
   }
   .rights {
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     font-family: "cinzel";
   }
   .rights a {
@@ -3831,6 +3831,27 @@ a {
 .video--ad {
   max-width: 100%;
   height: auto;
+}
+
+.haute-couture {
+  display: flex;
+  justify-content: center;
+}
+
+.haute-container {
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 61.2rem;
+  height: auto;
+  background-color: #0d2337;
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.video-haute {
+  width: 30rem;
+  height: 15rem;
+  margin-right: 0.1rem;
 }
 
 /*Para página de Sign In*/

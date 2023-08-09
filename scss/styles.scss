@@ -1,4 +1,5 @@
-$primary-color: #0d2337;
+@import 'colors';
+@import '_font-size-desktop';
 
 header {
     height: 4.5rem;
@@ -45,19 +46,19 @@ header {
 
 .menu ul li a{
     text-decoration: none;
-    color: #F5F5F5;
+    color: $basic-white-color;
     font-size: 0.9rem;
     font-family: "cinzel";
     margin-right: 1rem;
 }
 
 .menu a:hover {
-    color: #03aefd;
+    color: $secondary-color;
 }
 
 .hamburguer {
     display: flex;
-    color: #F5F5F5;
+    color: $basic-white-color;
     width: 1.5rem;
     height: 1.5rem;
     margin-top: 1rem;
@@ -81,7 +82,7 @@ header {
 }
 
 .sub-li {
-    background-color: #e6f7ff;
+    background-color: $light-blue;
     width: 16.9rem;
     height: 17.5rem;
     margin-left: -1.4rem;
@@ -99,7 +100,7 @@ header {
     z-index: 4;
 }
 .hamb-menu:hover{
-    color: #941e09;
+    color: $dark-red;
     font-size: 1rem;
 }
 
@@ -114,7 +115,7 @@ header {
 }
 
 .hamb-social:hover {
-        color: #941e09;
+        color: $dark-red;
         margin-left: 11.4rem;
         transform: scale(1.4);
 }
@@ -134,7 +135,7 @@ header {
 }
 
 .button-signUp:hover {
-    color: #e6f7ff;
+    color: $basic-white-color;
     background-color: $primary-color ;
 }
 
@@ -146,11 +147,11 @@ header {
     width: 18rem;
     height: 24rem;
     border-radius: 0.3rem;
-    background-color: #c3e8fa;
-    box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    background-color: $sub-menu-blue;
+    box-shadow: -0.3rem 0.4rem 0.8rem $sub-menu;
 }
 .hamburguer:hover  {
-    color: #03aefd;
+    color: $secondary-color;
 }
 
 .hamburguer:hover .submenu{
@@ -161,7 +162,7 @@ header {
     width: 100%;
     height: 150vh;
     margin: 0;
-    background-image: linear-gradient(to bottom, #ebd702, #ea0946);
+    background-image: linear-gradient(to bottom, $menu-yellow, $menu-red);
 }
   
 .container {
@@ -180,19 +181,19 @@ header {
 .utop {
     font-family: "Cinzel";
     font-size: 0.7rem;
-    color: #fffefe;
-    text-shadow: 1px 2px 2px #a2a1a1;
+    color: $basic-white-color;
+    text-shadow: 1px 2px 2px $basic-shadow;
 }
   
 .top {
     font-family: "Cinzel";
     color: $primary-color;
-    font-size: 3rem;
+    font-size: $h1-top;
 }
   
 .ttop {
     color: $primary-color;
-    font-family: "Rubik";
+    font-family: 'Rubik', sans-serif;
 }
 
 .tm-wrapper {
@@ -273,8 +274,7 @@ header {
 .cur--title  {
     width: 34rem;
     font-family: "Cinzel";
-
-    font-size: 2.4rem;
+    font-size: $h2-title;
     margin-top: 12rem;
     margin-bottom: 1rem;
     color: $primary-color;
@@ -292,29 +292,29 @@ header {
 .title-text {
     font-family: "Cinzel";
     font-weight: normal;
-    font-size: 1.8rem;
-    color: #103357;
+    font-size: $h3-title-text;
+    color: $heraldic-blue;
     z-index: 6;
 }
 .cur--text {
     width: 20rem;
     padding: 1rem;
-    color: #103357;
-    font-family: "Rubik";
+    color: $heraldic-blue;
+    font-family: 'Rubik', sans-serif;
     font-weight: normal;
-    font-size: 1.1rem;
-    background-color: #fae9a66b;
+    font-size: $h3-title-text;
+    background-color: $heraldic-BG-color;
     border-radius: 0.3rem;
     margin-bottom: 2rem;
 }
 .column-two {
     padding: 1rem;
     width: 20rem;
-    color: #103357;
-    font-family: "Rubik";
+    color: $heraldic-blue;
+    font-family: 'Rubik', sans-serif;
     font-weight: normal;
     font-size: 1.1rem;
-    background-color: #fae9a66b;
+    background-color: $heraldic-BG-color;
     border-radius: 0.3rem;
     margin-bottom: 2rem;
 }
@@ -340,7 +340,7 @@ header {
     width: 34rem;
     font-family: "Cinzel";
     font-weight: normal;
-    font-size: 2.4rem;
+    font-size: $h2-title;
     margin-top: 12rem;
     margin-bottom: 1rem;
     color: $primary-color;
@@ -368,8 +368,8 @@ header {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1.1rem;
-    color: #ea0946;
-    background-color: #faa6c36b;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
     border-radius: 8px;
     margin-bottom: 2rem;
 }
@@ -379,8 +379,8 @@ header {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1.1rem;
-    color: #ea0946;
-    background-color: #faa6c36b;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
     border-radius: 8px;
     margin-bottom: 5rem;
 }
@@ -407,9 +407,9 @@ header {
     width: 34rem;
     font-family: "Cinzel";
     font-weight: normal;
-    font-size: 2.4rem;
+    font-size: $h2-title;
     margin-top: 14rem;
-    color: #32d705;
+    color: $title-green;
 }
 .content-text-ve {
     height: 30rem;
@@ -434,8 +434,8 @@ header {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1.1rem;
-    color: #1ffb02;
-    background-color: #087304cb;
+    color: $maarashu-green;
+    background-color: $dark-greeen;
     border-radius: 8px;
     margin-bottom: 17rem;
 }
@@ -464,9 +464,9 @@ header {
     width: 34rem;
     font-family: "Cinzel";
     font-weight: normal;
-    font-size: 2.4rem;
+    font-size: $h2-title;
     margin-top: 12rem;
-    color: #fa6103;
+    color: $middle-orange;
 }
 .content-fly-text  {
     height: 65vh;
@@ -491,8 +491,8 @@ header {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1.1rem;
-    color: #fa6103;
-    background-color: #3c1801;
+    color: $middle-orange;
+    background-color: $orange-BG-color;
     border-radius: 8px;
     margin-bottom: 5rem;
 }
@@ -518,9 +518,9 @@ header {
     width: 34rem;
     font-family: "cinzel";
     font-weight: normal;
-    font-size: 2.4rem;
+    font-size: $h2-title;
     margin-top: 12rem;
-    color: #ee1515;
+    color: $menu-red;
 }
 
 .content-text-straw {
@@ -537,8 +537,8 @@ header {
 .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
-    font-size: 1.8rem;
-    color: #ee1515;
+    font-size: $h3-title-text;
+    color: $menu-red;
     z-index: 6;
 }
 
@@ -548,8 +548,8 @@ header {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 18px;
-    color: #021600;
-    background-color: #fcdede;
+    color: $primary-color;
+    background-color: $wANDw-BG-color;
     border-radius: 8px;
     margin-left: 1rem;
     margin-right: 5rem;
@@ -569,7 +569,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+    background-image: linear-gradient(to bottom, $menu-red, $form-orange, $menu-yellow, $basic-white-color);
 }
 
 .form-container {
@@ -585,7 +585,7 @@ header {
     margin-top: 0rem;
     font-family: "Rubik";
     font-weight: normal;
-    color: #03aefd;
+    color: $secondary-color;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -595,8 +595,8 @@ header {
 
 .sus {
     font-family: "cinzel";
-    font-size: 1.6rem;
-    color: white;
+    font-size: $h4-title-forms;
+    color: $basic-white-color;
     margin-top: 4rem;
     margin-bottom: 1rem;
 }
@@ -612,9 +612,9 @@ header {
     height: 2.8rem;
     padding-left: 1rem;
     color: $primary-color;
-    background-color: #a6d6fd;
+    background-color: $light-blue;
     border-radius: 0.2rem;
-    border: 0.1rem solid #03aefd;
+    border: 0.1rem solid $secondary-color;
     font-family: "cinzel";
     font-size: 0.9rem;
 }
@@ -627,25 +627,25 @@ header {
 }
 
 .terms-form-cond a:hover {
-    color: #03aefd;
+    color: $secondary-color;
 }
 
 .terms-form {
     font-family: "cinzel";
-    font-size: 1.1rem;
+    font-size: $h5-terms;
     margin-top: 1rem;
     text-align: center;
 }
 
 .terms-form a:hover {
-    color: #03aefd;
+    color: $secondary-color;
 }
 
 .mi--form .boton {
     width: 15rem;
     height: 2.5rem;
     justify-content: center;
-    background-color: #03aefd;
+    background-color: $secondary-color;
     border: none;
     border-radius: 0.2rem;
     font-family: "cinzel";
@@ -654,19 +654,19 @@ header {
     text-align: center;
 }
 .mi--form a .boton:hover {
-    color: #f5f5f5;
+    color: $basic-white-color;
     cursor: pointer;
 }
 .mi--form p a:hover {
-    color: #03aefd;
+    color: $secondary-color;
     cursor: pointer;
 }
 .mi--form .boton:hover {
-    color: #03aefd;
+    color: $secondary-color;
 }
 .colafo {
     width: 100%;
-    background-color: #062339;  
+    background-color: $primary-color;  
 }
 .footer {
     display: flex;
@@ -709,21 +709,21 @@ header {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 0.8rem;
-    color: #f5f5f5;
+    color: $basic-white-color;
     margin-bottom: 1rem;
 }
 .fote {
     font-family: "Rubik";
     font-weight: normal;
     font-size: 1rem;
-    color: #f5f5f5;
+    color: $basic-white-color;
     margin-bottom: 1.5rem;
 }
 .av--footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    color: white;
+    color: $basic-white-color;
     font-family: "cinzel";
 }
 .flex-social {
@@ -732,7 +732,7 @@ header {
     width: 12rem;
 }
 h6 {
-    font-size: 0.8rem;  
+    font-size: $h6-title-footer;  
 }
 .flex-social li {
     list-style: none;
@@ -741,11 +741,11 @@ h6 {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: $basic-white-color;
     font-family: "Rubik";
 }
 .flex-social a:hover {
-    color: #03aefd;
+    color: $secondary-color;
     cursor: pointer;
 }
 .inf--part {
@@ -756,7 +756,7 @@ a {
 }
 .rights {
     text-decoration: none;
-    color: white;
+    color: $basic-white-color;
     font-family: "cinzel";
 }
 
@@ -771,7 +771,7 @@ a {
 }
 
 .rights p a:hover {
-    color: #03aefd;
+    color: $secondary-color;
     cursor: pointer;
 }
 @media screen and (max-width: 2560px) {
@@ -827,12 +827,12 @@ a {
     }
     
     .menu a:hover {
-        color: #03aefd;
+        color: $secondary-color;
     }
     
     .hamburguer {
         display: flex;
-        color: #F5F5F5;
+        color: $basic-white-color;
         width: 1.5rem;
         height: 1.5rem;
         margin-top: 1rem;
@@ -925,7 +925,7 @@ a {
         box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
     }
     .hamburguer:hover  {
-        color: #03aefd;
+        color: $secondary-color;
     }
     
     .hamburguer:hover .submenu{
@@ -973,7 +973,7 @@ a {
         margin-top: 0rem;
         font-family: "Rubik";
         font-weight: normal;
-        color: #03aefd;
+        color: $secondary-color;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
@@ -984,7 +984,7 @@ a {
     .sus {
         font-family: "cinzel";
         font-size: 1.6rem;
-        color: white;
+        color: $basic-white-color;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -1002,7 +1002,7 @@ a {
         color: #0d2337;
         background-color: #a6d6fd;
         border-radius: 0.2rem;
-        border: 0.1rem solid #03aefd;
+        border: 0.1rem solid $secondary-color;
         font-family: "cinzel";
         font-size: 0.9rem;
     }
@@ -1015,7 +1015,7 @@ a {
     }
     
     .terms-form-cond a:hover {
-        color: #03aefd;
+        color: $secondary-color;
     }
     
     .terms-form {
@@ -1026,14 +1026,14 @@ a {
     }
     
     .terms-form a:hover {
-        color: #03aefd;
+        color: $secondary-color;
     }
     
     .mi--form .boton {
         width: 15rem;
         height: 2.5rem;
         justify-content: center;
-        background-color: #03aefd;
+        background-color: $secondary-color;
         border: none;
         border-radius: 0.2rem;
         font-family: "cinzel";
@@ -1043,17 +1043,17 @@ a {
     }
     
     .mi--form a .boton:hover {
-        color: #f5f5f5;
+        color: $basic-white-color;
         cursor: pointer;
     }
     
     .mi--form p a:hover {
-        color: #03aefd;
+        color: $secondary-color;
         cursor: pointer;
     }
     
     .mi--form .boton:hover {
-        color: #03aefd;
+        color: $secondary-color;
     }
     .colafo {
         width: 100%;
@@ -1104,14 +1104,14 @@ a {
         font-family: "cinzel";
         font-weight: normal;
         font-size: 0.8rem;
-        color: #f5f5f5;
+        color: $basic-white-color;
         margin-bottom: 1rem;
     }
     .fote {
         font-family: "Rubik";
         font-weight: normal;
         font-size: 1rem;
-        color: #f5f5f5;
+        color: $basic-white-color;
         margin-bottom: 1.5rem;
     }
     
@@ -1119,7 +1119,7 @@ a {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        color: white;
+        color: $basic-white-color;
         font-family: "cinzel";
     }
     
@@ -1130,7 +1130,7 @@ a {
     }
     
     h6 {
-        font-size: 0.8rem;  
+        font-size: $h6-title-footer;  
     }
     
     .flex-social li {
@@ -1141,13 +1141,13 @@ a {
     
     a {
         text-decoration: none;
-        color: white;
+        color: $basic-white-color;
         font-family: "Rubik";
         font-weight: normal;;
     }
     
     .flex-social a:hover {
-        color: #03aefd;
+        color: $secondary-color;
         cursor: pointer;
     }
     
@@ -1160,7 +1160,7 @@ a {
     
     .rights {
         text-decoration: none;
-        color: white;
+        color: $basic-white-color;
         font-family: "cinzel";
     }
     
@@ -1175,7 +1175,7 @@ a {
     }
     
     .rights p a:hover {
-        color: #03aefd;
+        color: $secondary-color;
         cursor: pointer;
     }
 }
@@ -1227,7 +1227,7 @@ a {
         border-radius: 0.3rem;
         font-family: "Rubik";
         font-weight: normal;
-        color: #03aefd;
+        color: $secondary-color;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
@@ -1256,7 +1256,7 @@ a {
         color: #0d2337;
         background-color: #a6d6fd;
         border-radius: 0.2rem;
-        border: 0.1rem solid #03aefd;
+        border: 0.1rem solid $secondary-color;
         font-family: "cinzel";
         font-size: 0.9rem;
     }
@@ -3810,6 +3810,7 @@ a {
 /*Para página lern-with*/
 
 
+
 .display--learn {
     width: 100%;
     height: auto;
@@ -3915,7 +3916,37 @@ a {
     max-width: 100%;
     height: auto;
 }
+.learn-article {
+
+}
+.haute-couture {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.haute-container{
+    justify-content: center;
+    flex-flow: row  wrap;
+    width: 61.2rem;
+    height: auto;
+    background-color: $primary-color;
+    padding-top: 0.4rem;
+    padding-left: 0.4rem;
+}
+.video-haute {
+    width: 30rem;
+    height: 15rem;
+    margin-right: 0.1rem;
+}
+
+
+
 /*Para página de Sign In*/
+
+
+
+
 .mi--forms{
     width: 32rem;
     height: auto;
