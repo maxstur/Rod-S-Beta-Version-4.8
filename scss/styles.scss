@@ -3936,13 +3936,11 @@ a {
     height: auto;
 }
 .learn-article {
-
+    font-family: 'Rubik', sans-serif;
 }
 .haute-couture {
     display: flex;
     justify-content: center;
-    
-    
 }
 .haute-container{
     justify-content: center;
@@ -3958,8 +3956,15 @@ a {
     height: 15rem;
     margin-right: 0.1rem;
 }
-
-
+.ias .frameworks{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    width: 70rem;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
 
 /*Para página de Sign In*/
 
