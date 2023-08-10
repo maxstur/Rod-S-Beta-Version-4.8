@@ -128,6 +128,18 @@
     margin-bottom: 2rem;
 }
 .column-two {
+    @extend .cur--text;
+}
+.w-text {
+    @extend .cur--text;
+    width: 30rem;
+    padding: 1rem;
+    color: $menu-red;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    background-color: $wANDw-BG-color;
+}
+.cur--text {
     width: 20rem;
     padding: 1rem;
     color: $heraldic-blue;
@@ -136,14 +148,6 @@
     font-size: 1.1rem;
     background-color: $heraldic-BG-color;
     border-radius: 0.3rem;
-    margin-bottom: 2rem;
-}
-.w-text {
-    @extend .cur--text;
-    width: 30rem;
-    color: $menu-red;
-    background-color: $wANDw-BG-color;
-    border-radius: 8px;
     margin-bottom: 2rem;
 }
 .ww-text {
@@ -156,6 +160,40 @@
     background-color: $wANDw-BG-color;
     border-radius: 8px;
     margin-bottom: 5rem;
+}
+.ve-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: $maarashu-green;
+    background-color: $dark-greeen;
+    border-radius: 8px;
+    margin-bottom: 17rem;
+}
+.fw-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: $middle-orange;
+    background-color: $orange-BG-color;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+}
+.strawberry-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: $primary-color;
+    background-color: $wANDw-BG-color;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 5rem;
 }
 
 .cur--im {

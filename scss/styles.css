@@ -104,11 +104,10 @@
 
 .w-text {
   width: 30rem;
-  padding: 1rem;
   color: #ea0946;
+  background-color: rgba(250, 166, 195, 0.4196078431);
   border-radius: 8px;
   margin-bottom: 2rem;
-  background-color: rgba(250, 166, 195, 0.4196078431);
 }
 
 .cur--text, .column-two, .w-text {
