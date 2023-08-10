@@ -1,4 +1,248 @@
 @charset "UTF-8";
+.max, .shoot, .fly, .folt, .wedd, .cur {
+  width: 100%;
+  height: auto;
+}
+
+.ese, .strawberry, .fw, .ve-ft, .ww {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cur--title, .strawberry-title, .fw-title, .ve-title, .ww-title {
+  width: 34rem;
+  font-family: "Cinzel", serif;
+  font-size: 2.4rem;
+  margin-top: 12rem;
+  margin-bottom: 1rem;
+  color: #0d2337;
+}
+
+.ve-title {
+  color: #32d705;
+}
+
+.fw-title {
+  color: #fa6103;
+}
+
+.strawberry-title {
+  color: #ea0946;
+}
+
+.container-ese-text, .content-text-straw, .content-fly-text, .content-text-ve, .wandw {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 5;
+  margin-bottom: 12rem;
+}
+
+.wandw {
+  margin-bottom: 15rem;
+}
+
+.content-text-ve {
+  height: 30rem;
+  width: auto;
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content-fly-text {
+  height: 65vh;
+  width: auto;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content-text-straw {
+  margin-bottom: 20rem;
+}
+
+.title-text, .title-text-straw, .fly__text--title, .video-editing-title, .w-text-title {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #103357;
+  z-index: 6;
+}
+
+.w-text-title {
+  color: #0d2337;
+}
+
+.video-editing-title {
+  color: #1ffb02;
+}
+
+.fly__text--title {
+  color: #fa6103;
+}
+
+.title-text-straw {
+  color: #ea0946;
+}
+
+.cur--text, .w-text {
+  width: 20rem;
+  padding: 1rem;
+  color: #103357;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  background-color: rgba(250, 233, 166, 0.4196078431);
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.column-two {
+  @ex;
+}
+
+.w-text {
+  width: 30rem;
+  color: #ea0946;
+  background-color: rgba(250, 166, 195, 0.4196078431);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.ww-text {
+  padding: 1rem;
+  width: 30rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #ea0946;
+  background-color: rgba(250, 166, 195, 0.4196078431);
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+.cur--im, .shoot-img, .fly-img, .folt-im, .im-wedd {
+  width: 35%;
+  height: 35%;
+  border-bottom-right-radius: 9rem;
+  border-bottom-left-radius: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sign-Up {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #F5F5F5);
+}
+
+.form-container, .between-control, .mi--form, .sign-Up {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mi--form {
+  height: 40rem;
+  width: 35rem;
+  border-radius: 0.3rem;
+  margin-top: 0rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  color: #03aefd;
+  background-color: #0d2337;
+  box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
+}
+
+.sus {
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+  color: #F5F5F5;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.control {
+  color: #0d2337;
+  font-family: "Cinzel", serif;
+  width: 24rem;
+  height: 2.8rem;
+  padding-left: 1rem;
+  background-color: #e6f7ff;
+  border-radius: 0.2rem;
+  border: 0.1rem solid #03aefd;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.terms-form-cond {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.terms-form-cond a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.terms-form-cond a:hover {
+  color: #03aefd;
+}
+
+.terms-form {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.terms-form a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.boton {
+  width: 15rem;
+  height: 2.8rem;
+  font-family: "Cinzel", serif;
+  text-decoration: none;
+  font-size: 1rem;
+  justify-content: center;
+  background-color: #03aefd;
+  border: none;
+  border-radius: 0.2rem;
+  color: #0d2337;
+  text-align: center;
+}
+
+.mi--form a .boton:hover {
+  color: #F5F5F5;
+  cursor: pointer;
+}
+
+.terms-form a:hover {
+  color: #03aefd;
+}
+
+.mi--form p a:hover {
+  color: #03aefd;
+  cursor: pointer;
+}
+
 header {
   height: 4.5rem;
   width: 100%;
@@ -179,14 +423,14 @@ header {
 }
 
 .utop {
-  font-family: "Cinzel";
+  font-family: "Cinzel", serif;
   font-size: 0.7rem;
   color: #F5F5F5;
   text-shadow: 1px 2px 2px #a2a1a1;
 }
 
 .top {
-  font-family: "Cinzel";
+  font-family: "Cinzel", serif;
   color: #0d2337;
   font-size: 3rem;
 }
@@ -257,196 +501,6 @@ header {
   height: 3.3rem;
 }
 
-.max {
-  width: 100%;
-  height: auto;
-}
-
-.cur {
-  height: auto;
-  width: 100%;
-}
-
-.ese {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.cur--title {
-  width: 34rem;
-  font-family: "Cinzel";
-  font-size: 2.4rem;
-  margin-top: 12rem;
-  margin-bottom: 1rem;
-  color: #0d2337;
-}
-
-.container-ese-text {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 5;
-  margin-bottom: 12rem;
-}
-
-.title-text {
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 1.8rem;
-  color: #103357;
-  z-index: 6;
-}
-
-.cur--text {
-  width: 20rem;
-  padding: 1rem;
-  color: #103357;
-  font-family: "Rubik", sans-serif;
-  font-weight: normal;
-  font-size: 1.1rem;
-  background-color: rgba(250, 233, 166, 0.4196078431);
-  border-radius: 0.3rem;
-  margin-bottom: 2rem;
-}
-
-.column-two {
-  padding: 1rem;
-  width: 20rem;
-  color: #103357;
-  font-family: "Rubik", sans-serif;
-  font-weight: normal;
-  font-size: 1.1rem;
-  background-color: rgba(250, 233, 166, 0.4196078431);
-  border-radius: 0.3rem;
-  margin-bottom: 2rem;
-}
-
-.cur--im {
-  width: 35%;
-  height: 35%;
-  border-bottom-right-radius: 9rem;
-  border-bottom-left-radius: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.wedd {
-  height: auto;
-  width: 100%;
-}
-
-.ww {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.ww-title {
-  width: 34rem;
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 2.4rem;
-  margin-top: 12rem;
-  margin-bottom: 1rem;
-  color: #0d2337;
-}
-
-.wandw {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 5;
-  margin-bottom: 15rem;
-}
-
-.w-text-title {
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 1.8rem;
-  color: #0d2337;
-  z-index: 6;
-}
-
-.w-text {
-  width: 30rem;
-  padding: 15px;
-  font-family: "Rubik";
-  font-weight: normal;
-  font-size: 1.1rem;
-  color: #ea0946;
-  background-color: rgba(250, 166, 195, 0.4196078431);
-  border-radius: 8px;
-  margin-bottom: 2rem;
-}
-
-.ww-text {
-  padding: 1rem;
-  width: 30rem;
-  font-family: "Rubik";
-  font-weight: normal;
-  font-size: 1.1rem;
-  color: #ea0946;
-  background-color: rgba(250, 166, 195, 0.4196078431);
-  border-radius: 8px;
-  margin-bottom: 5rem;
-}
-
-.im-wedd {
-  width: 35%;
-  height: 35%;
-  border-bottom-right-radius: 9rem;
-  border-bottom-left-radius: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.folt {
-  height: auto;
-  width: 100%;
-}
-
-.ve-ft {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.ve-title {
-  height: auto;
-  width: 34rem;
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 2.4rem;
-  margin-top: 14rem;
-  color: #32d705;
-}
-
-.content-text-ve {
-  height: 30rem;
-  width: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 5;
-  margin-bottom: 10rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.video-editing {
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 1.8rem;
-}
-
 .ve-text {
   padding: 1rem;
   width: 50rem;
@@ -457,54 +511,6 @@ header {
   background-color: rgba(8, 115, 4, 0.7960784314);
   border-radius: 8px;
   margin-bottom: 17rem;
-}
-
-.folt-im {
-  width: 35%;
-  height: 35%;
-  border-bottom-right-radius: 9rem;
-  border-bottom-left-radius: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.fly {
-  height: auto;
-  width: 100%;
-}
-
-.fw {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.fw-title {
-  width: 34rem;
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 2.4rem;
-  margin-top: 12rem;
-  color: #fa6103;
-}
-
-.content-fly-text {
-  height: 65vh;
-  width: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 5;
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.fly__text--title {
-  font-family: "Cinzel";
-  font-weight: normal;
-  font-size: 1.8rem;
 }
 
 .fw-text {
@@ -519,54 +525,6 @@ header {
   margin-bottom: 5rem;
 }
 
-.fly-img {
-  width: 35%;
-  height: 35%;
-  border-bottom-right-radius: 9rem;
-  border-bottom-left-radius: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.shoot {
-  width: 100%;
-  height: auto;
-}
-
-.strawberry {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.strawberry-title {
-  width: 34rem;
-  font-family: "cinzel";
-  font-weight: normal;
-  font-size: 2.4rem;
-  margin-top: 12rem;
-  color: #ea0946;
-}
-
-.content-text-straw {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 5;
-  margin-bottom: 20rem;
-}
-
-.title-text-straw {
-  font-family: "cinzel";
-  font-weight: normal;
-  font-size: 1.8rem;
-  color: #ea0946;
-  z-index: 6;
-}
-
 .strawberry-text {
   padding: 1rem;
   width: 50rem;
@@ -578,135 +536,6 @@ header {
   border-radius: 8px;
   margin-left: 1rem;
   margin-right: 5rem;
-}
-
-.shoot-img {
-  width: 35%;
-  height: 35%;
-  border-bottom-right-radius: 9rem;
-  border-bottom-left-radius: 9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.sign-Up {
-  height: 100vh;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #F5F5F5);
-}
-
-.form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.mi--form {
-  height: 40rem;
-  width: 35rem;
-  border-radius: 0.3rem;
-  margin-top: 0rem;
-  font-family: "Rubik";
-  font-weight: normal;
-  color: #03aefd;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  background-color: #0d2337;
-  box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
-}
-
-.sus {
-  font-family: "cinzel";
-  font-size: 1.6rem;
-  color: #F5F5F5;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-}
-
-.between-control {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.control {
-  width: 24rem;
-  height: 2.8rem;
-  padding-left: 1rem;
-  color: #0d2337;
-  background-color: #e6f7ff;
-  border-radius: 0.2rem;
-  border: 0.1rem solid #03aefd;
-  font-family: "cinzel";
-  font-size: 0.9rem;
-}
-
-.terms-form-cond {
-  font-family: "Rubik", sans-serif;
-  color: #F5F5F5;
-  font-size: 0.9rem;
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.terms-form-cond a {
-  font-family: "Rubik", sans-serif;
-  color: #F5F5F5;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-.terms-form-cond a:hover {
-  color: #03aefd;
-}
-
-.terms-form {
-  font-family: "Rubik", sans-serif;
-  color: #F5F5F5;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.terms-form a {
-  font-family: "Rubik", sans-serif;
-  color: #F5F5F5;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-.terms-form a:hover {
-  color: #03aefd;
-}
-
-.mi--form .boton {
-  width: 15rem;
-  height: 2.5rem;
-  justify-content: center;
-  background-color: #03aefd;
-  border: none;
-  border-radius: 0.2rem;
-  font-family: "cinzel";
-  color: #0d2337;
-  text-align: center;
-}
-
-.mi--form a .boton:hover {
-  color: #F5F5F5;
-  cursor: pointer;
-}
-
-.mi--form p a:hover {
-  color: #03aefd;
-  cursor: pointer;
-}
-
-.mi--form .boton:hover {
-  color: #03aefd;
 }
 
 .colafo {
@@ -1004,7 +833,7 @@ a {
     width: 3.3rem;
     height: 3.3rem;
   }
-  .form-container {
+  .form-container, .sign-Up, .mi--form, .between-control {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1063,18 +892,6 @@ a {
   }
   .terms-form a:hover {
     color: #03aefd;
-  }
-  .mi--form .boton {
-    width: 15rem;
-    height: 2.5rem;
-    justify-content: center;
-    background-color: #03aefd;
-    border: none;
-    border-radius: 0.2rem;
-    font-family: "cinzel";
-    color: #062339;
-    font-size: 0.8rem;
-    text-align: center;
   }
   .mi--form a .boton:hover {
     color: #F5F5F5;
@@ -1231,7 +1048,7 @@ a {
     align-items: center;
     background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
   }
-  .form-container {
+  .form-container, .sign-Up, .mi--form, .between-control {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1299,7 +1116,7 @@ a {
     border-radius: 0.2rem;
     font-family: "cinzel";
     color: #062339;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
   }
   .mi--form a .boton:hover {
@@ -1444,7 +1261,7 @@ a {
     align-items: center;
     background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
   }
-  .form-container {
+  .form-container, .sign-Up, .mi--form, .between-control {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1751,7 +1568,7 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .cur--im {
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
     margin-top: 0.5rem;
@@ -1976,7 +1793,7 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max {
+  .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
     height: auto;
   }
@@ -1984,12 +1801,12 @@ a {
     height: auto;
     width: 100%;
   }
-  .ese {
+  .ese, .ww, .ve-ft, .fw, .strawberry {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
-  .cur--title {
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
     width: 34rem;
     font-family: "cinzel";
     font-weight: normal;
@@ -2000,20 +1817,20 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .cur--title br {
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text {
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     height: 117vh;
   }
-  .title-text {
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
     color: #103357;
     z-index: 6;
   }
-  .cur--im {
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
     margin-top: 0.5rem;
@@ -2378,7 +2195,7 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max {
+  .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
     height: auto;
   }
@@ -2386,12 +2203,12 @@ a {
     height: auto;
     width: 100%;
   }
-  .ese {
+  .ese, .ww, .ve-ft, .fw, .strawberry {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
-  .cur--title {
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
     width: 34rem;
     font-family: "cinzel";
     font-weight: normal;
@@ -2402,20 +2219,20 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .cur--title br {
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text {
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     height: 117vh;
   }
-  .title-text {
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
     color: #103357;
     z-index: 6;
   }
-  .cur--im {
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
     margin-top: 0.5rem;
@@ -2873,7 +2690,7 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max {
+  .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
     height: auto;
   }
@@ -2881,12 +2698,12 @@ a {
     height: auto;
     width: 100%;
   }
-  .ese {
+  .ese, .ww, .ve-ft, .fw, .strawberry {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
-  .cur--title {
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
     width: 34rem;
     font-family: "cinzel";
     font-weight: normal;
@@ -2897,27 +2714,27 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .cur--title br {
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text {
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     width: auto;
     height: 140vh;
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .title-text {
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
     color: #103357;
     z-index: 6;
   }
-  .cur--text .column-two {
+  .cur--text .column-two, .w-text .column-two {
     font-size: 1rem;
   }
-  .cur--im {
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
     margin-top: 0.5rem;
@@ -3380,7 +3197,7 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max {
+  .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
     height: auto;
   }
@@ -3388,12 +3205,12 @@ a {
     height: auto;
     width: 100%;
   }
-  .ese {
+  .ese, .ww, .ve-ft, .fw, .strawberry {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
-  .cur--title {
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
     width: 34rem;
     font-family: "Cinzel";
     font-weight: normal;
@@ -3404,27 +3221,27 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .cur--title br {
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text {
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     width: auto;
     height: 146vh;
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .title-text {
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
     font-family: "Cinzel";
     font-weight: normal;
     font-size: 1.7rem;
     color: #103357;
     z-index: 6;
   }
-  .cur--text .column-two {
+  .cur--text .column-two, .w-text .column-two {
     font-size: 1rem;
   }
-  .cur--im {
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
     margin-top: 0.5rem;
@@ -3891,76 +3708,6 @@ a {
 }
 
 /*Para página de Sign In*/
-.mi--forms {
-  width: 32rem;
-  height: auto;
-  border-radius: 0.3rem;
-  margin-top: 0rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  background-color: #062339;
-  box-shadow: 0.5rem 0.7rem 2.6rem #062339;
-}
-
-.suss {
-  font-family: "Cinzel";
-  font-size: 1.6rem;
-  color: white;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  justify-content: center;
-}
-
-.controls {
-  width: 24rem;
-  height: 2.8rem;
-  margin: 0.3rem;
-  padding-left: 1rem;
-  color: #0d2337;
-  background-color: #a6d6fd;
-  border-radius: 0.2rem;
-  border: 0.1rem solid #03aefd;
-  font-family: "Cinzel";
-  font-size: 0.9rem;
-}
-
-.between-controls {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.botono {
-  width: 220px;
-  height: 2.8rem;
-  margin: 2rem;
-  background-color: #f17930;
-  border: none;
-  border-radius: 5px;
-  font-family: "Cinzel";
-  color: #062339;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.botono:hover {
-  color: #f5f5f5;
-  cursor: pointer;
-}
-
-.terms-forms {
-  font-family: "Rubik";
-  font-weight: normal;
-  font-size: 1.1rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.terms-forms a:hover {
-  color: #03aefd;
-}
-
 @media screen and (min-width: 90px) {
   .mi--forms {
     width: 13rem;
@@ -4192,7 +3939,7 @@ a {
     justify-content: center;
   }
   .botono {
-    width: 220px;
+    width: 13.75rem;
     height: 2.8rem;
     margin: 2rem;
     background-color: #f17930;
@@ -4207,12 +3954,14 @@ a {
     color: #f5f5f5;
     cursor: pointer;
   }
-  .terms-forms {
+  .terms-forms a {
     font-family: "Rubik";
     font-weight: normal;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    color: #F5F5F5;
     text-align: center;
     margin-bottom: 1.5rem;
+    text-decoration: none;
   }
   .terms-forms a:hover {
     color: #03aefd;

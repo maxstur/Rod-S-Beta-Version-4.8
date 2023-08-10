@@ -1,0 +1,183 @@
+
+.max {
+    width: 100%;
+    height: auto;
+}
+.cur {
+    @extend .max;
+}
+.wedd{
+    @extend .max;
+}
+.folt {
+    @extend .max;
+}
+.fly {
+    @extend .max;
+}
+.shoot {
+    @extend .max;
+}
+.ese {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.ww {
+    @extend .ese;
+}
+.ve-ft {
+    @extend .ese;
+}
+.fw {
+    @extend .ese;
+}
+.strawberry {
+    @extend .ese;
+}
+.cur--title  {
+    width: 34rem;
+    font-family: $primaryFamily;
+    font-size: $h2-title;
+    margin-top: 12rem;
+    margin-bottom: 1rem;
+    color: $primary-color;
+}
+.ww-title {
+    @extend .cur--title;
+}
+.ve-title {
+    @extend .cur--title;
+    color: $title-green;
+}
+.fw-title {
+    @extend .cur--title;
+    color: $middle-orange;
+}
+.strawberry-title {
+    @extend .cur--title;
+    color: $menu-red;
+}
+.container-ese-text {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 12rem;
+}
+.wandw {
+    @extend .container-ese-text;
+    margin-bottom: 15rem;
+}
+.content-text-ve {
+    @extend .container-ese-text;
+    height: 30rem;
+    width: auto;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.content-fly-text  {
+    @extend .container-ese-text;
+    height: 65vh;
+    width: auto;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.content-text-straw {
+    @extend .container-ese-text;
+    margin-bottom: 20rem;
+}
+.title-text {
+    font-family: $primaryFamily;
+    font-weight: normal;
+    font-size: $h3-title-text;
+    color: $heraldic-blue;
+    z-index: 6;
+}
+.w-text-title {
+    @extend .title-text;
+    color: $primary-color;
+}
+.video-editing-title {
+    @extend .title-text;
+    color: $maarashu-green;
+}
+.fly__text--title  {
+    @extend .title-text;
+    color: $middle-orange;
+}
+.title-text-straw {
+    @extend .title-text;
+    color: $menu-red;
+}
+
+.cur--text {
+    width: 20rem;
+    padding: 1rem;
+    color: $heraldic-blue;
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    font-size: 1.1rem;
+    background-color: $heraldic-BG-color;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+.column-two {
+    width: 20rem;
+    padding: 1rem;
+    color: $heraldic-blue;
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    font-size: 1.1rem;
+    background-color: $heraldic-BG-color;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+.w-text {
+    @extend .cur--text;
+    width: 30rem;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.ww-text {
+    padding: 1rem;
+    width: 30rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+}
+
+.cur--im {
+    width: 35%;
+    height: 35%;
+    border-bottom-right-radius: 9rem;
+    border-bottom-left-radius: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.im-wedd {
+    @extend .cur--im;
+}
+.folt-im {
+    @extend .cur--im;
+}
+.fly-img {
+    @extend .cur--im;
+}
+.shoot-img {
+    @extend .cur--im;
+}
+
+
+

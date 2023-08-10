@@ -1,0 +1,101 @@
+.sign-Up {
+    height: 100vh;
+    width: auto;
+    @extend .form-container;
+    background-image: linear-gradient(to bottom, $menu-red, $form-orange, $menu-yellow, $basic-white-color);
+}
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.mi--form {
+    @extend .form-container;
+    height: 40rem;
+    width: 35rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    color: $secondary-color;
+    background-color: $primary-color;
+    box-shadow: 0.5rem 0.7rem 2.6rem $primary-color;
+}
+.sus {
+    font-family: $primaryFamily;
+    font-size: $h4-title-forms;
+    color: $basic-white-color;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.between-control {
+    @extend .form-container;
+}
+.control {
+    color: $primary-color;
+    font-family: $primaryFamily;
+    width: 24rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    background-color: $light-blue;
+    border-radius: 0.2rem;
+    border: 0.1rem solid $secondary-color;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+}
+.terms-form-cond {
+    font-family: $secondaryFamily;
+    color: $basic-white-color;
+    font-size: $h5-terms;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.terms-form-cond  a {
+    font-family: "Rubik", sans-serif;
+    color: $basic-white-color;
+    font-size: $h5-terms;
+    text-decoration: none;
+}
+.terms-form-cond a:hover {
+    color: $secondary-color;
+}
+.terms-form {
+    font-family: $secondaryFamily;
+    color: $basic-white-color;
+    font-size: $h5-terms;
+    margin-top: 1rem;
+    text-align: center;
+}
+.terms-form a {
+    font-family: "Rubik", sans-serif;
+    color: $basic-white-color;
+    font-size: $h5-terms;
+    text-decoration: none;
+}
+.boton {
+    width: 15rem;
+    height: 2.8rem;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    font-size: 1rem;
+    justify-content: center;
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 0.2rem;
+    color: $primary-color;
+    text-align: center;
+}
+.mi--form a .boton:hover {
+    color: $basic-white-color;
+    cursor: pointer;
+}
+.terms-form a:hover {
+    color: $secondary-color;
+}
+.mi--form p a:hover {
+    color: $secondary-color;
+    cursor: pointer;
+}
+
+
