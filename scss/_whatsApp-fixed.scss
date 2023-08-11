@@ -1,0 +1,25 @@
+.wa-cont {
+    position: fixed;
+    transform: scale(0.9); 
+    bottom: 4rem;
+    right: 5rem;
+    z-index: 9;
+}
+
+.wa-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wa-bottom {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0.3rem groove #062339;
+    transition: width 0.15s, height 0.15s;
+}
+
+.wa-cont:hover .wa-bottom {
+    width: 3.3rem;
+    height: 3.3rem;
+}

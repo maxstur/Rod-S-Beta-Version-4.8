@@ -1,7 +1,10 @@
 .sign-Up {
     height: 100vh;
     width: auto;
-    @extend .form-container;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(to bottom, $menu-red, $form-orange, $menu-yellow, $basic-white-color);
 }
 .form-container {
@@ -74,7 +77,7 @@
     text-decoration: none;
 }
 .boton {
-    width: 15rem;
+    width: 13.75rem;
     height: 2.8rem;
     font-family: 'Cinzel', serif;
     text-decoration: none;
@@ -97,5 +100,3 @@
     color: $secondary-color;
     cursor: pointer;
 }
-
-

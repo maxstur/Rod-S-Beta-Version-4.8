@@ -1,0 +1,73 @@
+
+.fone {
+    width: 100%;
+    height: 150vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom, $menu-yellow, $menu-red);
+}
+  
+.container {
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 100%;
+}
+  
+.red-yellow {
+    text-align: center;
+    margin-top: 12rem;
+}
+  
+.utop {
+    font-family: $primaryFamily;
+    font-size: 0.7rem;
+    color: $basic-white-color;
+    text-shadow: 1px 2px 2px $basic-shadow;
+}
+  
+.top {
+    font-family: $primaryFamily;
+    color: $primary-color;
+    font-size: $h1-top;
+}
+  
+.ttop {
+    color: $primary-color;
+    font-family: 'Rubik', sans-serif;
+}
+
+.tm-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    transition: transform 0.3s;
+    position: absolute;
+    width: 100%;
+    margin-top: 40rem;
+    z-index: 1;
+}
+
+.tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 100px;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.tm-slide img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.tm-slide:after {
+    position: absolute;
+}
+
+.tm-slide:hover{
+    transform: scale(1.2);
+}
