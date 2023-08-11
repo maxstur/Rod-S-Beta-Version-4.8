@@ -366,6 +366,11 @@
         color: $secondary-color;
         cursor: pointer;
     }
+    .footer__last--text{
+        margin-bottom: 4rem;
+        font-family: "Cinzel";
+        color: $basic-white-color;
+    }
 }
 @media screen and (max-width: 1800px) {
     .fone {
@@ -620,6 +625,11 @@
     .rights p a:hover {
         color: #03aefd;
         cursor: pointer;
+    }
+    .footer__last--text{
+        margin-bottom: 4rem;
+        font-family: "Cinzel";
+        color: $basic-white-color;
     }
 }
 
@@ -1966,6 +1976,7 @@
         font-size: 0.9rem;
         color: #03aefd;
     }
+
 }
 @media screen and (max-width: 375px){
     header {
@@ -2478,6 +2489,7 @@
     }
     .footer__last--text{
         margin-bottom: 4rem;
+        color: $basic-white-color;
     }
 }
 @media screen and (max-width: 336px){
@@ -2989,5 +3001,6 @@
     .footer__last--text{
         margin-bottom: 4rem;
         font-family: "Cinzel";
+        color: $basic-white-color;
     }
 }
