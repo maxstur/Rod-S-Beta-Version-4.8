@@ -357,12 +357,12 @@
         font-size: 0.7rem;
     }
     
-    .rights .text {
+    .rights .footer__last--text {
         font-family: "cinzel";
         font-size: 0.7rem;
     }
     
-    .rights p a:hover {
+    .rights p .footer__last--text:hover {
         color: $secondary-color;
         cursor: pointer;
     }
@@ -607,12 +607,12 @@
         font-family: "cinzel";
     }
     
-    .rights a {
+    .rights .footer__last--text {
         font-family: "cinzel";
         font-size: 0.7rem;
     }
     
-    .rights .text {
+    .rights .footer__last--text {
         font-family: "cinzel";
         font-size: 0.7rem;
     }
@@ -2476,7 +2476,7 @@
         width: 16rem;
         margin-top: 1rem;
     }
-    .text{
+    .footer__last--text{
         margin-bottom: 4rem;
     }
 }
@@ -2598,7 +2598,7 @@
         display: block;
     }
     .fone {
-        height: 70rem;
+        height: 78rem;
     }
     .red-yellow{
         margin-top: 5rem;
@@ -2619,7 +2619,7 @@
         font-family: "Rubik";
     }
     .tm-wrapper{
-        margin-top: 33rem;
+        margin-top: 38rem;
     }
     .tm-slide {
         justify-content: center;
@@ -2721,6 +2721,7 @@
         margin-bottom: 10rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-bottom: 20rem;
     }
     .w-text-title {
         font-family: "cinzel";
@@ -2787,7 +2788,7 @@
         justify-content: space-evenly;
         align-items: center;
         z-index: 5;
-        margin-bottom: 8rem;
+        margin-bottom: 10rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -2865,7 +2866,7 @@
         margin-right: 1rem;
     }
     .content-text-straw {
-        height: 60vh;
+        height: 70vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2903,8 +2904,8 @@
         margin-bottom: 1.7rem;
     }
     .mi--form {
-        height: 25rem;
-        width: 15rem;
+        height: 35rem;
+        width: 17rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
@@ -2985,7 +2986,7 @@
         width: 16rem;
         margin-top: 1rem;
     }
-    .text{
+    .footer__last--text{
         margin-bottom: 4rem;
         font-family: "Cinzel";
     }

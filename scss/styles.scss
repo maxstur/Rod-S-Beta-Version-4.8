@@ -11,7 +11,7 @@
 @import 'footer';
 @import 'mediasQueries';
 @import 'animations';
-
+@import 'suscriptions';
 
 
 
@@ -90,13 +90,13 @@
 }
 
 .card {
-    width: 18.2rem;
+    width: 17.2rem;
     margin: 0 0.5rem 0.8rem;
     border:0.1rem solid #dddddd;
     border-radius: 0.3rem;
 }
 .card img{
-    width: 18rem;
+    width: 17rem;
     height: auto;  
 }
 .card-title {
@@ -136,6 +136,7 @@
 
 .varios--ads{
     text-align: center;
+    margin-bottom: 3rem;
 }
 .video--ad {
     max-width: 100%;
@@ -169,8 +170,6 @@
   }
 }
 
-
-
 .all__articles {
     width: 63%;
     margin: 5rem auto; 
@@ -194,7 +193,6 @@
     width: 15rem;
     background-color: $menu-red;
     text-shadow: -0.1rem 0.1rem 0.1rem $basic-white-color;
-    
 }
 .haute__container--videos{
     width: 62rem;
@@ -211,6 +209,7 @@
 }
 .haute__text {
     font-family: $secondaryFamily;
+    font-weight: normal;
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 3rem;
@@ -219,15 +218,73 @@
 
 
 
-
-
-
-
 .frameworks{
-    
     flex-flow: row wrap;
     justify-content: center;
     text-align: center;
+}
+
+
+
+.still__working{
+    height: 60vh;
+}
+.animations {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.animations-text {
+    font-family: $sus-Font;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+.construction-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: $menu-red;
+    border-radius: 50%;
+    position: relative;
+    animation: blink 1s ease-in-out infinite;
+}
+.construction__inside--red {
+    font-size: 1rem;
+    color: $basic-white-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+p {
+    font-family: $animations-Font;
+    color: $primary-color;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+.construction--ref{
+    font-family: $animations-Font;
+    font-weight: normal;
+    color: $primary-color;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.construction--ref:hover {
+    width: auto;
+    color: $basic-white-color;
+    background-color: $primary-color;
+}
+@media screen and (max-width: 1329px) {
+    
 }
 
 

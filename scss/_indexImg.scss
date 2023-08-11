@@ -66,11 +66,10 @@
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 5rem;
+    margin-bottom: 17rem;
 }
 .wandw {
     @extend .container-ese-text;
-    margin-bottom: 5rem;
 }
 .content-text-ve {
     @extend .container-ese-text;
@@ -104,7 +103,9 @@
     color: $primary-color;
 }
 .video-editing-title {
-    @extend .title-text;
+    font-family: $primaryFamily;
+    font-weight: normal;
+    font-size: $h3-title-text;
     color: $maarashu-green;
 }
 .fly__text--title  {
@@ -125,7 +126,7 @@
     font-size: 1.1rem;
     background-color: $heraldic-BG-color;
     border-radius: 0.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .column-two {
     @extend .cur--text;

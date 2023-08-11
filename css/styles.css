@@ -271,11 +271,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   z-index: 5;
-  margin-bottom: 5rem;
-}
-
-.wandw {
-  margin-bottom: 5rem;
+  margin-bottom: 17rem;
 }
 
 .content-text-ve {
@@ -298,7 +294,7 @@ header {
   margin-bottom: 20rem;
 }
 
-.title-text, .title-text-straw, .fly__text--title, .video-editing-title, .w-text-title {
+.title-text, .title-text-straw, .fly__text--title, .w-text-title {
   font-family: "Cinzel", serif;
   font-weight: normal;
   font-size: 1.8rem;
@@ -311,6 +307,9 @@ header {
 }
 
 .video-editing-title {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
   color: #1ffb02;
 }
 
@@ -331,7 +330,7 @@ header {
   font-size: 1.1rem;
   background-color: rgba(250, 233, 166, 0.4196078431);
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .w-text {
@@ -1252,11 +1251,11 @@ a {
     font-family: "cinzel";
     font-size: 0.7rem;
   }
-  .rights .text {
+  .rights .footer__last--text {
     font-family: "cinzel";
     font-size: 0.7rem;
   }
-  .rights p a:hover {
+  .rights p .footer__last--text:hover {
     color: #03aefd;
     cursor: pointer;
   }
@@ -1476,11 +1475,11 @@ a {
     color: white;
     font-family: "cinzel";
   }
-  .rights a {
+  .rights .footer__last--text {
     font-family: "cinzel";
     font-size: 0.7rem;
   }
-  .rights .text {
+  .rights .footer__last--text {
     font-family: "cinzel";
     font-size: 0.7rem;
   }
@@ -2071,7 +2070,7 @@ a {
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     height: 117vh;
   }
-  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+  .title-text, .w-text-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
@@ -2473,7 +2472,7 @@ a {
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     height: 117vh;
   }
-  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+  .title-text, .w-text-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
@@ -2972,7 +2971,7 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+  .title-text, .w-text-title, .fly__text--title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.7rem;
@@ -3285,7 +3284,7 @@ a {
     width: 16rem;
     margin-top: 1rem;
   }
-  .text {
+  .footer__last--text {
     margin-bottom: 4rem;
   }
 }
@@ -3404,7 +3403,7 @@ a {
     display: block;
   }
   .fone {
-    height: 70rem;
+    height: 78rem;
   }
   .red-yellow {
     margin-top: 5rem;
@@ -3425,7 +3424,7 @@ a {
     font-family: "Rubik";
   }
   .tm-wrapper {
-    margin-top: 33rem;
+    margin-top: 38rem;
   }
   .tm-slide {
     justify-content: center;
@@ -3479,7 +3478,7 @@ a {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+  .title-text, .w-text-title, .fly__text--title, .title-text-straw {
     font-family: "Cinzel";
     font-weight: normal;
     font-size: 1.7rem;
@@ -3526,6 +3525,7 @@ a {
     margin-bottom: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 20rem;
   }
   .w-text-title {
     font-family: "cinzel";
@@ -3592,7 +3592,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -3670,7 +3670,7 @@ a {
     margin-right: 1rem;
   }
   .content-text-straw {
-    height: 60vh;
+    height: 70vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3708,8 +3708,8 @@ a {
     margin-bottom: 1.7rem;
   }
   .mi--form {
-    height: 25rem;
-    width: 15rem;
+    height: 35rem;
+    width: 17rem;
     border-radius: 0.3rem;
     margin-top: 0rem;
     font-family: "Rubik";
@@ -3790,97 +3790,177 @@ a {
     width: 16rem;
     margin-top: 1rem;
   }
-  .text {
+  .footer__last--text {
     margin-bottom: 4rem;
     font-family: "Cinzel";
   }
 }
-.animations__gif {
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-top: 8rem;
-  margin-bottom: 1rem;
-  justify-content: center;
-  align-items: center;
-  padding: 0.3rem;
+@media screen and (min-width: 426px) {
+  .animations__gif {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+  }
+  .h2__title {
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    color: #0d2337;
+  }
+  .principal__section {
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .principal__section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gif__item {
+    width: 25rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #a2a1a1;
+  }
+  .logo__rods--dynamic {
+    padding: 1.5rem;
+  }
+  .gif__item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .gif__item--title {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .gif__item-description {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.05rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  .gif__item-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0d2337;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .gif__item-button:hover {
+    color: #0d2337;
+    background-color: #f07022;
+  }
 }
-
-.h2__title {
-  font-family: "Cinzel", serif;
-  font-size: 2.4rem;
-  color: #0d2337;
+@media screen and (max-width: 425px) {
+  .animations__gif {
+    width: 90%;
+  }
+  .gif__item {
+    width: 17rem;
+    margin: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #a2a1a1;
+  }
+  .logo__rods--dynamic {
+    padding: 0.5rem;
+  }
+  .gif__item img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .gif__item--title {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .gif__item-description {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.05rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  .gif__item-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0d2337;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .gif__item-button:hover {
+    color: #0d2337;
+    background-color: #f07022;
+  }
 }
-
-.principal__section {
-  height: auto;
-  margin-top: 1rem;
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.principal__section-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.gif__item {
-  width: 25rem;
-  margin: 1rem;
-  margin-top: 3rem;
+.suscribe {
+  height: 100vh;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px #a2a1a1;
 }
 
-.logo__rods--dynamic {
-  padding: 1.5rem;
-}
-
-.gif__item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.gif__item--title {
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-.gif__item-description {
+.suscribe__title {
   font-family: "Rubik", sans-serif;
-  font-size: 1.05rem;
-  color: #777;
-  margin-top: 0.5rem;
+  font-size: 2.6rem;
+  font-weight: 500;
 }
 
-.gif__item-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #0d2337;
-  color: #F5F5F5;
-  font-family: "Cinzel", serif;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.gif__item-button:hover {
+.contact-info {
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #0d2337;
-  background-color: #f07022;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.suscribe__ref {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: normal;
+  color: #0d2337;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.suscribe__ref:hover {
+  width: auto;
+  color: #F5F5F5;
+  background-color: #0d2337;
 }
 
 /*Para página lern-with*/
@@ -3966,14 +4046,14 @@ a {
 }
 
 .card {
-  width: 18.2rem;
+  width: 17.2rem;
   margin: 0 0.5rem 0.8rem;
   border: 0.1rem solid #dddddd;
   border-radius: 0.3rem;
 }
 
 .card img {
-  width: 18rem;
+  width: 17rem;
   height: auto;
 }
 
@@ -4017,6 +4097,7 @@ a {
 
 .varios--ads {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .video--ad {
@@ -4093,6 +4174,7 @@ a {
 
 .haute__text {
   font-family: "Rubik", sans-serif;
+  font-weight: normal;
   text-align: justify;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -4102,6 +4184,71 @@ a {
   flex-flow: row wrap;
   justify-content: center;
   text-align: center;
+}
+
+.still__working {
+  height: 60vh;
+}
+
+.animations {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.animations-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.construction-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #ea0946;
+  border-radius: 50%;
+  position: relative;
+  animation: blink 1s ease-in-out infinite;
+}
+
+.construction__inside--red {
+  font-size: 1rem;
+  color: #F5F5F5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #0d2337;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.construction--ref {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: normal;
+  color: #0d2337;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.construction--ref:hover {
+  width: auto;
+  color: #F5F5F5;
+  background-color: #0d2337;
 }
 
 /*# sourceMappingURL=styles.css.map */
