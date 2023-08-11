@@ -124,6 +124,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin-bottom: 4rem;
 }
 .section__cards--row {
     width: 100%;
@@ -141,32 +142,79 @@
     height: auto;
 }
 
+.linea-horizontal {
+  width: 100%;
+  height: 1rem;
+  background-color: $primary-color;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+  
+.movimiento {
+  width: 100%;
+  height: 100%;
+  background-color: $menu-red;
+  animation: movimiento 50s linear infinite; 
+}
+  
+@keyframes movimiento {
+  0%, 100% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 
 
 .all__articles {
-    width: 75%;
-    margin: 0 auto; 
+    width: 63%;
+    margin: 5rem auto; 
+
 }
-.articles__display {
+.haute__container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
-    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-family: $primaryFamily;
+    margin-top: 2rem;
 }
-
-.haute-container {
+.titulo--haute {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    background-color: $primary-color;
-    padding: 1rem 0; 
+    align-items: center;
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 15rem;
+    background-color: $menu-red;
+    text-shadow: -0.1rem 0.1rem 0.1rem $basic-white-color;
+    
 }
-
+.haute__container--videos{
+    width: 62rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: $primary-color;
+}
 .video-haute {
+    justify-content: center;
     width: 30rem;
     height: 15rem;
-    margin: 0.5rem; /* Add margin for spacing */
+    margin: 0.5rem auto;
+}
+.haute__text {
+    font-family: $secondaryFamily;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
 }
 
 
@@ -181,4 +229,6 @@
     justify-content: center;
     text-align: center;
 }
+
+
 
