@@ -92,25 +92,24 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
 }
 .rights {
     color: $basic-white-color;
-    font-family: "cinzel";
+    font-family: $primaryFamily;
 }
-
-.rights a {
+.footer__last--copyright {
     color: $basic-white-color;
     text-decoration: none;
-    font-family: "cinzel";
+    font-family: $primaryFamily;
     font-size: 0.7rem;
 }
-
-.rights .text {
-    font-family: "cinzel";
-    font-size: 0.7rem;
-}
-
-.rights p a:hover {
+.footer__last--copyright:hover {
     color: $secondary-color;
     cursor: pointer;
+}
+.footer__last--text {
+    font-family: $primaryFamily;
+    font-size: 0.7rem;
+    color: $basic-white-color;
 }

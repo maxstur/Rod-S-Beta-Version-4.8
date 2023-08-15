@@ -109,7 +109,9 @@
     color: $maarashu-green;
 }
 .fly__text--title  {
-    @extend .title-text;
+    font-family: $primaryFamily;
+    font-weight: normal;
+    font-size: $h3-title-text;
     color: $middle-orange;
 }
 .title-text-straw {

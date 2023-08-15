@@ -345,32 +345,28 @@
         justify-content: center;
         align-items: center;
     }
-    
     .rights {
         text-decoration: none;
         color: $basic-white-color;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
     }
-    
-    .rights a {
-        font-family: "cinzel";
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
         font-size: 0.7rem;
     }
-    
-    .rights .footer__last--text {
-        font-family: "cinzel";
-        font-size: 0.7rem;
-    }
-    
-    .rights p .footer__last--text:hover {
+    .footer__last--copyright:hover {
         color: $secondary-color;
         cursor: pointer;
     }
-    .footer__last--text{
-        margin-bottom: 4rem;
-        font-family: "Cinzel";
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
         color: $basic-white-color;
+        margin-bottom: 4rem;
     }
+    
 }
 @media screen and (max-width: 1800px) {
     .fone {
@@ -605,31 +601,26 @@
         justify-content: center;
         align-items: center;
     }
-    
     .rights {
         text-decoration: none;
         color: white;
         font-family: "cinzel";
     }
-    
-    .rights .footer__last--text {
-        font-family: "cinzel";
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
         font-size: 0.7rem;
     }
-    
-    .rights .footer__last--text {
-        font-family: "cinzel";
-        font-size: 0.7rem;
-    }
-    
-    .rights p a:hover {
-        color: #03aefd;
+    .footer__last--copyright:hover {
+        color: $secondary-color;
         cursor: pointer;
     }
-    .footer__last--text{
-        margin-bottom: 4rem;
-        font-family: "Cinzel";
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
         color: $basic-white-color;
+        margin-bottom: 4rem;
     }
 }
 
@@ -852,26 +843,26 @@
         justify-content: center;
         align-items: center;
     }
-    
     .rights {
         text-decoration: none;
         color: white;
         font-family: "cinzel";
     }
-    
-    .rights a {
-        font-family: "cinzel";
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
         font-size: 0.7rem;
     }
-    
-    .rights .text {
-        font-family: "cinzel";
-        font-size: 0.7rem;
-    }
-    
-    .rights p a:hover {
-        color: #03aefd;
+    .footer__last--copyright:hover {
+        color: $secondary-color;
         cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-bottom: 4rem;
     }
 }
 
@@ -1075,6 +1066,7 @@
         font-size: 0.9rem;
         color: #03aefd;
     }
+    
 }
 @media screen and (max-width: 599px) {
 
@@ -1485,6 +1477,7 @@
         font-size: 0.9rem;
         color: #03aefd;
     }
+    
 }
 
 @media screen and (max-width: 425px){
@@ -1976,7 +1969,7 @@
         font-size: 0.9rem;
         color: #03aefd;
     }
-
+    
 }
 @media screen and (max-width: 375px){
     header {
@@ -2112,8 +2105,8 @@
         font-size: 2rem;
     }
     .ttop {
-    color: #062339;
-    font-family: "Rubik";
+        color: #062339;
+        font-family: "Rubik";
     }
     .tm-wrapper{
         margin-top: 33rem;
@@ -2487,10 +2480,7 @@
         width: 16rem;
         margin-top: 1rem;
     }
-    .footer__last--text{
-        margin-bottom: 4rem;
-        color: $basic-white-color;
-    }
+    
 }
 @media screen and (max-width: 336px){
     header {
@@ -2665,10 +2655,10 @@
         justify-content: space-evenly;
     }
     .cur--title  {
-        width: 34rem;
+        width: auto;
         font-family: "Cinzel";
         font-weight: normal;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         margin-top: 5rem;
         margin-bottom: 1rem;
         color: #0d2337;
@@ -2689,7 +2679,7 @@
     .title-text {
         font-family: "Cinzel";
         font-weight: normal;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         color: #103357;
         z-index: 6;
     }
@@ -2712,10 +2702,10 @@
         justify-content: space-evenly;
     }
     .ww-title {
-        width: 34rem;
+        width: auto;
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         margin-top: 4rem;
         margin-bottom: 1rem;
         color: #0d2337;
@@ -2738,7 +2728,7 @@
     .w-text-title {
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         color: #103357;
         z-index: 6;
     }
@@ -2778,20 +2768,16 @@
         justify-content: space-evenly;
     }
     .ve-title {
-        width: 34rem;
+        width: auto;
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
         color: #32d705;
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .video-editing{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-    }
+
     .content-text-ve {
         height: 60vh;
         width: auto;
@@ -2803,6 +2789,12 @@
         margin-bottom: 10rem;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .video-editing-title {
+        font-family: $primaryFamily;
+        font-weight: normal;
+        font-size: 1.6rem;
+        color: $maarashu-green;
     }
     .ve-text {
         padding: 1rem;
@@ -2820,11 +2812,16 @@
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
+    .fw {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .fw-title {
-        width: 34rem;
+        width: auto;
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         margin-top: 1rem;
         color: #fa6103;
         margin-left: 1rem;
@@ -2841,6 +2838,12 @@
         margin-bottom: 5rem;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .fly__text--title  {
+        font-family: $primaryFamily;
+        font-weight: normal;
+        font-size: 1.6rem;
+        color: $middle-orange;
     }
     .fw-text {
         padding: 1rem;
@@ -2868,10 +2871,10 @@
         justify-content: space-evenly;
     }
     .strawberry-title {
-        width: 34rem;
+        width: auto;
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         margin-top: 20rem;
         color: #ee1515;
         margin-left: 1rem;
@@ -2890,7 +2893,7 @@
     .title-text-straw {
         font-family: "cinzel";
         font-weight: normal;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         color: #ee1515;
         z-index: 6;
     }
@@ -2997,10 +3000,5 @@
         margin-right: 0rem;
         width: 16rem;
         margin-top: 1rem;
-    }
-    .footer__last--text{
-        margin-bottom: 4rem;
-        font-family: "Cinzel";
-        color: $basic-white-color;
     }
 }
