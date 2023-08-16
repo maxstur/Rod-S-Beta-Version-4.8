@@ -1242,6 +1242,7 @@ a {
   }
   .inf--part {
     height: 5rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1293,6 +1294,16 @@ a {
   .wa-cont:hover .wa-bottom {
     width: 3.3rem;
     height: 3.3rem;
+  }
+  .content-text-straw {
+    width: auto;
+    height: 30rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
   }
   .sign-Up {
     height: 110vh;
@@ -1401,7 +1412,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 30rem;
+    height: 23rem;
     width: 100%;
     margin-bottom: 0.5rem;
     padding: 2rem;
@@ -1473,7 +1484,9 @@ a {
     cursor: pointer;
   }
   .inf--part {
-    height: 5rem;
+    height: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1500,6 +1513,77 @@ a {
     margin-bottom: 4rem;
   }
 }
+@media screen and (max-width: 1441px) {
+  .fone {
+    height: 70rem;
+  }
+  .red-yellow {
+    margin-top: 12rem;
+  }
+  .utop {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+    color: #fffefe;
+    text-shadow: 1px 2px 2px #a2a1a1;
+  }
+  .top {
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 2rem;
+  }
+  .ttop {
+    color: #062339;
+    font-family: "Rubik";
+  }
+  .tm-wrapper {
+    margin-top: 33rem;
+    padding: 1rem;
+  }
+  .tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .content-text-ve {
+    margin-bottom: 17rem;
+  }
+  .content-text-straw {
+    margin-bottom: 17rem;
+  }
+  .inf--part {
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rights {
+    text-decoration: none;
+    color: white;
+    font-family: "cinzel";
+  }
+  .footer__last--copyright {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: "Cinzel", serif;
+    font-size: 0.7rem;
+  }
+  .footer__last--copyright:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .footer__last--text {
+    font-family: "Cinzel", serif;
+    font-size: 0.7rem;
+    color: #F5F5F5;
+    margin-bottom: 1rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   .tm-wrapper {
     margin-left: 4rem;
@@ -1511,6 +1595,16 @@ a {
     bottom: 15rem;
     right: 4rem;
     z-index: 9;
+  }
+  .content-text-straw {
+    width: auto;
+    height: 30rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
   }
   .sign-Up {
     height: 100vh;
@@ -1692,6 +1786,7 @@ a {
   }
   .inf--part {
     height: 5rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1832,38 +1927,38 @@ a {
     z-index: 9;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .im-wedd {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .folt-im {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .fly-img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .shoot-img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .mi--form {
-    height: 30rem;
-    width: 25rem;
+    height: 40rem;
+    width: 30rem;
     border-radius: 0.3rem;
     margin-top: 0rem;
     font-family: "Rubik";
@@ -1905,7 +2000,7 @@ a {
     padding-left: 2rem;
   }
   .inf--part {
-    margin-top: 4rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2035,8 +2130,11 @@ a {
     color: #062339;
     font-size: 2rem;
   }
+  .ttop {
+    font-size: 0.8rem;
+  }
   .tm-wrapper {
-    margin-top: 33rem;
+    margin-top: 30rem;
   }
   .tm-slide {
     justify-content: center;
@@ -2128,8 +2226,6 @@ a {
     align-items: center;
     z-index: 5;
     margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .w-text-title {
     font-family: "cinzel";
@@ -2316,6 +2412,17 @@ a {
     font-size: 0.9rem;
     color: #03aefd;
   }
+  .inf--part {
+    height: 8rem;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mi--form {
+    height: 38rem;
+    width: 23rem;
+  }
 }
 @media screen and (max-width: 425px) {
   header {
@@ -2427,7 +2534,7 @@ a {
     display: block;
   }
   .fone {
-    height: 60rem;
+    height: 65rem;
   }
   .red-yellow {
     margin-top: 7rem;
@@ -2438,7 +2545,7 @@ a {
     font-size: 2rem;
   }
   .tm-wrapper {
-    margin-top: 33rem;
+    margin-top: 28rem;
   }
   .tm-slide {
     justify-content: center;
@@ -2719,8 +2826,8 @@ a {
     margin-bottom: 1.7rem;
   }
   .mi--form {
-    height: 25rem;
-    width: 15rem;
+    height: 35rem;
+    width: 20rem;
     border-radius: 0.3rem;
     margin-top: 0rem;
     font-family: "Rubik";
@@ -2772,7 +2879,7 @@ a {
     font-size: 0.8rem;
   }
   .sup--part {
-    height: 47rem;
+    height: 40rem;
   }
   .logo-cont {
     width: 25rem;
@@ -2933,7 +3040,7 @@ a {
     font-family: "Rubik";
   }
   .tm-wrapper {
-    margin-top: 33rem;
+    margin-top: 28rem;
   }
   .tm-slide {
     justify-content: center;
@@ -3218,8 +3325,8 @@ a {
     margin-bottom: 1.7rem;
   }
   .mi--form {
-    height: 25rem;
-    width: 15rem;
+    height: 35rem;
+    width: 18rem;
     border-radius: 0.3rem;
     margin-top: 0rem;
     font-family: "Rubik";
@@ -3270,7 +3377,7 @@ a {
     font-size: 1rem;
   }
   .sup--part {
-    height: 53rem;
+    height: 48rem;
   }
   .logo-cont {
     width: 25rem;
@@ -3299,6 +3406,9 @@ a {
     margin-right: 0rem;
     width: 16rem;
     margin-top: 1rem;
+  }
+  .inf--part {
+    height: 2rem;
   }
 }
 @media screen and (max-width: 336px) {
@@ -3416,19 +3526,19 @@ a {
     display: block;
   }
   .fone {
-    height: 78rem;
+    height: 68rem;
   }
   .red-yellow {
     margin-top: 5rem;
   }
   .utop {
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     font-size: 0.7rem;
     color: #fffefe;
     text-shadow: 1px 2px 2px #a2a1a1;
   }
   .top {
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     color: #062339;
     font-size: 2rem;
   }
@@ -3437,18 +3547,16 @@ a {
     font-family: "Rubik";
   }
   .tm-wrapper {
-    margin-top: 38rem;
+    margin-top: 30rem;
   }
   .tm-slide {
     justify-content: center;
     width: 5rem;
     height: 5rem;
     display: flex;
-    padding: 1px;
+    padding: 0.5px;
     overflow: hidden;
     z-index: 6;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
   }
   .wa-cont {
     position: fixed;
@@ -3472,33 +3580,31 @@ a {
   }
   .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
     width: auto;
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
   }
   .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     width: auto;
-    height: 146vh;
+    height: 105vh;
     font-size: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .title-text, .w-text-title, .title-text-straw {
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.6rem;
     color: #103357;
     z-index: 6;
   }
   .cur--text .column-two, .column-two .column-two {
+    width: auto;
     font-size: 1rem;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
@@ -3518,38 +3624,33 @@ a {
   }
   .ww-title {
     width: auto;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
     color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
   }
   .wandw {
-    height: 140vh;
+    height: 113vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
     z-index: 5;
     margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 20rem;
   }
   .w-text-title {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.6rem;
     color: #103357;
     z-index: 6;
   }
   .w-text {
-    width: 30rem;
-    padding: 15px;
+    width: auto;
+    padding: 1rem;
     font-family: "Rubik";
     font-size: 1rem;
     color: #ea0946;
@@ -3559,7 +3660,7 @@ a {
   }
   .ww-text {
     padding: 1rem;
-    width: 30rem;
+    width: auto;
     font-family: "Rubik";
     font-size: 1rem;
     color: #ea0946;
@@ -3574,7 +3675,7 @@ a {
     margin-bottom: 1rem;
   }
   .folt {
-    height: 90vh;
+    height: 60vh;
     width: auto;
   }
   .ve-ft {
@@ -3584,13 +3685,12 @@ a {
   }
   .ve-title {
     width: auto;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 1rem;
     color: #32d705;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
   }
   .content-text-ve {
     height: 60vh;
@@ -3600,9 +3700,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 2rem;
   }
   .video-editing-title {
     font-family: "Cinzel", serif;
@@ -3612,13 +3710,13 @@ a {
   }
   .ve-text {
     padding: 1rem;
-    width: 50rem;
+    width: auto;
     font-family: "Rubik";
     font-size: 1rem;
     color: #1ffb02;
     background-color: rgba(8, 115, 4, 0.7960784314);
     border-radius: 8px;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
   }
   .folt-im {
     width: 70%;
@@ -3633,25 +3731,22 @@ a {
   }
   .fw-title {
     width: auto;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 1rem;
     color: #fa6103;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
   }
   .content-fly-text {
-    height: 60vh;
+    height: 51vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 1rem;
   }
   .fly__text--title {
     font-family: "Cinzel", serif;
@@ -3661,7 +3756,7 @@ a {
   }
   .fw-text {
     padding: 1rem;
-    width: 50rem;
+    width: auto;
     font-family: "Rubik";
     font-size: 1rem;
     color: #fa6103;
@@ -3686,16 +3781,15 @@ a {
   }
   .strawberry-title {
     width: auto;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 20rem;
     color: #ee1515;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
   }
   .content-text-straw {
-    height: 70vh;
+    height: 60vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3705,22 +3799,19 @@ a {
     margin-bottom: 12rem;
   }
   .title-text-straw {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.6rem;
     color: #ee1515;
     z-index: 6;
   }
   .strawberry-text {
-    padding: 1rem;
-    width: 50rem;
+    width: auto;
     font-family: "Rubik";
     font-size: 1rem;
     color: #021600;
     background-color: #fcdede;
     border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .shoot-img {
     width: 70%;
@@ -3734,7 +3825,7 @@ a {
   }
   .mi--form {
     height: 35rem;
-    width: 17rem;
+    width: 18rem;
     border-radius: 0.3rem;
     margin-top: 0rem;
     font-family: "Rubik";
@@ -3746,7 +3837,7 @@ a {
     box-shadow: 0.5rem 0.7rem 2.6rem #062339;
   }
   .sus {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 1.2rem;
     text-align: center;
     color: white;
@@ -3775,7 +3866,7 @@ a {
     background-color: #03aefd;
     border: none;
     border-radius: 0.2rem;
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     color: #062339;
     font-size: 0.8rem;
     text-align: center;
@@ -3785,7 +3876,7 @@ a {
     font-size: 1rem;
   }
   .sup--part {
-    height: 53rem;
+    height: 45rem;
   }
   .logo-cont {
     width: 25rem;
@@ -3814,6 +3905,9 @@ a {
     margin-right: 0rem;
     width: 16rem;
     margin-top: 1rem;
+  }
+  .inf--part {
+    height: 2rem;
   }
 }
 .display--learn {

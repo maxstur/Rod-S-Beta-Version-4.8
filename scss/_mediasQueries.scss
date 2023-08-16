@@ -159,7 +159,6 @@
         height: 60rem;
     }
     
-
     .form-container {
         display: flex;
         justify-content: center;
@@ -338,9 +337,9 @@
         color: $secondary-color;
         cursor: pointer;
     }
-    
     .inf--part {
         height: 5rem;
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -395,6 +394,16 @@
     .wa-cont:hover .wa-bottom {
         width: 3.3rem;
         height: 3.3rem;
+    }
+    .content-text-straw {
+        width: auto;
+        height: 30rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
     }
     .sign-Up {
         height: 110vh;
@@ -517,12 +526,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        height: 30rem;
+        height: 23rem;
         width: 100%;
         margin-bottom: 0.5rem;
         padding: 2rem;
     }
-    
     .logo-cont {
         width: 25rem;
         height: auto;
@@ -594,9 +602,10 @@
         color: #03aefd;
         cursor: pointer;
     }
-    
     .inf--part {
-        height: 5rem;
+        height: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 1.1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -623,6 +632,77 @@
         margin-bottom: 4rem;
     }
 }
+@media screen and (max-width: 1441px) {
+    .fone {
+        height: 70rem;
+    }
+    .red-yellow{
+        margin-top: 12rem;
+    }
+    .utop {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+        color: #fffefe;
+        text-shadow: 1px 2px 2px #a2a1a1;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 2rem;
+    }
+    .ttop {
+        color: #062339;
+        font-family: "Rubik";
+    }
+    .tm-wrapper{
+        margin-top: 33rem;
+        padding: 1rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right:0.5rem;
+    }
+    .content-text-ve {
+        margin-bottom: 17rem;
+    }
+    .content-text-straw {
+        margin-bottom: 17rem;
+    }
+    .inf--part {
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-bottom: 1rem;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .tm-wrapper{
@@ -635,6 +715,16 @@
         bottom: 15rem;
         right: 4rem;
         z-index: 9;
+    }
+    .content-text-straw {
+        width: auto;
+        height: 30rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
     }
     .sign-Up {
         height: 100vh;
@@ -839,6 +929,7 @@
     
     .inf--part {
         height: 5rem;
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -983,38 +1074,38 @@
         z-index: 9;
     }
     .cur--im {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
     .im-wedd {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
     .folt-im {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
     .fly-img {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
     .shoot-img {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
     .mi--form {
-        height: 30rem;
-        width: 25rem;
+        height: 40rem;
+        width: 30rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
@@ -1057,7 +1148,7 @@
         padding-left: 2rem; 
     }
     .inf--part {
-        margin-top: 4rem;
+        margin-top: 7rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1191,8 +1282,11 @@
         color: #062339;
         font-size: 2rem;
     }
+    .ttop {
+        font-size: 0.8rem;
+    }
     .tm-wrapper{
-        margin-top: 33rem;
+        margin-top: 30rem;
     }
     .tm-slide {
         justify-content: center;
@@ -1285,8 +1379,6 @@
         align-items: center;
         z-index: 5;
         margin-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .w-text-title {
         font-family: "cinzel";
@@ -1473,13 +1565,24 @@
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
+    
     .av--footer h6{
         font-size: 0.9rem;
         color: #03aefd;
     }
-    
+    .inf--part {
+        height: 8rem;
+        margin-top: 13rem;
+        margin-bottom: 1rem;
+    }
 }
-
+@media screen and (max-width: 500px) {
+    .mi--form {
+        height: 38rem;
+        width: 23rem;
+      
+    }
+}
 @media screen and (max-width: 425px){
     header {
         position: fixed;
@@ -1594,7 +1697,7 @@
     }
     
     .fone {
-        height: 60rem;
+        height: 65rem;
     }
     .red-yellow{
         margin-top: 7rem;
@@ -1605,7 +1708,7 @@
         font-size: 2rem;
     }
     .tm-wrapper{
-        margin-top: 33rem;
+        margin-top: 28rem;
     }
     .tm-slide {
         justify-content: center;
@@ -1891,8 +1994,8 @@
         margin-bottom: 1.7rem;
     }
     .mi--form {
-        height: 25rem;
-        width: 15rem;
+        height: 35rem;
+        width: 20rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
@@ -1944,7 +2047,7 @@
         font-size: 0.8rem;
     }
     .sup--part {
-        height: 47rem;
+        height: 40rem;
     }
     .logo-cont {
         width: 25rem;
@@ -2109,7 +2212,7 @@
         font-family: "Rubik";
     }
     .tm-wrapper{
-        margin-top: 33rem;
+        margin-top: 28rem;
     }
     .tm-slide {
         justify-content: center;
@@ -2398,8 +2501,8 @@
         margin-bottom: 1.7rem;
     }
     .mi--form {
-        height: 25rem;
-        width: 15rem;
+        height: 35rem;
+        width: 18rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
@@ -2450,7 +2553,7 @@
         font-size: 1rem;
     }
     .sup--part{
-        height: 53rem;
+        height: 48rem;
     }
     .logo-cont {
         width: 25rem;
@@ -2480,7 +2583,9 @@
         width: 16rem;
         margin-top: 1rem;
     }
-    
+    .inf--part {
+        height: 2rem;
+    }
 }
 @media screen and (max-width: 336px){
     header {
@@ -2600,19 +2705,19 @@
         display: block;
     }
     .fone {
-        height: 78rem;
+        height: 68rem;
     }
     .red-yellow{
         margin-top: 5rem;
     }
     .utop {
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         font-size: 0.7rem;
         color: #fffefe;
         text-shadow: 1px 2px 2px #a2a1a1;
     }
     .top {
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         color: #062339;
         font-size: 2rem;
     }
@@ -2621,18 +2726,16 @@
         font-family: "Rubik";
     }
     .tm-wrapper{
-        margin-top: 38rem;
+        margin-top: 30rem;
     }
     .tm-slide {
         justify-content: center;
         width: 5rem;
         height: 5rem;
         display: flex;
-        padding: 1px;
+        padding: 0.5px;
         overflow: hidden;
         z-index: 6;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
     }
     .wa-cont {
         position: fixed;
@@ -2656,34 +2759,32 @@
     }
     .cur--title  {
         width: auto;
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
         margin-bottom: 1rem;
         color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
     }
     .cur--title br {
         display: none;
     }
     .container-ese-text {
         width: auto;
-        height: 146vh;
+        height: 105vh;
         font-size: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .title-text {
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.6rem;
         color: #103357;
         z-index: 6;
     }
     .cur--text .column-two{
+        width: auto;
         font-size: 1rem;
     }
     .cur--im {
@@ -2703,38 +2804,33 @@
     }
     .ww-title {
         width: auto;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 4rem;
         margin-bottom: 1rem;
         color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
     }
     .wandw {
-        height: 140vh;
+        height: 113vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
-        align-items: center;
         z-index: 5;
         margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 20rem;
     }
     .w-text-title {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.6rem;
         color: #103357;
         z-index: 6;
     }
     .w-text {
-        width: 30rem;
-        padding: 15px;
+        width: auto;
+        padding: 1rem;
         font-family: "Rubik";
         font-size: 1rem;
         color: #ea0946;
@@ -2744,7 +2840,7 @@
     }
     .ww-text {
         padding: 1rem;
-        width: 30rem;
+        width: auto;
         font-family: "Rubik";
         font-size: 1rem;
         color: #ea0946;
@@ -2759,7 +2855,7 @@
         margin-bottom: 1rem;
     }
     .folt {
-        height: 90vh;
+        height: 60vh;
         width: auto;
     }
     .ve-ft {
@@ -2769,13 +2865,12 @@
     }
     .ve-title {
         width: auto;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 1rem;
         color: #32d705;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
     }
 
     .content-text-ve {
@@ -2786,9 +2881,7 @@
         justify-content: space-evenly;
         align-items: center;
         z-index: 5;
-        margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-bottom: 2rem;
     }
     .video-editing-title {
         font-family: $primaryFamily;
@@ -2798,13 +2891,13 @@
     }
     .ve-text {
         padding: 1rem;
-        width: 50rem;
+        width: auto;
         font-family: "Rubik";
         font-size: 1rem;
         color: #1ffb02;
         background-color: #087304cb;
         border-radius: 8px;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
     }
     .folt-im {
         width: 70%;
@@ -2819,25 +2912,22 @@
     }
     .fw-title {
         width: auto;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 1rem;
         color: #fa6103;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
     }
     .content-fly-text  {
-        height: 60vh;
+        height: 51vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
         z-index: 5;
-        margin-bottom: 5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-bottom: 1rem;
     }
     .fly__text--title  {
         font-family: $primaryFamily;
@@ -2847,7 +2937,7 @@
     }
     .fw-text {
         padding: 1rem;
-        width: 50rem;
+        width: auto;
         font-family: "Rubik";
         font-size: 1rem;
         color: #fa6103;
@@ -2872,16 +2962,15 @@
     }
     .strawberry-title {
         width: auto;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 20rem;
         color: #ee1515;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
     }
     .content-text-straw {
-        height: 70vh;
+        height: 60vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2891,22 +2980,19 @@
         margin-bottom: 12rem;
     }
     .title-text-straw {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.6rem;
         color: #ee1515;
         z-index: 6;
     }
     .strawberry-text {
-        padding: 1rem;
-        width: 50rem;
+        width: auto;
         font-family: "Rubik";
         font-size: 1rem;
         color: #021600;
         background-color: #fcdede;
         border-radius: 8px;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .shoot-img {
         width: 70%;
@@ -2920,7 +3006,7 @@
     }
     .mi--form {
         height: 35rem;
-        width: 17rem;
+        width: 18rem;
         border-radius: 0.3rem;
         margin-top: 0rem;
         font-family: "Rubik";
@@ -2932,7 +3018,7 @@
         box-shadow: 0.5rem 0.7rem 2.6rem #062339;
     }
     .sus {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 1.2rem;
         text-align: center;
         color: white;
@@ -2961,7 +3047,7 @@
         background-color: #03aefd;
         border: none;
         border-radius: 0.2rem;
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         color: #062339;
         font-size: 0.8rem;
         text-align: center;
@@ -2971,7 +3057,7 @@
         font-size: 1rem;
     }
     .sup--part{
-        height: 53rem;
+        height: 45rem;
     }
     .logo-cont {
         width: 25rem;
@@ -3000,5 +3086,8 @@
         margin-right: 0rem;
         width: 16rem;
         margin-top: 1rem;
+    }
+    .inf--part {
+        height: 2rem;
     }
 }
