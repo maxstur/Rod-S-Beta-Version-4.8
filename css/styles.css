@@ -1830,15 +1830,18 @@ a {
   }
   .hlog {
     z-index: 4;
-    height: 5rem;
-    margin-top: 0rem;
-    border-radius: 5rem;
+    height: 5.5rem;
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    border-radius: 4rem;
   }
   .hamburguer {
     align-items: center;
     color: #F5F5F5;
     width: 1rem;
     height: 1rem;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
   }
   .hamburguer ul li {
     list-style: none;
@@ -2010,6 +2013,26 @@ a {
     color: #03aefd;
   }
 }
+@media screen and (max-width: 633px) {
+  .hlog {
+    z-index: 4;
+    height: 5.5rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    border-radius: 4rem;
+  }
+  .hamburguer {
+    align-items: center;
+    color: #F5F5F5;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+  }
+  .menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 599px) {
   header {
     position: fixed;
@@ -2031,14 +2054,13 @@ a {
     margin-top: 0rem;
     border-radius: 5rem;
   }
-  .menu {
-    display: none;
-  }
   .hamburguer {
     align-items: center;
     color: #F5F5F5;
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
   }
   .hamburguer ul li {
     list-style: none;
@@ -4277,6 +4299,15 @@ p {
   }
 }
 @media screen and (max-width: 425px) {
+  .principal__section {
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   .animations__gif {
     width: 90%;
   }
