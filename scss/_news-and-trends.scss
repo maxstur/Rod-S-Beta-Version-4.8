@@ -1,4 +1,4 @@
-.display--learn {
+.news_and_trends__title {
     width: 100%;
     height: auto;
     display: flex;
@@ -11,7 +11,7 @@
 .h2__title--blue  {
     font-family: "Cinzel";
     font-size: 2.4rem;
-    color: #062339;
+    color: $primary-color;
 }
 .main__section {
     display: flex;
@@ -41,18 +41,18 @@
     margin-right: 0;
 }
 .topics__words li a {
-    color: #f5f5f5;
+    color: $basic-white-color;
     text-decoration: none;
-    font-family: "Rubik";
+    font-family: $secondaryFamily;
     font-size: 1rem;
     background-color: #969696;
     padding: 0.7rem;
     border-radius: 1.6rem;
 }
 .topics__words li a:hover {
-    color: #f5f5f5f5;
-    background-color: #0d2337;
-    border: 0.1rem solid #f5f5f5;
+    color: $basic-white-color;
+    background-color: $primary-color;
+    border: 0.1rem solid $basic-white-color;
 }
 .aside__index{
     margin-top: 2rem;
@@ -152,7 +152,6 @@
 .all__articles {
     width: 63%;
     margin: 5rem auto; 
-
 }
 .haute__container {
     display: flex;
@@ -160,27 +159,44 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: $primaryFamily;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
-.titulo--haute {
+
+.haute--title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
     margin-bottom: 3rem;
     height: 4rem;
     width: 15rem;
+    font-family: $primaryFamily;
+    font-size: 1.6rem;
+    color: $primary-color;
     background-color: $menu-red;
-    text-shadow: -0.1rem 0.1rem 0.1rem $basic-white-color;
+    text-shadow: -0.1rem 0.2rem 1rem $basic-white-color;
 }
-.haute__container--videos{
+.haute--title:hover  {
+    color: $basic-white-color;
+    text-decoration: none;
+    font-family: $secondaryFamily;
+    font-size: 1.3rem;
+    background-color: #969696;
+    text-shadow: 0rem 0rem 0rem;
+    border: 0.1rem solid $basic-white-color;
+    border-radius: 1.6rem;
+}
+.haute--title__back {
+    text-decoration: none;
+}
+.news_and_trends__container--videos{
     width: 62rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     background-color: $primary-color;
 }
-.video-haute {
+.news_and_trends__videos--format {
     justify-content: center;
     width: 30rem;
     height: 15rem;
@@ -192,9 +208,46 @@
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 3rem;
-
 }
-
+.tech__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+.tech--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 15rem;
+    font-family: $primaryFamily;
+    font-size: 1.6rem;
+    color: $primary-color;
+    background-color: $menu-red;
+    text-shadow: -0.1rem 0.2rem 1rem $basic-white-color;
+}
+.tech--title:hover {
+    color: $basic-white-color;
+    text-decoration: none;
+    font-family: $secondaryFamily;
+    font-size: 1.3rem;
+    background-color: #969696;
+    text-shadow: 0rem 0rem 0rem;
+    border: 0.1rem solid $basic-white-color;
+    border-radius: 1.6rem;
+}
+.tech__text {
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
 
 
 .frameworks{
