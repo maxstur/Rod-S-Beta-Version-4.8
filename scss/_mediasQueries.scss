@@ -648,14 +648,14 @@
     .top {
         font-family: "cinzel";
         color: #062339;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .ttop {
         color: #062339;
         font-family: "Rubik";
     }
     .tm-wrapper{
-        margin-top: 33rem;
+        margin-top: 38rem;
         padding: 1rem;
     }
     .tm-slide {
@@ -705,6 +705,14 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .red-yellow{
+        margin-top: 8rem;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 3rem;
+    }
     .tm-wrapper{
         margin-left: 4rem;
         margin-right: 4rem;
@@ -1183,7 +1191,6 @@
 }
 
 @media screen and (max-width: 599px) {
-
     header {
         position: fixed;
         top: 0;
@@ -1302,7 +1309,7 @@
     .top {
         font-family: "cinzel";
         color: #062339;
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
     .ttop {
         font-size: 0.8rem;
@@ -1722,12 +1729,12 @@
         height: 65rem;
     }
     .red-yellow{
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
     .top {
         font-family: "cinzel";
         color: #062339;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .tm-wrapper{
         margin-top: 28rem;
