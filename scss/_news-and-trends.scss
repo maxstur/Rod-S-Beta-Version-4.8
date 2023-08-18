@@ -9,8 +9,8 @@
         align-items: center;
         padding: 0.3rem;
     }
-    .h2__title--blue  {
-        font-family: "Cinzel";
+    .h2__title--nandt  {
+        font-family: $primaryFamily;
         font-size: 2.4rem;
         color: $primary-color;
     }
@@ -94,7 +94,7 @@
     .card a:hover{
         color: #f5f5f5f5;
         background-color: #0d2337;
-        border: 0.1rem solid #f5f5f5;
+        border: 0.1rem solid $basic-white-color;
     }
     .under__section--cards {
         width: 100%;

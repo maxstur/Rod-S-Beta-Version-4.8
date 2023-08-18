@@ -1,32 +1,695 @@
-.suscribe {
-    height: 100vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-.suscribe__title {
-    font-family: $sus-Font;
-    font-size: 2.6rem;
-    font-weight: 500;
-}
-.contact-info {
-    font-family: $animations-Font;
-    color: $primary-color;
-    font-size: 1.1rem;
-    margin-top: 2rem;
-}
+@media screen and (min-width: 1292px) {
+    .background--color{
+        width: 100%;
+        height: 130rem;
+        background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
+        animation: backgroundAnimation 10s ease infinite alternate;
+        z-index: 1;
+    }
 
-.suscribe__ref{
-    font-family: $animations-Font;
-    font-weight: normal;
-    color: $primary-color;
-    font-size: 1.1rem;
-    text-decoration: none;
+    @keyframes backgroundAnimation {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    .suscriptions__main--title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2__title--blue{
+        height: 4rem;
+        width: 19rem;
+        position: relative;
+        text-align: center;
+        padding-top: 0.3rem;
+        font-family: $primaryFamily;
+        font-size: 2.4rem;
+        margin-top: 10rem;
+        border: 0.2rem solid $basic-white-color;
+        animation: titleAnimation 2s ease infinite alternate;
+    }
+    @keyframes titleAnimation {
+        0% {
+            transform: rotate(-8deg);
+        }
+        100% {
+            transform: rotate(8deg);
+        }
+    }
+    .conditions__below{
+        margin-top: 1rem;
+        color: $basic-white-color;
+    }
+    .suscriptions__container{
+        max-width: 90rem;
+        margin: auto;
+    }
+    .suscriptions--align{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suscription--box{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription--title{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $primaryFamily;
+        font-size: 1.7rem;
+        width: 20rem;
+        height: 3rem;
+        color: $primary-color;
+        background: linear-gradient(to top, $menu-yellow, $basic-white-color);
+        border-radius: 0.9rem;
+    }
+    .suscription--price{ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $secondaryFamily;
+        font-size: 1.6rem;
+        color: $primary-color;
+    }
+    .numero__tachado--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .suscription--monthly{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .numero-tachado__1{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__2{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__3{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .numero-tachado__4{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .suscriptions__plan--container{
+        margin-bottom: 3rem;
+    }
+    .suscriptions__plan{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    .plan__item{
+        margin-top: 1.3rem;
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+    }
+    .below__price-1{
+        font-family: $secondaryFamily;
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+    .suscription--justOnce{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .container__below--text {
+        width: 100%;
+        height: 33rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .conditions__below--text{
+        width: 45rem;
+        height: 11rem;
+        border: 0.2rem solid $basic-white-color;
+        color: $basic-white-color;
+        margin-top: 5rem;
+    }
+    .below--text{
+        color: $basic-white-color;
+        padding: 2rem ;
+    }
 }
-.suscribe__ref:hover {
-    width: auto;
-    color: $basic-white-color;
-    background-color: $primary-color;
+@media screen and (max-width: 1291px){
+    .background--color{
+        width: 100%;
+        height: 200rem;
+        background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
+        animation: backgroundAnimation 10s ease infinite alternate;
+        z-index: 1;
+    }
+
+    @keyframes backgroundAnimation {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    .suscriptions__main--title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2__title--blue{
+        height: 4rem;
+        width: 19rem;
+        position: relative;
+        text-align: center;
+        padding-top: 0.3rem;
+        font-family: $primaryFamily;
+        font-size: 2.4rem;
+        margin-top: 10rem;
+        border: 0.2rem solid $basic-white-color;
+        animation: titleAnimation 2s ease infinite alternate;
+    }
+    @keyframes titleAnimation {
+        0% {
+            transform: rotate(-8deg);
+        }
+        100% {
+            transform: rotate(8deg);
+        }
+    }
+    .conditions__below{
+        margin-top: 1rem;
+        color: $basic-white-color;
+    }
+    .suscriptions__container{
+        max-width: 90rem;
+        margin: auto;
+    }
+    .suscriptions--align{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suscription--box{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription--title{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $primaryFamily;
+        font-size: 1.7rem;
+        width: 20rem;
+        height: 3rem;
+        color: $primary-color;
+        background: linear-gradient(to top, $menu-yellow, $basic-white-color);
+        border-radius: 0.9rem;
+    }
+    .suscription--price{ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $secondaryFamily;
+        font-size: 1.6rem;
+        color: $primary-color;
+    }
+    .numero__tachado--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .suscription--monthly{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .numero-tachado__1{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__2{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__3{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .numero-tachado__4{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .suscriptions__plan--container{
+        margin-bottom: 3rem;
+    }
+    .suscriptions__plan{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    .plan__item{
+        margin-top: 1.3rem;
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+    }
+    .below__price-1{
+        font-family: $secondaryFamily;
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+    .suscription--justOnce{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .container__below--text {
+        width: 100%;
+        height: 33rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .conditions__below--text{
+        width: 45rem;
+        height: 11rem;
+        border: 0.2rem solid $basic-white-color;
+        color: $basic-white-color;
+        margin-top: 5rem;
+    }
+    .below--text{
+        color: $basic-white-color;
+        padding: 2rem ;
+    }
+}
+@media screen and (max-width: 645px){
+    .background--color{
+        width: 100%;
+        height: 365rem;
+        background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
+        animation: backgroundAnimation 10s ease infinite alternate;
+        z-index: 1;
+    }
+
+    @keyframes backgroundAnimation {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    .suscriptions__main--title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2__title--blue{
+        height: 4rem;
+        width: 19rem;
+        position: relative;
+        text-align: center;
+        padding-top: 0.3rem;
+        font-family: $primaryFamily;
+        font-size: 2.4rem;
+        margin-top: 10rem;
+        border: 0.2rem solid $basic-white-color;
+        animation: titleAnimation 2s ease infinite alternate;
+    }
+    @keyframes titleAnimation {
+        0% {
+            transform: rotate(-8deg);
+        }
+        100% {
+            transform: rotate(8deg);
+        }
+    }
+    .conditions__below{
+        margin-top: 1rem;
+        color: $basic-white-color;
+    }
+    .suscriptions__container{
+        max-width: 90rem;
+        margin: auto;
+    }
+    .suscriptions--align{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suscription--box{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription--title{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $primaryFamily;
+        font-size: 1.7rem;
+        width: 20rem;
+        height: 3rem;
+        color: $primary-color;
+        background: linear-gradient(to top, $menu-yellow, $basic-white-color);
+        border-radius: 0.9rem;
+    }
+    .suscription--price{ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $secondaryFamily;
+        font-size: 1.6rem;
+        color: $primary-color;
+    }
+    .numero__tachado--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .suscription--monthly{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .numero-tachado__1{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__2{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__3{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .numero-tachado__4{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .suscriptions__plan--container{
+        margin-bottom: 3rem;
+    }
+    .suscriptions__plan{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    .plan__item{
+        margin-top: 1.3rem;
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+    }
+    .below__price-1{
+        font-family: $secondaryFamily;
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+    .suscription--justOnce{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .container__below--text {
+        width: 100%;
+        height: 33rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .conditions__below--text{
+        width: 45rem;
+        height: 11rem;
+        border: 0.2rem solid $basic-white-color;
+        color: $basic-white-color;
+        margin-top: 5rem;
+    }
+    .below--text{
+        color: $basic-white-color;
+        padding: 2rem ;
+    }
+}
+@media screen and (max-width: 622px){
+    .background--color{
+        width: 100%;
+        height: 365rem;
+        background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
+        animation: backgroundAnimation 10s ease infinite alternate;
+        z-index: 1;
+    }
+
+    @keyframes backgroundAnimation {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100% 100%;
+        }
+    }
+    .suscriptions__main--title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2__title--blue{
+        height: 4rem;
+        width: 19rem;
+        position: relative;
+        text-align: center;
+        padding-top: 0.3rem;
+        font-family: $primaryFamily;
+        font-size: 2.4rem;
+        margin-top: 10rem;
+        border: 0.2rem solid $basic-white-color;
+        animation: titleAnimation 2s ease infinite alternate;
+    }
+    @keyframes titleAnimation {
+        0% {
+            transform: rotate(-8deg);
+        }
+        100% {
+            transform: rotate(8deg);
+        }
+    }
+    .conditions__below{
+        margin-top: 1rem;
+        color: $basic-white-color;
+    }
+    .suscriptions__container{
+        max-width: 90rem;
+        margin: auto;
+    }
+    .suscriptions--align{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .suscription--box{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription--title{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $primaryFamily;
+        font-size: 1.7rem;
+        width: 19rem;
+        height: 3rem;
+        color: $primary-color;
+        background: linear-gradient(to top, $menu-yellow, $basic-white-color);
+        border-radius: 0.9rem;
+    }
+    .suscription--price{ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-family: $secondaryFamily;
+        font-size: 1.6rem;
+        color: $primary-color;
+    }
+    .numero__tachado--container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .suscription--monthly{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .numero-tachado__1{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__2{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+
+    .numero-tachado__3{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .numero-tachado__4{
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        font-size: 1rem;
+        background-image: linear-gradient(to top left, transparent 47%, red 5%, red 53%, transparent 50%);
+    }
+    .suscriptions__plan--container{
+        margin-bottom: 3rem;
+    }
+    .suscriptions__plan{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: start;
+    }
+    .plan__item{
+        margin-top: 1.3rem;
+        font-family: $secondaryFamily;
+        font-weight: bolder;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+    }
+    .below__price-1{
+        font-family: $secondaryFamily;
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+    .suscription--justOnce{
+        color: $primary-color;
+        font-family: $secondaryFamily;
+        font-size: 0.7rem;
+        padding-top: 0.7rem;
+        padding-left: 0.2rem;
+    }
+    .container__below--text {
+        width: 100%;
+        height: 33rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .conditions__below--text{
+        width: 45rem;
+        height: 18rem;
+        border: none;
+        margin-top: 5rem;
+    }
+    .below--text{
+        color: $basic-white-color;
+        padding: 2rem ;
+    }
 }
