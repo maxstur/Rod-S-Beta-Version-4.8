@@ -232,7 +232,6 @@ header {
 
 .max, .shoot, .fly, .folt, .wedd, .cur {
   width: 100%;
-  height: auto;
 }
 
 .ese, .strawberry, .fw, .ve-ft, .ww {
@@ -263,7 +262,6 @@ header {
 }
 
 .container-ese-text, .content-text-straw, .content-fly-text, .content-text-ve, .wandw {
-  height: auto;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -271,22 +269,6 @@ header {
   align-items: center;
   z-index: 5;
   margin-bottom: 17rem;
-}
-
-.content-text-ve {
-  height: 30rem;
-  width: auto;
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.content-fly-text {
-  height: 65vh;
-  width: auto;
-  margin-bottom: 5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .content-text-straw {
@@ -341,7 +323,7 @@ header {
   font-weight: normal;
   padding: 1rem;
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem;
   width: 30rem;
   color: #ea0946;
   background-color: rgba(250, 166, 195, 0.4196078431);
@@ -353,12 +335,12 @@ header {
   font-weight: normal;
   padding: 1rem;
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem;
   width: 30rem;
   color: #ea0946;
   background-color: rgba(250, 166, 195, 0.4196078431);
   border-radius: 8px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
 }
 
@@ -368,12 +350,12 @@ header {
   font-weight: normal;
   padding: 1rem;
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem;
   width: 50rem;
   color: #1ffb02;
   background-color: rgba(8, 115, 4, 0.7960784314);
   border-radius: 8px;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 
 .fw-text {
@@ -382,7 +364,7 @@ header {
   font-weight: normal;
   padding: 1rem;
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem;
   width: 50rem;
   color: #fa6103;
   background-color: #3c1801;
@@ -394,12 +376,11 @@ header {
   font-weight: normal;
   padding: 1rem;
   border-radius: 0.3rem;
-  margin-bottom: 2rem;
+  margin: 0 1rem;
   width: 50rem;
   color: #0d2337;
   background-color: rgba(250, 166, 195, 0.4196078431);
-  margin-left: 1rem;
-  margin-right: 5rem;
+  margin-bottom: 3rem;
 }
 
 .cur--im, .shoot-img, .fly-img, .folt-im, .im-wedd {
@@ -1959,7 +1940,6 @@ a {
     margin-bottom: 1rem;
   }
   .content-text-straw {
-    height: 70vh;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -2216,10 +2196,8 @@ a {
   }
   .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
-    height: auto;
   }
   .cur {
-    height: auto;
     width: 100%;
   }
   .ese, .ww, .ve-ft, .fw, .strawberry {
@@ -2241,9 +2219,6 @@ a {
   .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    height: 117vh;
-  }
   .title-text, .w-text-title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
@@ -2258,7 +2233,6 @@ a {
     margin-bottom: 1rem;
   }
   .wedd {
-    height: 150vh;
     width: auto;
   }
   .ww {
@@ -2278,7 +2252,6 @@ a {
     margin-right: 1rem;
   }
   .wandw {
-    height: 148vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2323,7 +2296,6 @@ a {
     margin-bottom: 1rem;
   }
   .folt {
-    height: 110vh;
     width: auto;
   }
   .ve-ft {
@@ -2347,7 +2319,6 @@ a {
     font-size: 1.7rem;
   }
   .content-text-ve {
-    height: 65vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2386,7 +2357,6 @@ a {
     margin-right: 1rem;
   }
   .content-fly-text {
-    height: 76vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2415,7 +2385,6 @@ a {
     margin-bottom: 1rem;
   }
   .shoot {
-    height: 160vh;
     width: auto;
   }
   .strawberry {
@@ -2434,7 +2403,6 @@ a {
     margin-right: 1rem;
   }
   .content-text-straw {
-    height: 70vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2457,7 +2425,7 @@ a {
     font-weight: normal;
     font-size: 18px;
     color: #021600;
-    background-color: #fcdede;
+    background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -2652,10 +2620,8 @@ a {
   }
   .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
-    height: auto;
   }
   .cur {
-    height: auto;
     width: 100%;
   }
   .ese, .ww, .ve-ft, .fw, .strawberry {
@@ -2677,9 +2643,6 @@ a {
   .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
-  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    height: 117vh;
-  }
   .title-text, .w-text-title, .title-text-straw {
     font-family: "cinzel";
     font-weight: normal;
@@ -2694,7 +2657,6 @@ a {
     margin-bottom: 1rem;
   }
   .wedd {
-    height: 170vh;
     width: auto;
   }
   .ww {
@@ -2714,7 +2676,6 @@ a {
     margin-right: 1rem;
   }
   .wandw {
-    height: 162vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2760,7 +2721,6 @@ a {
     margin-bottom: 1rem;
   }
   .folt {
-    height: 120vh;
     width: auto;
   }
   .ve-ft {
@@ -2784,7 +2744,6 @@ a {
     font-size: 1.7rem;
   }
   .content-text-ve {
-    height: 65vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2823,7 +2782,6 @@ a {
     margin-right: 1rem;
   }
   .content-fly-text {
-    height: 76vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2852,7 +2810,6 @@ a {
     margin-bottom: 1rem;
   }
   .shoot {
-    height: 160vh;
     width: auto;
   }
   .strawberry {
@@ -2871,7 +2828,6 @@ a {
     margin-right: 1rem;
   }
   .content-text-straw {
-    height: 78vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -2894,7 +2850,7 @@ a {
     font-weight: normal;
     font-size: 18px;
     color: #021600;
-    background-color: #fcdede;
+    background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -3147,10 +3103,8 @@ a {
   }
   .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
-    height: auto;
   }
   .cur {
-    height: auto;
     width: 100%;
   }
   .ese, .ww, .ve-ft, .fw, .strawberry {
@@ -3174,7 +3128,6 @@ a {
   }
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     width: auto;
-    height: 140vh;
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -3216,7 +3169,6 @@ a {
     margin-right: 1rem;
   }
   .wandw {
-    height: 140vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3261,7 +3213,6 @@ a {
     margin-bottom: 1rem;
   }
   .folt {
-    height: 110vh;
     width: auto;
   }
   .ve-ft {
@@ -3285,7 +3236,6 @@ a {
     font-size: 1.7rem;
   }
   .content-text-ve {
-    height: 60vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3324,7 +3274,6 @@ a {
     margin-right: 1rem;
   }
   .content-fly-text {
-    height: 60vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3353,7 +3302,6 @@ a {
     margin-bottom: 1rem;
   }
   .shoot {
-    height: auto;
     width: 100%;
   }
   .strawberry {
@@ -3366,13 +3314,12 @@ a {
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
-    margin-top: 20rem;
+    margin-top: 5rem;
     color: #ee1515;
     margin-left: 1rem;
     margin-right: 1rem;
   }
   .content-text-straw {
-    height: 60vh;
     width: auto;
     display: flex;
     flex-flow: row wrap;
@@ -3390,11 +3337,11 @@ a {
   }
   .strawberry-text {
     padding: 1rem;
-    width: 50rem;
+    width: 100%;
     font-family: "Rubik";
     font-size: 18px;
     color: #021600;
-    background-color: #fcdede;
+    background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -3683,19 +3630,17 @@ a {
   }
   .max, .cur, .wedd, .folt, .fly, .shoot {
     width: 100%;
-    height: auto;
   }
   .cur {
-    height: auto;
     width: 100%;
   }
   .ese, .ww, .ve-ft, .fw, .strawberry {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: auto;
+    width: 100%;
     font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
@@ -3703,14 +3648,15 @@ a {
     margin-bottom: 1rem;
     color: #0d2337;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    width: auto;
-    height: 105vh;
+    width: 100%;
     font-size: 1rem;
+    padding: 0.5rem;
   }
   .title-text, .w-text-title, .title-text-straw {
     font-family: "Cinzel", serif;
@@ -3720,7 +3666,7 @@ a {
     z-index: 6;
   }
   .cur--text .column-two, .column-two .column-two {
-    width: auto;
+    width: 100%;
     font-size: 1rem;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
@@ -3730,7 +3676,6 @@ a {
     margin-bottom: 1rem;
   }
   .wedd {
-    height: auto;
     width: 100%;
   }
   .ww {
@@ -3739,23 +3684,24 @@ a {
     justify-content: space-evenly;
   }
   .ww-title {
-    width: auto;
+    width: 100%;
     font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     color: #0d2337;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .wandw {
-    height: 113vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     z-index: 5;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    padding: 0.5rem;
   }
   .w-text-title {
     font-family: "Cinzel", serif;
@@ -3765,8 +3711,7 @@ a {
     z-index: 6;
   }
   .w-text {
-    width: auto;
-    padding: 1rem;
+    width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
     color: #ea0946;
@@ -3775,8 +3720,7 @@ a {
     margin-bottom: 1rem;
   }
   .ww-text {
-    padding: 1rem;
-    width: auto;
+    width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
     color: #ea0946;
@@ -3791,8 +3735,7 @@ a {
     margin-bottom: 1rem;
   }
   .folt {
-    height: 60vh;
-    width: auto;
+    width: 100%;
   }
   .ve-ft {
     display: flex;
@@ -3800,20 +3743,20 @@ a {
     justify-content: space-evenly;
   }
   .ve-title {
-    width: auto;
+    width: 100%;
     font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 1rem;
     color: #32d705;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-text-ve {
-    height: 60vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     margin-bottom: 2rem;
@@ -3826,7 +3769,7 @@ a {
   }
   .ve-text {
     padding: 1rem;
-    width: auto;
+    width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
     color: #1ffb02;
@@ -3846,20 +3789,20 @@ a {
     align-items: center;
   }
   .fw-title {
-    width: auto;
+    width: 100%;
     font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
     margin-top: 1rem;
     color: #fa6103;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-fly-text {
-    height: 51vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     margin-bottom: 1rem;
@@ -3872,7 +3815,7 @@ a {
   }
   .fw-text {
     padding: 1rem;
-    width: auto;
+    width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
     color: #fa6103;
@@ -3887,7 +3830,6 @@ a {
     margin-bottom: 1rem;
   }
   .shoot {
-    height: auto;
     width: 100%;
   }
   .strawberry {
@@ -3896,20 +3838,20 @@ a {
     justify-content: space-evenly;
   }
   .strawberry-title {
-    width: auto;
+    width: 100%;
     font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 1.8rem;
-    margin-top: 20rem;
+    margin-top: 5rem;
     color: #ee1515;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-text-straw {
-    height: 60vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     margin-bottom: 12rem;
@@ -3922,12 +3864,13 @@ a {
     z-index: 6;
   }
   .strawberry-text {
-    width: auto;
+    width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
     color: #021600;
-    background-color: #fcdede;
+    background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
+    margin-bottom: 2rem;
   }
   .shoot-img {
     width: 70%;

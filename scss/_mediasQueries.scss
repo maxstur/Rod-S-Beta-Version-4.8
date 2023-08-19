@@ -7,11 +7,9 @@
         z-index: 10;
         background-color: #062339;
     }
-    
     .hflex {
         margin: 0;
     }
-    
     .hbar {
         display: flex;
         flex-flow: row wrap;
@@ -324,14 +322,12 @@
         margin-bottom: 0.2rem;
         margin-left: 0;
     }
-    
     a {
         text-decoration: none;
         color: $basic-white-color;
         font-family: "Rubik";
         font-weight: normal;;
     }
-    
     .flex-social a:hover {
         color: $secondary-color;
         cursor: pointer;
@@ -377,7 +373,6 @@
         right: 5rem;
         z-index: 9;
     }
-    
     .wa-align {
         display: flex;
         justify-content: flex-end;
@@ -946,9 +941,7 @@
         color: white;
         font-family: "cinzel";
     }
-    
 }
-
 @media screen and (max-width: 1075px) {
     header {
         position: fixed;
@@ -1099,7 +1092,6 @@
         margin-bottom: 1rem;
     }
     .content-text-straw {
-        height: 70vh;
         width: 100%;
         display: flex;
         flex-flow: row wrap;
@@ -1148,7 +1140,6 @@
     .sup--part{
         height: 23rem;
     }
-
     h6 {
         padding-left: 2rem; 
     }
@@ -1359,10 +1350,8 @@
     }
     .max {
         width: 100%;
-        height: auto;
     }
     .cur {
-        height: auto;
         width: 100%;
     }
     .ese {
@@ -1384,10 +1373,6 @@
     .cur--title br {
         display: none;
     }
-    .container-ese-text {
-        height: 117vh;
-  
-    }
     .title-text {
         font-family: "cinzel";
         font-weight: normal;
@@ -1402,7 +1387,6 @@
         margin-bottom: 1rem;
     }
     .wedd{
-        height: 150vh;
         width: auto;
     }
     .ww {
@@ -1422,7 +1406,6 @@
         margin-right: 1rem;
     }
     .wandw {
-        height: 148vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1467,7 +1450,6 @@
         margin-bottom: 1rem;
     }
     .folt {
-        height: 110vh;
         width: auto;
     }
     .ve-ft {
@@ -1491,7 +1473,6 @@
         font-size: 1.7rem;
     }
     .content-text-ve {
-        height: 65vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1530,7 +1511,6 @@
         margin-right: 1rem;
     }
     .content-fly-text  {
-        height: 76vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1559,7 +1539,6 @@
         margin-bottom: 1rem;
     }
     .shoot {
-        height: 160vh;
         width: auto;
     }
     .strawberry {
@@ -1567,7 +1546,6 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
-    
     .strawberry-title {
         width: 34rem;
         font-family: "cinzel";
@@ -1578,9 +1556,7 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    
     .content-text-straw {
-        height: 70vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1589,7 +1565,6 @@
         z-index: 5;
         margin-bottom: 3rem;
     }
-    
     .title-text-straw {
         font-family: "cinzel";
         font-weight: normal;
@@ -1597,7 +1572,6 @@
         color: #ee1515;
         z-index: 6;
     }
-    
     .strawberry-text {
         padding: 1rem;
         width: 50rem;
@@ -1605,7 +1579,7 @@
         font-weight: normal;
         font-size: 18px;
         color: #021600;
-        background-color: #fcdede;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -1655,7 +1629,6 @@
     .mi--form {
         height: 38rem;
         width: 23rem;
-      
     }
 }
 @media screen and (max-width: 425px){
@@ -1766,11 +1739,9 @@
     .hamburguer:hover  {
         color: #03aefd;
     }
-    
     .hamburguer:hover .submenu{
         display: block;
     }
-    
     .fone {
         height: 65rem;
     }
@@ -1805,10 +1776,8 @@
     }
     .max {
         width: 100%;
-        height: auto;
     }
     .cur {
-        height: auto;
         width: 100%;
     }
     .ese {
@@ -1830,10 +1799,6 @@
     .cur--title br {
         display: none;
     }
-    .container-ese-text {
-        height: 117vh;
-  
-    }
     .title-text {
         font-family: "cinzel";
         font-weight: normal;
@@ -1848,7 +1813,6 @@
         margin-bottom: 1rem;
     }
     .wedd{
-        height: 170vh;
         width: auto;
     }
     .ww {
@@ -1868,7 +1832,6 @@
         margin-right: 1rem;
     }
     .wandw {
-        height: 162vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1914,7 +1877,6 @@
         margin-bottom: 1rem;
     }
     .folt {
-        height: 120vh;
         width: auto;
     }
     .ve-ft {
@@ -1938,7 +1900,6 @@
         font-size: 1.7rem;
     }
     .content-text-ve {
-        height: 65vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -1977,7 +1938,6 @@
         margin-right: 1rem;
     }
     .content-fly-text  {
-        height: 76vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2006,7 +1966,6 @@
         margin-bottom: 1rem;
     }
     .shoot {
-        height: 160vh;
         width: auto;
     }
     .strawberry {
@@ -2025,9 +1984,7 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    
     .content-text-straw {
-        height: 78vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2052,7 +2009,7 @@
         font-weight: normal;
         font-size: 18px;
         color: #021600;
-        background-color: #fcdede;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -2309,10 +2266,8 @@
     }
     .max {
         width: 100%;
-        height: auto;
     }
     .cur {
-        height: auto;
         width: 100%;
     }
     .ese {
@@ -2336,7 +2291,6 @@
     }
     .container-ese-text {
         width: auto;
-        height: 140vh;
         font-size: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -2379,7 +2333,6 @@
         margin-right: 1rem;
     }
     .wandw {
-        height: 140vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2424,7 +2377,6 @@
         margin-bottom: 1rem;
     }
     .folt {
-        height: 110vh;
         width: auto;
     }
     .ve-ft {
@@ -2448,7 +2400,6 @@
         font-size: 1.7rem;
     }
     .content-text-ve {
-        height: 60vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2487,7 +2438,6 @@
         margin-right: 1rem;
     }
     .content-fly-text  {
-        height: 60vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2516,7 +2466,6 @@
         margin-bottom: 1rem;
     }
     .shoot {
-        height: auto;
         width: 100%;
     }
     .strawberry {
@@ -2524,20 +2473,18 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
-    
     .strawberry-title {
         width: 34rem;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
-        margin-top: 20rem;
+        margin-top: 5rem;
         color: #ee1515;
         margin-left: 1rem;
         margin-right: 1rem;
     }
     
     .content-text-straw {
-        height: 60vh;
         width: auto;
         display: flex;
         flex-flow: row wrap;
@@ -2556,11 +2503,11 @@
     }
     .strawberry-text {
         padding: 1rem;
-        width: 50rem;
+        width: 100%;
         font-family: "Rubik";
         font-size: 18px;
         color: #021600;
-        background-color: #fcdede;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -2852,19 +2799,17 @@
     }
     .max {
         width: 100%;
-        height: auto;
     }
     .cur {
-        height: auto;
         width: 100%;
     }
     .ese {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .cur--title  {
-        width: auto;
+        width: 100%;
         font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
@@ -2872,14 +2817,15 @@
         margin-bottom: 1rem;
         color: #0d2337;
         padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .cur--title br {
         display: none;
     }
     .container-ese-text {
-        width: auto;
-        height: 105vh;
+        width: 100%;
         font-size: 1rem;
+        padding: 0.5rem;
     }
 
     .title-text {
@@ -2890,7 +2836,7 @@
         z-index: 6;
     }
     .cur--text .column-two{
-        width: auto;
+        width: 100%;
         font-size: 1rem;
     }
     .cur--im {
@@ -2900,7 +2846,6 @@
         margin-bottom: 1rem;
     }
     .wedd{
-        height: auto;
         width: 100%;
     }
     .ww {
@@ -2909,23 +2854,24 @@
         justify-content: space-evenly;
     }
     .ww-title {
-        width: auto;
+        width: 100%;
         font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-bottom: 1rem;
         color: #0d2337;
         padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .wandw {
-        height: 113vh;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         z-index: 5;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
+        padding: 0.5rem;
     }
     .w-text-title {
         font-family: $primaryFamily;
@@ -2935,22 +2881,20 @@
         z-index: 6;
     }
     .w-text {
-        width: auto;
-        padding: 1rem;
+        width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
         color: #ea0946;
-        background-color: #faa6c36b;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-bottom: 1rem;
     }
     .ww-text {
-        padding: 1rem;
-        width: auto;
+        width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
         color: #ea0946;
-        background-color: #faa6c36b;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-bottom: 2rem;
     }
@@ -2961,8 +2905,7 @@
         margin-bottom: 1rem;
     }
     .folt {
-        height: 60vh;
-        width: auto;
+        width: 100%;
     }
     .ve-ft {
         display: flex;
@@ -2970,21 +2913,21 @@
         justify-content: space-evenly;
     }
     .ve-title {
-        width: auto;
+        width: 100%;
         font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 1rem;
         color: #32d705;
         padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .content-text-ve {
-        height: 60vh;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         z-index: 5;
         margin-bottom: 2rem;
@@ -2997,7 +2940,7 @@
     }
     .ve-text {
         padding: 1rem;
-        width: auto;
+        width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
         color: #1ffb02;
@@ -3017,20 +2960,20 @@
         align-items: center;
     }
     .fw-title {
-        width: auto;
+        width: 100%;
         font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
         margin-top: 1rem;
         color: #fa6103;
         padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-fly-text  {
-        height: 51vh;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         z-index: 5;
         margin-bottom: 1rem;
@@ -3043,7 +2986,7 @@
     }
     .fw-text {
         padding: 1rem;
-        width: auto;
+        width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
         color: #fa6103;
@@ -3058,7 +3001,6 @@
         margin-bottom: 1rem;
     }
     .shoot {
-        height: auto;
         width: 100%;
     }
     .strawberry {
@@ -3067,20 +3009,20 @@
         justify-content: space-evenly;
     }
     .strawberry-title {
-        width: auto;
+        width: 100%;
         font-family: $primaryFamily;
         font-weight: normal;
         font-size: 1.8rem;
-        margin-top: 20rem;
+        margin-top: 5rem;
         color: #ee1515;
         padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-text-straw {
-        height: 60vh;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         z-index: 5;
         margin-bottom: 12rem;
@@ -3093,12 +3035,13 @@
         z-index: 6;
     }
     .strawberry-text {
-        width: auto;
+        width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
         color: #021600;
-        background-color: #fcdede;
+        background-color: $wANDw-BG-color;
         border-radius: 8px;
+        margin-bottom: 2rem;
     }
     .shoot-img {
         width: 70%;

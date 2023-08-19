@@ -1,7 +1,6 @@
 
 .max {
     width: 100%;
-    height: auto;
 }
 .cur {
     @extend .max;
@@ -59,7 +58,6 @@
     color: $menu-red;
 }
 .container-ese-text {
-    height: auto;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -73,19 +71,9 @@
 }
 .content-text-ve {
     @extend .container-ese-text;
-    height: 30rem;
-    width: auto;
-    margin-bottom: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 .content-fly-text  {
     @extend .container-ese-text;
-    height: 65vh;
-    width: auto;
-    margin-bottom: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 .content-text-straw {
     @extend .container-ese-text;
@@ -118,7 +106,6 @@
     @extend .title-text;
     color: $menu-red;
 }
-
 .cur--text {
     width: 20rem;
     padding: 1rem;
@@ -140,7 +127,7 @@
     font-weight: normal;
     padding: 1rem;
     border-radius: 0.3rem;
-    margin-bottom: 2rem;
+    margin: 0 1rem;
 }
 .w-text {
     @include font-weight-more;
@@ -155,7 +142,7 @@
     color: $menu-red;
     background-color: $wANDw-BG-color;
     border-radius: 8px;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
 }
 .ve-text {
@@ -164,7 +151,7 @@
     color: $maarashu-green;
     background-color: $dark-greeen;
     border-radius: 8px;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 .fw-text {
     @include  font-weight-more;
@@ -177,8 +164,7 @@
     width: 50rem;
     color: $primary-color;
     background-color: $wANDw-BG-color;
-    margin-left: 1rem;
-    margin-right: 5rem;
+    margin-bottom: 3rem;
 }
 
 .cur--im {
