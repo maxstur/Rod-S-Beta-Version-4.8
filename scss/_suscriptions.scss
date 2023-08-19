@@ -63,6 +63,14 @@
         background-color: #f3f5fd;
         z-index: 3;
     }
+    .suscription__box--tres{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        box-shadow: 0.5rem 0.7rem 2.6rem $primary-color;
+        z-index: 3;
+    }
     .suscription--title{
         display: flex;
         flex-flow: row wrap;
@@ -237,6 +245,14 @@
         background-color: #f3f5fd;
         z-index: 3;
     }
+    .suscription__box--tres{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        box-shadow: 0.5rem 0.7rem 2.6rem $primary-color;
+        z-index: 3;
+    }
     .suscription--title{
         display: flex;
         flex-flow: row wrap;
@@ -395,7 +411,7 @@
         color: $basic-white-color;
     }
     .suscriptions__container{
-        max-width: 90rem;
+        max-width: 90%rem;
         margin: auto;
     }
     .suscriptions--align{
@@ -409,6 +425,14 @@
         margin-top: 2rem;
         border-radius: 0.9rem;
         background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription__box--tres{
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        box-shadow: 0.5rem 0.7rem 2.6rem $primary-color;
         z-index: 3;
     }
     .suscription--title{
@@ -509,8 +533,8 @@
         justify-content: center;
     }
     .conditions__below--text{
-        width: 45rem;
-        height: 11rem;
+        width: 30rem;
+        height: 12rem;
         border: 0.2rem solid $basic-white-color;
         color: $basic-white-color;
         margin-top: 5rem;
@@ -520,10 +544,10 @@
         padding: 2rem ;
     }
 }
-@media screen and (max-width: 622px){
+@media screen and (max-width: 375px){
     .background--color{
         width: 100%;
-        height: 365rem;
+        height: 399rem;
         background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
         animation: backgroundAnimation 10s ease infinite alternate;
         z-index: 1;
@@ -538,19 +562,26 @@
         }
     }
     .suscriptions__main--title{
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+    .title__container{
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .h2__title--blue{
         position: relative;
         text-align: center;
-        padding-top: 0.3rem;
+        width: 18rem;
+        height: 4rem;
+        padding: 0.5rem;
         font-family: $primaryFamily;
         font-size: 2.4rem;
-        margin-top: 10rem;
+        margin-top: 2.5rem;
         border: 0.2rem solid $basic-white-color;
         animation: titleAnimation 2s ease infinite alternate;
     }
@@ -563,11 +594,10 @@
         }
     }
     .conditions__below{
-        margin-top: 1rem;
-        color: $basic-white-color;
+        display: none;
     }
     .suscriptions__container{
-        max-width: 90rem;
+        max-width: 90%;
         margin: auto;
     }
     .suscriptions--align{
@@ -577,10 +607,22 @@
         align-items: center;
     }
     .suscription--box{
+        height: 87rem;
+        width: 16rem;
         border: 0.1rem solid $basic-shadow;
         margin-top: 2rem;
         border-radius: 0.9rem;
         background-color: #f3f5fd;
+        z-index: 3;
+    }
+    .suscription__box--tres{
+        height: 87rem;
+        width: 16rem;
+        border: 0.1rem solid $basic-shadow;
+        margin-top: 2rem;
+        border-radius: 0.9rem;
+        background-color: #f3f5fd;
+        box-shadow: 0.1rem 0.1rem 1rem $primary-color;
         z-index: 3;
     }
     .suscription--title{
@@ -590,7 +632,7 @@
         align-items: center;
         font-family: $primaryFamily;
         font-size: 1.7rem;
-        width: 19rem;
+        width: 100%;
         height: 3rem;
         color: $primary-color;
         background: linear-gradient(to top, $menu-yellow, $basic-white-color);
@@ -675,14 +717,14 @@
     }
     .container__below--text {
         width: 100%;
-        height: 33rem;
+        height: 20rem;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
     .conditions__below--text{
-        width: 45rem;
-        height: 18rem;
+        width: 95%;
+        height: 15rem;
         border: none;
         margin-top: 5rem;
     }

@@ -5201,6 +5201,14 @@ a {
     background-color: #f3f5fd;
     z-index: 3;
   }
+  .suscription__box--tres {
+    border: 0.1rem solid #a2a1a1;
+    margin-top: 2rem;
+    border-radius: 0.9rem;
+    background-color: #f3f5fd;
+    box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
+    z-index: 3;
+  }
   .suscription--title {
     display: flex;
     flex-flow: row wrap;
@@ -5371,6 +5379,14 @@ a {
     background-color: #f3f5fd;
     z-index: 3;
   }
+  .suscription__box--tres {
+    border: 0.1rem solid #a2a1a1;
+    margin-top: 2rem;
+    border-radius: 0.9rem;
+    background-color: #f3f5fd;
+    box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
+    z-index: 3;
+  }
   .suscription--title {
     display: flex;
     flex-flow: row wrap;
@@ -5525,7 +5541,7 @@ a {
     color: #F5F5F5;
   }
   .suscriptions__container {
-    max-width: 90rem;
+    max-width: 90% rem;
     margin: auto;
   }
   .suscriptions--align {
@@ -5539,6 +5555,14 @@ a {
     margin-top: 2rem;
     border-radius: 0.9rem;
     background-color: #f3f5fd;
+    z-index: 3;
+  }
+  .suscription__box--tres {
+    border: 0.1rem solid #a2a1a1;
+    margin-top: 2rem;
+    border-radius: 0.9rem;
+    background-color: #f3f5fd;
+    box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
     z-index: 3;
   }
   .suscription--title {
@@ -5637,8 +5661,8 @@ a {
     justify-content: center;
   }
   .conditions__below--text {
-    width: 45rem;
-    height: 11rem;
+    width: 30rem;
+    height: 12rem;
     border: 0.2rem solid #F5F5F5;
     color: #F5F5F5;
     margin-top: 5rem;
@@ -5648,10 +5672,10 @@ a {
     padding: 2rem;
   }
 }
-@media screen and (max-width: 622px) {
+@media screen and (max-width: 375px) {
   .background--color {
     width: 100%;
-    height: 365rem;
+    height: 399rem;
     background: linear-gradient(45deg, rgba(238, 130, 238, 0.526), lightblue);
     animation: backgroundAnimation 10s ease infinite alternate;
     z-index: 1;
@@ -5665,7 +5689,13 @@ a {
     }
   }
   .suscriptions__main--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title__container {
     width: 100%;
+    height: 17rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5673,10 +5703,12 @@ a {
   .h2__title--blue {
     position: relative;
     text-align: center;
-    padding-top: 0.3rem;
+    width: 18rem;
+    height: 4rem;
+    padding: 0.5rem;
     font-family: "Cinzel", serif;
     font-size: 2.4rem;
-    margin-top: 10rem;
+    margin-top: 2.5rem;
     border: 0.2rem solid #F5F5F5;
     animation: titleAnimation 2s ease infinite alternate;
   }
@@ -5689,11 +5721,10 @@ a {
     }
   }
   .conditions__below {
-    margin-top: 1rem;
-    color: #F5F5F5;
+    display: none;
   }
   .suscriptions__container {
-    max-width: 90rem;
+    max-width: 90%;
     margin: auto;
   }
   .suscriptions--align {
@@ -5703,10 +5734,22 @@ a {
     align-items: center;
   }
   .suscription--box {
+    height: 87rem;
+    width: 16rem;
     border: 0.1rem solid #a2a1a1;
     margin-top: 2rem;
     border-radius: 0.9rem;
     background-color: #f3f5fd;
+    z-index: 3;
+  }
+  .suscription__box--tres {
+    height: 87rem;
+    width: 16rem;
+    border: 0.1rem solid #a2a1a1;
+    margin-top: 2rem;
+    border-radius: 0.9rem;
+    background-color: #f3f5fd;
+    box-shadow: 0.1rem 0.1rem 1rem #0d2337;
     z-index: 3;
   }
   .suscription--title {
@@ -5716,7 +5759,7 @@ a {
     align-items: center;
     font-family: "Cinzel", serif;
     font-size: 1.7rem;
-    width: 19rem;
+    width: 100%;
     height: 3rem;
     color: #0d2337;
     background: linear-gradient(to top, #ebd702, #F5F5F5);
@@ -5799,14 +5842,14 @@ a {
   }
   .container__below--text {
     width: 100%;
-    height: 33rem;
+    height: 20rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
   .conditions__below--text {
-    width: 45rem;
-    height: 18rem;
+    width: 95%;
+    height: 15rem;
     border: none;
     margin-top: 5rem;
   }
