@@ -717,9 +717,28 @@
         right: 4rem;
         z-index: 9;
     }
+    .content-text-ve {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
+    }
+    .ve-text {
+        padding: 1rem;
+        width: 100%;
+        font-family: "Rubik";
+        font-weight: normal;
+        font-size: 18px;
+        color: #1ffb02;
+        background-color: #087304cb;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
     .content-text-straw {
-        width: auto;
-        height: 30rem;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -1060,6 +1079,17 @@
         bottom: 8rem;
         right: 2rem;
         z-index: 9;
+    }.container-ese-text {
+        width: 100%;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .title-text {
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 1.7rem;
+        color: #103357;
+        z-index: 6;
     }
     .cur--im {
         width: 50%;
@@ -1458,14 +1488,14 @@
         justify-content: space-evenly;
     }
     .ve-title {
-        width: 34rem;
+        width: 100%;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
         margin-top: 1rem;
         color: #32d705;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .video-editing{
         font-family: "cinzel";
@@ -1755,6 +1785,8 @@
     }
     .tm-wrapper{
         margin-top: 28rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
     .tm-slide {
         justify-content: center;
@@ -2004,15 +2036,13 @@
     
     .strawberry-text {
         padding: 1rem;
-        width: 50rem;
+        width: 100%;
         font-family: "Rubik";
         font-weight: normal;
         font-size: 18px;
         color: #021600;
         background-color: $wANDw-BG-color;
         border-radius: 8px;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .shoot-img {
         width: 70%;
@@ -2276,26 +2306,22 @@
         justify-content: space-evenly;
     }
     .cur--title  {
-        width: 34rem;
+        width: 90%;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
         margin-top: 3rem;
         margin-bottom: 1rem;
         color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .cur--title br {
         display: none;
     }
     .container-ese-text {
-        width: auto;
-        font-size: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 100%;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
     }
-
     .title-text {
         font-family: "cinzel";
         font-weight: normal;
@@ -2322,15 +2348,13 @@
         justify-content: space-evenly;
     }
     .ww-title {
-        width: 34rem;
+        width: 90%;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
         color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .wandw {
         width: auto;
@@ -2340,8 +2364,6 @@
         align-items: center;
         z-index: 5;
         margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .w-text-title {
         font-family: "cinzel";
@@ -2351,7 +2373,7 @@
         z-index: 6;
     }
     .w-text {
-        width: 30rem;
+        width: 100%;
         padding: 15px;
         font-family: "Rubik";
         font-size: 18px;
@@ -2362,7 +2384,7 @@
     }
     .ww-text {
         padding: 1rem;
-        width: 30rem;
+        width: 100%;
         font-family: "Rubik";
         font-size: 18px;
         color: #ea0946;
@@ -2391,8 +2413,6 @@
         font-size: 1.9rem;
         margin-top: 12rem;
         color: #32d705;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .video-editing{
         font-family: "cinzel";
@@ -2400,26 +2420,24 @@
         font-size: 1.7rem;
     }
     .content-text-ve {
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
         z-index: 5;
-        margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-bottom: 3rem;
     }
     .ve-text {
         padding: 1rem;
-        width: 50rem;
+        width: 100%;
         font-family: "Rubik";
         font-weight: normal;
         font-size: 18px;
         color: #1ffb02;
         background-color: #087304cb;
         border-radius: 8px;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
     }
     .folt-im {
         width: 70%;
@@ -2428,14 +2446,14 @@
         margin-bottom: 1rem;
     }
     .fw-title {
-        width: 34rem;
+        width: 100%;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
         margin-top: 6rem;
         color: #fa6103;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-fly-text  {
         width: auto;
@@ -2445,12 +2463,10 @@
         align-items: center;
         z-index: 5;
         margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     .fw-text {
         padding: 1rem;
-        width: 50rem;
+        width: 100%;
         font-family: "Rubik";
         font-weight: normal;
         font-size: 18px;
@@ -2474,18 +2490,18 @@
         justify-content: space-evenly;
     }
     .strawberry-title {
-        width: 34rem;
+        width: 100%;
         font-family: "cinzel";
         font-weight: normal;
         font-size: 1.9rem;
         margin-top: 5rem;
         color: #ee1515;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     
     .content-text-straw {
-        width: auto;
+        width: 100%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -2502,15 +2518,13 @@
         z-index: 6;
     }
     .strawberry-text {
-        padding: 1rem;
         width: 100%;
         font-family: "Rubik";
         font-size: 18px;
         color: #021600;
         background-color: $wANDw-BG-color;
         border-radius: 8px;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding: 1rem;
     }
     .shoot-img {
         width: 70%;
@@ -2824,8 +2838,6 @@
     }
     .container-ese-text {
         width: 100%;
-        font-size: 1rem;
-        padding: 0.5rem;
     }
 
     .title-text {
@@ -2985,11 +2997,11 @@
         color: $middle-orange;
     }
     .fw-text {
+        color: #fa6103;
         padding: 1rem;
         width: 100%;
         font-family: "Rubik";
         font-size: 1rem;
-        color: #fa6103;
         background-color: #3c1801;
         border-radius: 8px;
         margin-bottom: 1rem;
@@ -3042,6 +3054,8 @@
         background-color: $wANDw-BG-color;
         border-radius: 8px;
         margin-bottom: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .shoot-img {
         width: 70%;

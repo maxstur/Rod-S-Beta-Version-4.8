@@ -1591,9 +1591,28 @@ a {
     right: 4rem;
     z-index: 9;
   }
+  .content-text-ve {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
+  }
+  .ve-text {
+    padding: 1rem;
+    width: 100%;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
   .content-text-straw {
-    width: auto;
-    height: 30rem;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -1908,6 +1927,18 @@ a {
     bottom: 8rem;
     right: 2rem;
     z-index: 9;
+  }
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .title-text, .w-text-title, .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 50%;
@@ -2304,14 +2335,14 @@ a {
     justify-content: space-evenly;
   }
   .ve-title {
-    width: 34rem;
+    width: 100%;
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
     margin-top: 1rem;
     color: #32d705;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .video-editing {
     font-family: "cinzel";
@@ -2599,6 +2630,8 @@ a {
   }
   .tm-wrapper {
     margin-top: 28rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
   .tm-slide {
     justify-content: center;
@@ -2845,15 +2878,13 @@ a {
   }
   .strawberry-text {
     padding: 1rem;
-    width: 50rem;
+    width: 100%;
     font-family: "Rubik";
     font-weight: normal;
     font-size: 18px;
     color: #021600;
     background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .shoot-img {
     width: 70%;
@@ -3113,24 +3144,21 @@ a {
     justify-content: space-evenly;
   }
   .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: 34rem;
+    width: 90%;
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
     color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
     display: none;
   }
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    width: auto;
-    font-size: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .title-text, .w-text-title, .title-text-straw {
     font-family: "cinzel";
@@ -3158,15 +3186,13 @@ a {
     justify-content: space-evenly;
   }
   .ww-title {
-    width: 34rem;
+    width: 90%;
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .wandw {
     width: auto;
@@ -3176,8 +3202,6 @@ a {
     align-items: center;
     z-index: 5;
     margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .w-text-title {
     font-family: "cinzel";
@@ -3187,7 +3211,7 @@ a {
     z-index: 6;
   }
   .w-text {
-    width: 30rem;
+    width: 100%;
     padding: 15px;
     font-family: "Rubik";
     font-size: 18px;
@@ -3198,7 +3222,7 @@ a {
   }
   .ww-text {
     padding: 1rem;
-    width: 30rem;
+    width: 100%;
     font-family: "Rubik";
     font-size: 18px;
     color: #ea0946;
@@ -3227,8 +3251,6 @@ a {
     font-size: 1.9rem;
     margin-top: 12rem;
     color: #32d705;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .video-editing {
     font-family: "cinzel";
@@ -3236,26 +3258,24 @@ a {
     font-size: 1.7rem;
   }
   .content-text-ve {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-bottom: 3rem;
   }
   .ve-text {
     padding: 1rem;
-    width: 50rem;
+    width: 100%;
     font-family: "Rubik";
     font-weight: normal;
     font-size: 18px;
     color: #1ffb02;
     background-color: rgba(8, 115, 4, 0.7960784314);
     border-radius: 8px;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
   }
   .folt-im {
     width: 70%;
@@ -3264,14 +3284,14 @@ a {
     margin-bottom: 1rem;
   }
   .fw-title {
-    width: 34rem;
+    width: 100%;
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
     margin-top: 6rem;
     color: #fa6103;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-fly-text {
     width: auto;
@@ -3281,12 +3301,10 @@ a {
     align-items: center;
     z-index: 5;
     margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .fw-text {
     padding: 1rem;
-    width: 50rem;
+    width: 100%;
     font-family: "Rubik";
     font-weight: normal;
     font-size: 18px;
@@ -3310,17 +3328,17 @@ a {
     justify-content: space-evenly;
   }
   .strawberry-title {
-    width: 34rem;
+    width: 100%;
     font-family: "cinzel";
     font-weight: normal;
     font-size: 1.9rem;
     margin-top: 5rem;
     color: #ee1515;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-text-straw {
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -3336,15 +3354,13 @@ a {
     z-index: 6;
   }
   .strawberry-text {
-    padding: 1rem;
     width: 100%;
     font-family: "Rubik";
     font-size: 18px;
     color: #021600;
     background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 1rem;
   }
   .shoot-img {
     width: 70%;
@@ -3655,8 +3671,6 @@ a {
   }
   .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
     width: 100%;
-    font-size: 1rem;
-    padding: 0.5rem;
   }
   .title-text, .w-text-title, .title-text-straw {
     font-family: "Cinzel", serif;
@@ -3814,11 +3828,11 @@ a {
     color: #fa6103;
   }
   .fw-text {
+    color: #fa6103;
     padding: 1rem;
     width: 100%;
     font-family: "Rubik";
     font-size: 1rem;
-    color: #fa6103;
     background-color: #3c1801;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -3871,6 +3885,8 @@ a {
     background-color: rgba(250, 166, 195, 0.4196078431);
     border-radius: 8px;
     margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .shoot-img {
     width: 70%;
