@@ -547,6 +547,11 @@ header {
     flex-flow: row wrap;
     justify-content: center;
   }
+  .terms-button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
   .botono {
     width: 8rem;
     height: 1.7rem;
@@ -574,6 +579,19 @@ header {
   }
   .terms-forms a:hover {
     color: #03aefd;
+  }
+}
+@media screen and (min-width: 370px) {
+  .mi--forms {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
   }
 }
 @media screen and (min-width: 426px) {
@@ -689,7 +707,7 @@ header {
     border: none;
     border-radius: 0.3rem;
     font-family: "cinzel";
-    color: #062339;
+    color: #0d2337;
     font-size: 0.8rem;
     text-align: center;
   }
@@ -772,7 +790,6 @@ header {
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
     text-decoration: none;
-    margin-left: 1.7rem;
   }
   .terms-forms a:hover {
     color: #03aefd;

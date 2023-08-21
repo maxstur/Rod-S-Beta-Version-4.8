@@ -35,6 +35,11 @@
         flex-flow: row wrap;
         justify-content: center;
     }
+    .terms-button {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
     .botono {
         width:8rem;
         height: 1.7rem;
@@ -51,7 +56,6 @@
         color: #f5f5f5;
         cursor: pointer;
     }
-
     .terms-forms a{
         color: $basic-white-color;
         font-family: $secondaryFamily;
@@ -65,7 +69,20 @@
         color: #03aefd;
     }
 }
-    @media screen and (min-width: 426px) {
+@media screen and (min-width: 370px) {
+    .mi--forms{
+        width: 18rem;
+        height: auto;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+}
+@media screen and (min-width: 426px) {
     .mi--forms{
         width: 18rem;
         height: auto;
@@ -170,15 +187,16 @@
         justify-content: center;
     }
     .botono {
-        width:8rem;
+        width: 8rem;
         height: 1.7rem;
         margin-top: 0rem;
         margin-bottom: 0.8rem;
+   
         background-color: $form-orange;
         border: none;
         border-radius: 0.3rem;
         font-family: "cinzel";
-        color: #062339;
+        color: $primary-color;
         font-size: 0.8rem;
         text-align: center;
     }
@@ -261,7 +279,6 @@
         font-size: $h5-terms;
         margin-bottom: 1.5rem;
         text-decoration: none;
-        margin-left: 1.7rem;
     }
     .terms-forms a:hover{
         color: #03aefd;
