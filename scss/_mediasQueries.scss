@@ -389,16 +389,58 @@
         width: 3.3rem;
         height: 3.3rem;
     }
-    .content-text-straw {
-        width: auto;
-        height: 30rem;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
+    .cur--title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ww-title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ve-title {
+        color: $title-green; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .fw-title {
+        color: $middle-orange; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .strawberry-title {
+        color: $menu-red; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .content-text-ve {
+        margin-top: 2rem;
         margin-bottom: 3rem;
     }
+    .content-fly-text{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .content-text-straw {
+        margin-bottom: 3rem;
+    }
+
     .sign-Up {
         height: 110vh;
         width: auto;
@@ -639,7 +681,7 @@
         text-shadow: 1px 2px 2px #a2a1a1;
     }
     .top {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         color: #062339;
         font-size: 3rem;
     }
@@ -662,11 +704,56 @@
         margin-left: 0.5rem;
         margin-right:0.5rem;
     }
+    .cur--title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ww-title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ve-title {
+        color: $title-green; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .fw-title {
+        color: $middle-orange; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .strawberry-title {
+        color: $menu-red; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
     .content-text-ve {
-        margin-bottom: 17rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .content-fly-text{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
     }
     .content-text-straw {
-        margin-bottom: 17rem;
+        margin-bottom: 3rem;
     }
     .inf--part {
         height: 8rem;
@@ -677,7 +764,7 @@
     .rights {
         text-decoration: none;
         color: white;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
     }
     .footer__last--copyright {
         color: $basic-white-color;
@@ -702,7 +789,7 @@
         margin-top: 8rem;
     }
     .top {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         color: #062339;
         font-size: 3rem;
     }
@@ -717,6 +804,36 @@
         right: 4rem;
         z-index: 9;
     }
+    .title {
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cur--title {
+        @extend .title;
+        color: $primary-color;
+    }
+    
+    .ww-title {
+        @extend .title;
+    }
+    
+    .ve-title {
+        @extend .title;
+        color: $title-green;
+    }
+    
+    .fw-title {
+        @extend .title;
+        color: $middle-orange;
+    }
+    
+    .strawberry-title {
+        @extend .title;
+        color: $menu-red;
+    }
     .content-text-ve {
         width: 100%;
         display: flex;
@@ -728,13 +845,13 @@
     }
     .ve-text {
         padding: 1rem;
-        width: 100%;
+        width: 50rem;
         font-family: "Rubik";
         font-weight: normal;
         font-size: 18px;
         color: #1ffb02;
         background-color: #087304cb;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         margin-bottom: 1rem;
     }
     .content-text-straw {
@@ -777,7 +894,7 @@
     }
     
     .sus {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 1.6rem;
         color: white;
         margin-top: 1rem;
@@ -798,12 +915,12 @@
         background-color: #a6d6fd;
         border-radius: 0.2rem;
         border: 0.1rem solid #03aefd;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 0.9rem;
     }
     
     .terms-form-cond {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 1.1rem;
         margin-bottom: 3rem;
         text-align: center;
@@ -814,7 +931,7 @@
     }
     
     .terms-form {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 1.1rem;
         margin-top: 1rem;
         text-align: center;
@@ -831,7 +948,7 @@
         background-color: #03aefd;
         border: none;
         border-radius: 0.2rem;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         color: #062339;
         font-size: 0.8rem;
         text-align: center;
@@ -854,7 +971,6 @@
         width: 100%;
         background-color: #062339;  
     }
-    
     .footer {
         display: flex;
         flex-direction: column;
@@ -862,7 +978,6 @@
         padding: 0.5rem;
         width: 100%;
     }
-    
     .sup--part {
         display: flex;
         flex-wrap: wrap;
@@ -896,7 +1011,7 @@
     }
     .slogan {
         display: block;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-weight: normal;
         font-size: 0.8rem;
         color: #f5f5f5;
@@ -909,44 +1024,37 @@
         color: #f5f5f5;
         margin-bottom: 1.5rem;
     }
-    
     .av--footer {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         color: white;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
     }
-    
     .flex-social {
         flex: 1;
         margin-right: 1rem;
         width: 12rem;
     }
-    
     .av--footer h6{
         font-size: 0.9rem;
         color: #03aefd;
     }
-    
     .flex-social li {
         list-style: none;
         margin-bottom: 0.2rem;
         margin-left: 0;
     }
-    
     a {
         text-decoration: none;
         color: white;
-        font-family: "Rubik";
+        font-family: $secondaryFamily;
         font-weight: normal;
     }
-    
     .flex-social a:hover {
         color: #03aefd;
         cursor: pointer;
     }
-    
     .inf--part {
         width: 100%;
         height: 10rem;
@@ -958,7 +1066,7 @@
     .rights {
         text-decoration: none;
         color: white;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
     }
 }
 @media screen and (max-width: 1075px) {
@@ -995,7 +1103,7 @@
         list-style: none;
     }
     .hamburguer li a {
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 0.9rem;
         text-decoration: none;
     }
@@ -1024,7 +1132,6 @@
         color: #941e09;
         font-size: 1rem;
     }
-    
     .hamb-social {
         height: 1.8rem;
         color: #062339;
@@ -1041,7 +1148,7 @@
     .submenu .button-signUp {
         margin-top: 2rem;
         margin-left: 3.4rem;
-        font-family: "cinzel";
+        font-family: $primaryFamily;
         font-size: 0.85rem;
         color: #062339;
         border: 0.1rem solid #062339;
@@ -1079,17 +1186,26 @@
         bottom: 8rem;
         right: 2rem;
         z-index: 9;
-    }.container-ese-text {
-        width: 100%;
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
     }
-    .title-text {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
+    .ve-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $maarashu-green;
+        background-color: $dark-greeen;
+        margin-bottom: 1rem;
+    }
+    .fw-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $middle-orange;
+        background-color: $orange-BG-color;
+    }
+    .strawberry-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $primary-color;
+        background-color: $wANDw-BG-color;
+        margin-bottom: 2rem;
     }
     .cur--im {
         width: 50%;
@@ -1121,15 +1237,7 @@
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
-    .content-text-straw {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-    }
+
     .mi--form {
         height: 40rem;
         width: 30rem;
@@ -1202,6 +1310,33 @@
     }
     .menu {
         display: none;
+    }
+    %common-title {
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cur--title {
+        @extend %common-title;
+        color: $primary-color;
+    }
+    
+    .ww-title {
+        @extend %common-title;
+        color: $primary-color;
+    }
+    
+    .ve-title {
+        @extend %common-title;
+        color: $title-green; 
+    }
+    
+    .fw-title {
+        @extend %common-title;
+        color: $middle-orange; 
     }
 }
 @media screen and (max-width: 621px) {
@@ -1378,247 +1513,96 @@
         right: 2rem;
         z-index: 9;
     }
-    .max {
-        width: 100%;
+    .cur--title {
+        color: $primary-color;
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
-    .cur {
-        width: 100%;
+    .ww-title {
+        color: $primary-color;
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
-    .ese {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
+    .ve-title {
+        color: $title-green; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
-    .cur--title  {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
+    .fw-title {
+        color: $middle-orange; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
-    .cur--title br {
-        display: none;
+    .strawberry-title {
+        color: $menu-red; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
     }
     .title-text {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
+        font-size: 1.4rem;
+    }
+    .w-text-title {
+        font-size: 1.4rem;
+    }
+    .video-editing-title {
+        font-size: 1.4rem;
+    }
+    .fly__text--title  {
+        font-size: 1.4rem;
+    }
+    .title-text-straw {
+        font-size: 1.4rem;
+    }
+    .content-text-ve {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .ve-text{
+        margin-top: 0rem;
+    }
+    .content-fly-text{
+        margin-top: 0rem;
+        margin-bottom: 3rem;
     }
     .cur--im {
         width: 70%;
         height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .wedd{
-        width: auto;
-    }
-    .ww {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ww-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .wandw {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 1rem;
-    }
-    .w-text-title {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .w-text {
-        width: 30rem;
-        padding: 15px;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .ww-text {
-        padding: 1rem;
-        width: 30rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
+        border-bottom-right-radius: 9rem;
+        border-bottom-left-radius: 9rem;
+        margin-top: 2rem;
         margin-bottom: 1rem;
     }
     .im-wedd {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .folt {
-        width: auto;
-    }
-    .ve-ft {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ve-title {
-        width: 100%;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        color: #32d705;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .video-editing{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-    }
-    .content-text-ve {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .ve-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #1ffb02;
-        background-color: #087304cb;
-        border-radius: 8px;
-        margin-bottom: 10rem;
+        @extend .cur--im;
     }
     .folt-im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .fw-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 5rem;
-        color: #fa6103;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .content-fly-text  {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .fw-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #fa6103;
-        background-color: #3c1801;
-        border-radius: 8px;
-        margin-bottom: 2rem;
+        @extend .cur--im;
     }
     .fly-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .shoot {
-        width: auto;
-    }
-    .strawberry {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .strawberry-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        color: #ee1515;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .content-text-straw {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-    }
-    .title-text-straw {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #ee1515;
-        z-index: 6;
-    }
-    .strawberry-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #021600;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        @extend .cur--im;
     }
     .shoot-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
+        @extend .cur--im;
     }
     .sup--part {
         height: 30rem;
@@ -1806,249 +1790,25 @@
         right: 2rem;
         z-index: 9;
     }
-    .max {
-        width: 100%;
-    }
-    .cur {
-        width: 100%;
-    }
-    .ese {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .cur--title  {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .cur--title br {
-        display: none;
-    }
-    .title-text {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .cur--im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .wedd{
-        width: auto;
-    }
-    .ww {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ww-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        margin-left: 1rem;
-        margin-right: 1rem;
+    .container-ese-text {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .wandw {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .w-text-title {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .w-text {
-        width: 30rem;
-        padding: 15px;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .ww-text {
-        padding: 1rem;
-        width: 30rem;
-        font-family: "Rubik";
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .im-wedd {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .folt {
-        width: auto;
-    }
-    .ve-ft {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ve-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        color: #32d705;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .video-editing{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-text-ve {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .ve-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #1ffb02;
-        background-color: #087304cb;
-        border-radius: 8px;
-        margin-bottom: 10rem;
-    }
-    .folt-im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .fw-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 5rem;
-        color: #fa6103;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-fly-text  {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 10rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .fw-text {
-        padding: 1rem;
-        width: 50rem;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #fa6103;
-        background-color: #3c1801;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    .fly-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .shoot {
-        width: auto;
-    }
-    .strawberry {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    
-    .strawberry-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        color: #ee1515;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .content-text-straw {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-    }
-    
-    .title-text-straw {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #ee1515;
-        z-index: 6;
-    }
-    
-    .strawberry-text {
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #021600;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-    }
-    .shoot-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .terms-form-cond{
         font-size: 0.8rem;
@@ -2294,244 +2054,9 @@
         right: 2rem;
         z-index: 9;
     }
-    .max {
-        width: 100%;
-    }
-    .cur {
-        width: 100%;
-    }
-    .ese {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .cur--title  {
-        width: 90%;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-    }
-    .cur--title br {
-        display: none;
-    }
-    .container-ese-text {
-        width: 100%;
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-    }
-    .title-text {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .cur--text .column-two{
-        font-size: 1rem;
-    }
-    .cur--im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .wedd{
-        height: auto;
-        width: 100%;
-    }
-    .ww {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ww-title {
-        width: 90%;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-    }
-    .wandw {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 10rem;
-    }
-    .w-text-title {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .w-text {
-        width: 100%;
-        padding: 15px;
-        font-family: "Rubik";
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    .ww-text {
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 18px;
-        color: #ea0946;
-        background-color: #faa6c36b;
-        border-radius: 8px;
-        margin-bottom: 10rem;
-    }
-    .im-wedd {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .folt {
-        width: auto;
-    }
-    .ve-ft {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ve-title {
-        width: 34rem;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 12rem;
-        color: #32d705;
-    }
-    .video-editing{
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-    }
-    .content-text-ve {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 3rem;
-    }
-    .ve-text {
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #1ffb02;
-        background-color: #087304cb;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .folt-im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .fw-title {
-        width: 100%;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 6rem;
-        color: #fa6103;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .content-fly-text  {
-        width: auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 10rem;
-    }
-    .fw-text {
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-weight: normal;
-        font-size: 18px;
-        color: #fa6103;
-        background-color: #3c1801;
-        border-radius: 8px;
-        margin-bottom: 10rem;
-    }
-    .fly-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .shoot {
-        width: 100%;
-    }
-    .strawberry {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .strawberry-title {
-        width: 100%;
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.9rem;
-        margin-top: 5rem;
-        color: #ee1515;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
     
-    .content-text-straw {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 16rem;
-    }
-    
-    .title-text-straw {
-        font-family: "cinzel";
-        font-weight: normal;
-        font-size: 1.7rem;
-        color: #ee1515;
-        z-index: 6;
-    }
-    .strawberry-text {
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 18px;
-        color: #021600;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-        padding: 1rem;
-    }
-    .shoot-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
+
+
     .terms-form-cond{
         margin-top: 1rem;
         margin-bottom: 1.7rem;
@@ -2682,7 +2207,7 @@
     }
     .hamburguer {
         display: flex;
-        color: #F5F5F5;
+        color: $basic-white-color;
         width: 1.3rem;
         height: 1.3rem;
         justify-content: end;
@@ -2691,7 +2216,7 @@
         list-style: none;
     }
     .hamburguer li a {
-        font-family: "Cinzel";
+        font-family: $primaryFamily;
         font-size: 0.9rem;
         text-decoration: none;
     }
@@ -2767,12 +2292,8 @@
     .hamburguer:hover  {
         color: #03aefd;
     }
-    
     .hamburguer:hover .submenu{
         display: block;
-    }
-    .fone {
-        height: 68rem;
     }
     .red-yellow{
         margin-top: 5rem;
@@ -2785,12 +2306,12 @@
     }
     .top {
         font-family: $primaryFamily;
-        color: #062339;
+        color: $primary-color;
         font-size: 2rem;
     }
     .ttop {
-        color: #062339;
-        font-family: "Rubik";
+        color: $primary-color;
+        font-family: $secondaryFamily;
     }
     .tm-wrapper{
         margin-top: 30rem;
@@ -2811,264 +2332,12 @@
         right: 2rem;
         z-index: 9;
     }
-    .max {
-        width: 100%;
-    }
-    .cur {
-        width: 100%;
-    }
-    .ese {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    .cur--title  {
-        width: 100%;
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.8rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .cur--title br {
-        display: none;
-    }
-    .container-ese-text {
-        width: 100%;
-    }
-
-    .title-text {
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.6rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .cur--text .column-two{
-        width: 100%;
-        font-size: 1rem;
-    }
-    .cur--im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .wedd{
-        width: 100%;
-    }
-    .ww {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ww-title {
-        width: 100%;
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.8rem;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-        color: #0d2337;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .wandw {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        z-index: 5;
-        margin-bottom: 5rem;
-        padding: 0.5rem;
-    }
-    .w-text-title {
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.6rem;
-        color: #103357;
-        z-index: 6;
-    }
-    .w-text {
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 1rem;
-        color: #ea0946;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .ww-text {
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 1rem;
-        color: #ea0946;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-    }
-    .im-wedd {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .folt {
-        width: 100%;
-    }
-    .ve-ft {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .ve-title {
-        width: 100%;
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.8rem;
-        margin-top: 1rem;
-        color: #32d705;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-
-    .content-text-ve {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 2rem;
-    }
-    .video-editing-title {
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.6rem;
-        color: $maarashu-green;
-    }
-    .ve-text {
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 1rem;
-        color: #1ffb02;
-        background-color: #087304cb;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .folt-im {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .fw {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .fw-title {
-        width: 100%;
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.8rem;
-        margin-top: 1rem;
-        color: #fa6103;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .content-fly-text  {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 1rem;
-    }
-    .fly__text--title  {
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.6rem;
-        color: $middle-orange;
-    }
-    .fw-text {
-        color: #fa6103;
-        padding: 1rem;
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 1rem;
-        background-color: #3c1801;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-    .fly-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    .shoot {
-        width: 100%;
-    }
-    .strawberry {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-    .strawberry-title {
-        width: 100%;
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.8rem;
-        margin-top: 5rem;
-        color: #ee1515;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .content-text-straw {
-        width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        z-index: 5;
-        margin-bottom: 12rem;
-    }
-    .title-text-straw {
-        font-family: $primaryFamily;
-        font-weight: normal;
-        font-size: 1.6rem;
-        color: #ee1515;
-        z-index: 6;
-    }
-    .strawberry-text {
-        width: 100%;
-        font-family: "Rubik";
-        font-size: 1rem;
-        color: #021600;
-        background-color: $wANDw-BG-color;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-    }
-    .shoot-img {
-        width: 70%;
-        height: 70%;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
+    
     .terms-form-cond{
         margin-top: 1rem;
         margin-bottom: 1.7rem;
     }
     .mi--form {
-        height: 35rem;
         width: 18rem;
         border-radius: 0.3rem;
         margin-top: 0rem;

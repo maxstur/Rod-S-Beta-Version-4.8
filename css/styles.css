@@ -240,12 +240,19 @@ header {
   justify-content: space-evenly;
 }
 
-.cur--title, .strawberry-title, .fw-title, .ve-title, .ww-title {
+.common-title {
   width: 34rem;
   font-family: "Cinzel", serif;
   font-size: 2.4rem;
-  margin-top: 12rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.cur--title {
+  color: #0d2337;
+}
+
+.ww-title {
   color: #0d2337;
 }
 
@@ -268,14 +275,10 @@ header {
   justify-content: space-evenly;
   align-items: center;
   z-index: 5;
-  margin-bottom: 17rem;
+  margin-bottom: 2rem;
 }
 
-.content-text-straw {
-  margin-bottom: 20rem;
-}
-
-.title-text, .title-text-straw, .w-text-title {
+.title-text {
   font-family: "Cinzel", serif;
   font-weight: normal;
   font-size: 1.8rem;
@@ -284,7 +287,11 @@ header {
 }
 
 .w-text-title {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
   color: #0d2337;
+  z-index: 6;
 }
 
 .video-editing-title {
@@ -292,6 +299,7 @@ header {
   font-weight: normal;
   font-size: 1.8rem;
   color: #1ffb02;
+  z-index: 6;
 }
 
 .fly__text--title {
@@ -299,14 +307,19 @@ header {
   font-weight: normal;
   font-size: 1.8rem;
   color: #fa6103;
+  z-index: 6;
 }
 
 .title-text-straw {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
   color: #ea0946;
+  z-index: 6;
 }
 
 .cur--text, .column-two {
-  width: 20rem;
+  width: 25rem;
   padding: 1rem;
   color: #103357;
   font-family: "Rubik", sans-serif;
@@ -322,8 +335,7 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   padding: 1rem;
-  border-radius: 0.3rem;
-  margin: 0 1rem;
+  border-radius: 0.5rem;
   width: 30rem;
   color: #ea0946;
   background-color: rgba(250, 166, 195, 0.4196078431);
@@ -334,14 +346,12 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   padding: 1rem;
-  border-radius: 0.3rem;
-  margin: 0 1rem;
+  border-radius: 0.5rem;
   width: 30rem;
   color: #ea0946;
   background-color: rgba(250, 166, 195, 0.4196078431);
-  border-radius: 8px;
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .ve-text {
@@ -349,13 +359,11 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   padding: 1rem;
-  border-radius: 0.3rem;
-  margin: 0 1rem;
-  width: 50rem;
+  border-radius: 0.5rem;
+  width: 30rem;
   color: #1ffb02;
   background-color: rgba(8, 115, 4, 0.7960784314);
   border-radius: 8px;
-  margin-bottom: 3rem;
 }
 
 .fw-text {
@@ -363,8 +371,7 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   padding: 1rem;
-  border-radius: 0.3rem;
-  margin: 0 1rem;
+  border-radius: 0.5rem;
   width: 50rem;
   color: #fa6103;
   background-color: #3c1801;
@@ -375,12 +382,11 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   padding: 1rem;
-  border-radius: 0.3rem;
-  margin: 0 1rem;
+  border-radius: 0.5rem;
   width: 50rem;
   color: #0d2337;
   background-color: rgba(250, 166, 195, 0.4196078431);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .cur--im, .shoot-img, .fly-img, .folt-im, .im-wedd {
@@ -1283,14 +1289,55 @@ a {
     width: 3.3rem;
     height: 3.3rem;
   }
+  .cur--title {
+    color: #0d2337;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .ww-title {
+    color: #0d2337;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .ve-title {
+    color: #32d705;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .fw-title {
+    color: #fa6103;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .strawberry-title {
+    color: #ea0946;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .content-text-ve {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .content-fly-text {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
   .content-text-straw {
-    width: auto;
-    height: 30rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
     margin-bottom: 3rem;
   }
   .sign-Up {
@@ -1514,7 +1561,7 @@ a {
     text-shadow: 1px 2px 2px #a2a1a1;
   }
   .top {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     color: #062339;
     font-size: 3rem;
   }
@@ -1537,11 +1584,56 @@ a {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+  .cur--title {
+    color: #0d2337;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .ww-title {
+    color: #0d2337;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .ve-title {
+    color: #32d705;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .fw-title {
+    color: #fa6103;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
+  .strawberry-title {
+    color: #ea0946;
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 12rem;
+    margin-bottom: 0.5rem;
+  }
   .content-text-ve {
-    margin-bottom: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .content-fly-text {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
   .content-text-straw {
-    margin-bottom: 17rem;
+    margin-bottom: 3rem;
   }
   .inf--part {
     height: 8rem;
@@ -1552,7 +1644,7 @@ a {
   .rights {
     text-decoration: none;
     color: white;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
   }
   .footer__last--copyright {
     color: #F5F5F5;
@@ -1576,7 +1668,7 @@ a {
     margin-top: 8rem;
   }
   .top {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     color: #062339;
     font-size: 3rem;
   }
@@ -1591,6 +1683,24 @@ a {
     right: 4rem;
     z-index: 9;
   }
+  .title, .strawberry-title, .fw-title, .ve-title, .ww-title, .cur--title {
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 6rem;
+    margin-bottom: 0.5rem;
+  }
+  .cur--title {
+    color: #0d2337;
+  }
+  .ve-title {
+    color: #32d705;
+  }
+  .fw-title {
+    color: #fa6103;
+  }
+  .strawberry-title {
+    color: #ea0946;
+  }
   .content-text-ve {
     width: 100%;
     display: flex;
@@ -1602,13 +1712,13 @@ a {
   }
   .ve-text {
     padding: 1rem;
-    width: 100%;
+    width: 50rem;
     font-family: "Rubik";
     font-weight: normal;
     font-size: 18px;
     color: #1ffb02;
     background-color: rgba(8, 115, 4, 0.7960784314);
-    border-radius: 8px;
+    border-radius: 0.5rem;
     margin-bottom: 1rem;
   }
   .content-text-straw {
@@ -1648,7 +1758,7 @@ a {
     box-shadow: 0.5rem 0.7rem 2.6rem #062339;
   }
   .sus {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 1.6rem;
     color: white;
     margin-top: 1rem;
@@ -1667,11 +1777,11 @@ a {
     background-color: #a6d6fd;
     border-radius: 0.2rem;
     border: 0.1rem solid #03aefd;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 0.9rem;
   }
   .terms-form-cond {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 1.1rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -1680,7 +1790,7 @@ a {
     color: #03aefd;
   }
   .terms-form {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 1.1rem;
     margin-top: 1rem;
     text-align: center;
@@ -1695,7 +1805,7 @@ a {
     background-color: #03aefd;
     border: none;
     border-radius: 0.2rem;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     color: #062339;
     font-size: 0.8rem;
     text-align: center;
@@ -1754,7 +1864,7 @@ a {
   }
   .slogan {
     display: block;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-weight: normal;
     font-size: 0.8rem;
     color: #f5f5f5;
@@ -1772,7 +1882,7 @@ a {
     flex-flow: row wrap;
     justify-content: center;
     color: white;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
   }
   .flex-social {
     flex: 1;
@@ -1791,7 +1901,7 @@ a {
   a {
     text-decoration: none;
     color: white;
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
     font-weight: normal;
   }
   .flex-social a:hover {
@@ -1809,7 +1919,7 @@ a {
   .rights {
     text-decoration: none;
     color: white;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
   }
 }
 @media screen and (max-width: 1075px) {
@@ -1846,7 +1956,7 @@ a {
     list-style: none;
   }
   .hamburguer li a {
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 0.9rem;
     text-decoration: none;
   }
@@ -1891,7 +2001,7 @@ a {
   .submenu .button-signUp {
     margin-top: 2rem;
     margin-left: 3.4rem;
-    font-family: "cinzel";
+    font-family: "Cinzel", serif;
     font-size: 0.85rem;
     color: #062339;
     border: 0.1rem solid #062339;
@@ -1928,17 +2038,37 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    width: 100%;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .title-text, .w-text-title, .title-text-straw {
-    font-family: "cinzel";
+  .ve-text {
+    font-size: 1.1rem;
+    font-family: "Rubik", sans-serif;
     font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 25rem;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    margin-bottom: 1rem;
+  }
+  .fw-text {
+    font-size: 1.1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 25rem;
+    color: #fa6103;
+    background-color: #3c1801;
+  }
+  .strawberry-text {
+    font-size: 1.1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 25rem;
+    color: #0d2337;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    margin-bottom: 2rem;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 50%;
@@ -1969,15 +2099,6 @@ a {
     height: 50%;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-  }
-  .content-text-straw {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 3rem;
   }
   .mi--form {
     height: 40rem;
@@ -2051,6 +2172,25 @@ a {
   }
   .menu {
     display: none;
+  }
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
+    width: 34rem;
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .cur--title {
+    color: #0d2337;
+  }
+  .ww-title {
+    color: #0d2337;
+  }
+  .ve-title {
+    color: #32d705;
+  }
+  .fw-title {
+    color: #fa6103;
   }
 }
 @media screen and (max-width: 621px) {
@@ -2225,246 +2365,83 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max, .cur, .wedd, .folt, .fly, .shoot {
-    width: 100%;
-  }
-  .cur {
-    width: 100%;
-  }
-  .ese, .ww, .ve-ft, .fw, .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+  .cur--title {
     color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    width: 23rem;
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
   }
-  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
-    display: none;
+  .ww-title {
+    color: #0d2337;
+    padding-left: 1rem;
+    width: 23rem;
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
   }
-  .title-text, .w-text-title, .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
+  .ve-title {
+    color: #32d705;
+    padding-left: 1rem;
+    width: 23rem;
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .fw-title {
+    color: #fa6103;
+    padding-left: 1rem;
+    width: 23rem;
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .strawberry-title {
+    color: #ea0946;
+    padding-left: 1rem;
+    width: 23rem;
+    font-family: "Cinzel", serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .title-text {
+    font-size: 1.4rem;
+  }
+  .w-text-title {
+    font-size: 1.4rem;
+  }
+  .video-editing-title {
+    font-size: 1.4rem;
+  }
+  .fly__text--title {
+    font-size: 1.4rem;
+  }
+  .title-text-straw {
+    font-size: 1.4rem;
+  }
+  .content-text-ve {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+  .ve-text {
+    margin-top: 0rem;
+  }
+  .content-fly-text {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
   }
   .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
     width: 70%;
     height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .wedd {
-    width: auto;
-  }
-  .ww {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ww-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .wandw {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 1rem;
-  }
-  .w-text-title {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .w-text {
-    width: 30rem;
-    padding: 15px;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .ww-text {
-    padding: 1rem;
-    width: 30rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .im-wedd {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .folt {
-    width: auto;
-  }
-  .ve-ft {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ve-title {
-    width: 100%;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 1rem;
-    color: #32d705;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .video-editing {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-  }
-  .content-text-ve {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .ve-text {
-    padding: 1rem;
-    width: 50rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #1ffb02;
-    background-color: rgba(8, 115, 4, 0.7960784314);
-    border-radius: 8px;
-    margin-bottom: 10rem;
-  }
-  .folt-im {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .fw-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 5rem;
-    color: #fa6103;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .content-fly-text {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .fw-text {
-    padding: 1rem;
-    width: 50rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #fa6103;
-    background-color: #3c1801;
-    border-radius: 8px;
-    margin-bottom: 2rem;
-  }
-  .fly-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .shoot {
-    width: auto;
-  }
-  .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .strawberry-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    color: #ee1515;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .content-text-straw {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 3rem;
-  }
-  .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #ee1515;
-    z-index: 6;
-  }
-  .strawberry-text {
-    padding: 1rem;
-    width: 50rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #021600;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
+    border-bottom-right-radius: 9rem;
+    border-bottom-left-radius: 9rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
   .sup--part {
@@ -2651,246 +2628,25 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max, .cur, .wedd, .folt, .fly, .shoot {
-    width: 100%;
-  }
-  .cur {
-    width: 100%;
-  }
-  .ese, .ww, .ve-ft, .fw, .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
-    display: none;
-  }
-  .title-text, .w-text-title, .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .wedd {
-    width: auto;
-  }
-  .ww {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ww-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .wandw {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .w-text-title {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .w-text {
-    width: 30rem;
-    padding: 15px;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .ww-text {
-    padding: 1rem;
-    width: 30rem;
-    font-family: "Rubik";
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .im-wedd {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .folt {
-    width: auto;
-  }
-  .ve-ft {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ve-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 1rem;
-    color: #32d705;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .video-editing {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-text-ve {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .ve-text {
-    padding: 1rem;
-    width: 50rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #1ffb02;
-    background-color: rgba(8, 115, 4, 0.7960784314);
-    border-radius: 8px;
-    margin-bottom: 10rem;
-  }
-  .folt-im {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .fw-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 5rem;
-    color: #fa6103;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-fly-text {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .fw-text {
-    padding: 1rem;
-    width: 50rem;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #fa6103;
-    background-color: #3c1801;
-    border-radius: 8px;
-    margin-bottom: 2rem;
-  }
-  .fly-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .shoot {
-    width: auto;
-  }
-  .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .strawberry-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    color: #ee1515;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .content-text-straw {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 3rem;
-  }
-  .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #ee1515;
-    z-index: 6;
-  }
-  .strawberry-text {
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #021600;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-  }
-  .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .terms-form-cond {
     font-size: 0.8rem;
@@ -3132,242 +2888,6 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max, .cur, .wedd, .folt, .fly, .shoot {
-    width: 100%;
-  }
-  .cur {
-    width: 100%;
-  }
-  .ese, .ww, .ve-ft, .fw, .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: 90%;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-  }
-  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
-    display: none;
-  }
-  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    width: 100%;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .title-text, .w-text-title, .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .cur--text .column-two, .column-two .column-two {
-    font-size: 1rem;
-  }
-  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .wedd {
-    height: auto;
-    width: 100%;
-  }
-  .ww {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ww-title {
-    width: 90%;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-  }
-  .wandw {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 10rem;
-  }
-  .w-text-title {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .w-text {
-    width: 100%;
-    padding: 15px;
-    font-family: "Rubik";
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 2rem;
-  }
-  .ww-text {
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 18px;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 10rem;
-  }
-  .im-wedd {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .folt {
-    width: auto;
-  }
-  .ve-ft {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ve-title {
-    width: 34rem;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 12rem;
-    color: #32d705;
-  }
-  .video-editing {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-  }
-  .content-text-ve {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 3rem;
-  }
-  .ve-text {
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #1ffb02;
-    background-color: rgba(8, 115, 4, 0.7960784314);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .folt-im {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .fw-title {
-    width: 100%;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 6rem;
-    color: #fa6103;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .content-fly-text {
-    width: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 10rem;
-  }
-  .fw-text {
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-weight: normal;
-    font-size: 18px;
-    color: #fa6103;
-    background-color: #3c1801;
-    border-radius: 8px;
-    margin-bottom: 10rem;
-  }
-  .fly-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .shoot {
-    width: 100%;
-  }
-  .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .strawberry-title {
-    width: 100%;
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.9rem;
-    margin-top: 5rem;
-    color: #ee1515;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .content-text-straw {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 16rem;
-  }
-  .title-text-straw {
-    font-family: "cinzel";
-    font-weight: normal;
-    font-size: 1.7rem;
-    color: #ee1515;
-    z-index: 6;
-  }
-  .strawberry-text {
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 18px;
-    color: #021600;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    padding: 1rem;
-  }
-  .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
   .terms-form-cond {
     margin-top: 1rem;
     margin-bottom: 1.7rem;
@@ -3527,7 +3047,7 @@ a {
     list-style: none;
   }
   .hamburguer li a {
-    font-family: "Cinzel";
+    font-family: "Cinzel", serif;
     font-size: 0.9rem;
     text-decoration: none;
   }
@@ -3604,9 +3124,6 @@ a {
   .hamburguer:hover .submenu {
     display: block;
   }
-  .fone {
-    height: 68rem;
-  }
   .red-yellow {
     margin-top: 5rem;
   }
@@ -3618,12 +3135,12 @@ a {
   }
   .top {
     font-family: "Cinzel", serif;
-    color: #062339;
+    color: #0d2337;
     font-size: 2rem;
   }
   .ttop {
-    color: #062339;
-    font-family: "Rubik";
+    color: #0d2337;
+    font-family: "Rubik", sans-serif;
   }
   .tm-wrapper {
     margin-top: 30rem;
@@ -3644,262 +3161,11 @@ a {
     right: 2rem;
     z-index: 9;
   }
-  .max, .cur, .wedd, .folt, .fly, .shoot {
-    width: 100%;
-  }
-  .cur {
-    width: 100%;
-  }
-  .ese, .ww, .ve-ft, .fw, .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
-    width: 100%;
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
-    display: none;
-  }
-  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
-    width: 100%;
-  }
-  .title-text, .w-text-title, .title-text-straw {
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .cur--text .column-two, .column-two .column-two {
-    width: 100%;
-    font-size: 1rem;
-  }
-  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .wedd {
-    width: 100%;
-  }
-  .ww {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ww-title {
-    width: 100%;
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: #0d2337;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .wandw {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    z-index: 5;
-    margin-bottom: 5rem;
-    padding: 0.5rem;
-  }
-  .w-text-title {
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: #103357;
-    z-index: 6;
-  }
-  .w-text {
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 1rem;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .ww-text {
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 1rem;
-    color: #ea0946;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 2rem;
-  }
-  .im-wedd {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .folt {
-    width: 100%;
-  }
-  .ve-ft {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .ve-title {
-    width: 100%;
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin-top: 1rem;
-    color: #32d705;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .content-text-ve {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 2rem;
-  }
-  .video-editing-title {
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: #1ffb02;
-  }
-  .ve-text {
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 1rem;
-    color: #1ffb02;
-    background-color: rgba(8, 115, 4, 0.7960784314);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .folt-im {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .fw {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .fw-title {
-    width: 100%;
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin-top: 1rem;
-    color: #fa6103;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .content-fly-text {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 1rem;
-  }
-  .fly__text--title {
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: #fa6103;
-  }
-  .fw-text {
-    color: #fa6103;
-    padding: 1rem;
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 1rem;
-    background-color: #3c1801;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-  }
-  .fly-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .shoot {
-    width: 100%;
-  }
-  .strawberry {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-  }
-  .strawberry-title {
-    width: 100%;
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.8rem;
-    margin-top: 5rem;
-    color: #ee1515;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .content-text-straw {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    margin-bottom: 12rem;
-  }
-  .title-text-straw {
-    font-family: "Cinzel", serif;
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: #ee1515;
-    z-index: 6;
-  }
-  .strawberry-text {
-    width: 100%;
-    font-family: "Rubik";
-    font-size: 1rem;
-    color: #021600;
-    background-color: rgba(250, 166, 195, 0.4196078431);
-    border-radius: 8px;
-    margin-bottom: 2rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .shoot-img {
-    width: 70%;
-    height: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
   .terms-form-cond {
     margin-top: 1rem;
     margin-bottom: 1.7rem;
   }
   .mi--form {
-    height: 35rem;
     width: 18rem;
     border-radius: 0.3rem;
     margin-top: 0rem;

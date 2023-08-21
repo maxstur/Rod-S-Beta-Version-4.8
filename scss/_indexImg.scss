@@ -34,28 +34,37 @@
 .strawberry {
     @extend .ese;
 }
-.cur--title  {
+.common-title {
     width: 34rem;
     font-family: $primaryFamily;
     font-size: $h2-title;
-    margin-top: 12rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cur--title {
+    @extend %common-title;
     color: $primary-color;
 }
+
 .ww-title {
-    @extend .cur--title;
+    @extend %common-title;
+    color: $primary-color;
 }
+
 .ve-title {
-    @extend .cur--title;
-    color: $title-green;
+    @extend %common-title;
+    color: $title-green; 
 }
+
 .fw-title {
-    @extend .cur--title;
-    color: $middle-orange;
+    @extend %common-title;
+    color: $middle-orange; 
 }
+
 .strawberry-title {
-    @extend .cur--title;
-    color: $menu-red;
+    @extend %common-title;
+    color: $menu-red; 
 }
 .container-ese-text {
     width: 100%;
@@ -64,7 +73,7 @@
     justify-content: space-evenly;
     align-items: center;
     z-index: 5;
-    margin-bottom: 17rem;
+    margin-bottom: 2rem;
 }
 .wandw {
     @extend .container-ese-text;
@@ -77,37 +86,36 @@
 }
 .content-text-straw {
     @extend .container-ese-text;
-    margin-bottom: 20rem;
 }
-.title-text {
+@mixin title-styles($color) {
     font-family: $primaryFamily;
     font-weight: normal;
     font-size: $h3-title-text;
-    color: $heraldic-blue;
+    color: $color;
     z-index: 6;
 }
+
+.title-text {
+    @include title-styles($heraldic-blue);
+}
+
 .w-text-title {
-    @extend .title-text;
-    color: $primary-color;
+    @include title-styles($primary-color);
 }
+
 .video-editing-title {
-    font-family: $primaryFamily;
-    font-weight: normal;
-    font-size: $h3-title-text;
-    color: $maarashu-green;
+    @include title-styles($maarashu-green);
 }
+
 .fly__text--title  {
-    font-family: $primaryFamily;
-    font-weight: normal;
-    font-size: $h3-title-text;
-    color: $middle-orange;
+    @include title-styles($middle-orange);
 }
+
 .title-text-straw {
-    @extend .title-text;
-    color: $menu-red;
+    @include title-styles($menu-red);
 }
 .cur--text {
-    width: 20rem;
+    width: 25rem;
     padding: 1rem;
     color: $heraldic-blue;
     font-family: $secondaryFamily;
@@ -126,8 +134,7 @@
     font-family: $secondaryFamily;
     font-weight: normal;
     padding: 1rem;
-    border-radius: 0.3rem;
-    margin: 0 1rem;
+    border-radius: 0.5rem;
 }
 .w-text {
     @include font-weight-more;
@@ -141,17 +148,15 @@
     width: 30rem;
     color: $menu-red;
     background-color: $wANDw-BG-color;
-    border-radius: 8px;
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 .ve-text {
     @include  font-weight-more;
-    width: 50rem;
+    width: 30rem;
     color: $maarashu-green;
     background-color: $dark-greeen;
     border-radius: 8px;
-    margin-bottom: 3rem;
 }
 .fw-text {
     @include  font-weight-more;
@@ -164,7 +169,7 @@
     width: 50rem;
     color: $primary-color;
     background-color: $wANDw-BG-color;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .cur--im {
