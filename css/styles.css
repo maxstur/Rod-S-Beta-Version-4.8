@@ -547,7 +547,7 @@ header {
     flex-flow: row wrap;
     justify-content: center;
   }
-  .terms-button {
+  .terms-botono {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -699,15 +699,15 @@ header {
     justify-content: center;
   }
   .botono {
+    color: #0d2337;
     width: 8rem;
     height: 1.7rem;
     margin-top: 0rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0rem;
     background-color: #f17930;
     border: none;
     border-radius: 0.3rem;
     font-family: "cinzel";
-    color: #0d2337;
     font-size: 0.8rem;
     text-align: center;
   }
@@ -721,8 +721,8 @@ header {
     font-size: 0.7rem;
     color: #F5F5F5;
     text-align: center;
-    padding-top: 2rem;
     text-decoration: none;
+    margin-bottom: 2rem;
   }
   .terms-forms a:hover {
     color: #03aefd;
@@ -1422,7 +1422,7 @@ a {
   }
   .terms-form {
     font-family: "cinzel";
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 1rem;
     text-align: center;
   }
@@ -1812,7 +1812,7 @@ a {
   }
   .terms-form {
     font-family: "Cinzel", serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: 1rem;
     text-align: center;
   }
@@ -2464,6 +2464,9 @@ a {
     border-bottom-left-radius: 9rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+  .terms-button {
+    font-size: 0.7rem;
   }
   .sup--part {
     height: 30rem;

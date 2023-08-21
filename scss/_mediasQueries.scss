@@ -510,7 +510,7 @@
     
     .terms-form {
         font-family: "cinzel";
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-top: 1rem;
         text-align: center;
     }
@@ -933,7 +933,7 @@
     
     .terms-form {
         font-family: $primaryFamily;
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-top: 1rem;
         text-align: center;
     }
@@ -1604,6 +1604,9 @@
     }
     .shoot-img {
         @extend .cur--im;
+    }
+    .terms-button{
+        font-size: 0.7rem;
     }
     .sup--part {
         height: 30rem;
