@@ -79,6 +79,18 @@
 }
 
 @media screen and (max-width: 425px){
+    .animations__gif {
+        width: 100%;
+        display: flex;
+        margin-top: 8rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2__title  {
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        color: $primary-color;
+    }
     .principal__section {
         height: auto;
         margin-top: 1rem;

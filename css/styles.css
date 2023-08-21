@@ -4302,6 +4302,18 @@ a {
   }
 }
 @media screen and (max-width: 425px) {
+  .animations__gif {
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2__title {
+    font-family: "Cinzel", serif;
+    font-size: 2.4rem;
+    color: #0d2337;
+  }
   .principal__section {
     height: auto;
     margin-top: 1rem;
