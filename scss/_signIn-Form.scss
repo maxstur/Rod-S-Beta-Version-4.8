@@ -51,12 +51,15 @@
         color: #f5f5f5;
         cursor: pointer;
     }
-    .terms-forms {
-        font-family: "Rubik";
+
+    .terms-forms a{
+        color: $basic-white-color;
+        font-family: $secondaryFamily;
         font-weight: normal;
+        padding: 3rem;
         font-size: 0.7rem;
-        text-align: center;
         margin-bottom: 1.5rem;
+        text-decoration: none;
     }
     .terms-forms a:hover{
         color: #03aefd;
@@ -205,8 +208,8 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        background-color: #062339;
-        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+        background-color: $primary-color;
+        box-shadow: 0.5rem 0.7rem 2.6rem $primary-color;
     }
     .suss {
         font-family: "cinzel";
@@ -247,17 +250,18 @@
         margin-bottom: 1rem;
     }
     .botono:hover {
-        color: #f5f5f5;
+        color: $basic-white-color;
         cursor: pointer;
     }
     .terms-forms a{
+        width: 100%;
+        color: $basic-white-color;
         font-family: "Rubik";
         font-weight: normal;
         font-size: $h5-terms;
-        color: $basic-white-color;
-        text-align: center;
         margin-bottom: 1.5rem;
         text-decoration: none;
+        margin-left: 1.7rem;
     }
     .terms-forms a:hover{
         color: #03aefd;
