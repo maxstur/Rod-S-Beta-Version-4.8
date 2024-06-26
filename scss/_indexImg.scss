@@ -1,0 +1,194 @@
+
+.max {
+    width: 100%;
+}
+.cur {
+    @extend .max;
+}
+.wedd{
+    @extend .max;
+}
+.folt {
+    @extend .max;
+}
+.fly {
+    @extend .max;
+}
+.shoot {
+    @extend .max;
+}
+.ese {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.ww {
+    @extend .ese;
+}
+.ve-ft {
+    @extend .ese;
+}
+.fw {
+    @extend .ese;
+}
+.strawberry {
+    @extend .ese;
+}
+.common-title {
+    width: 34rem;
+    font-family: $primaryFamily;
+    font-size: $h2-title;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cur--title {
+    @extend %common-title;
+    color: $primary-color;
+}
+
+.ww-title {
+    @extend %common-title;
+    color: $primary-color;
+}
+
+.ve-title {
+    @extend %common-title;
+    color: $title-green; 
+}
+
+.fw-title {
+    @extend %common-title;
+    color: $middle-orange; 
+}
+
+.strawberry-title {
+    @extend %common-title;
+    color: $menu-red; 
+}
+.container-ese-text {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 2rem;
+}
+.wandw {
+    @extend .container-ese-text;
+}
+.content-text-ve {
+    @extend .container-ese-text;
+}
+.content-fly-text  {
+    @extend .container-ese-text;
+}
+.content-text-straw {
+    @extend .container-ese-text;
+}
+@mixin title-styles($color) {
+    font-family: $primaryFamily;
+    font-weight: normal;
+    font-size: $h3-title-text;
+    color: $color;
+    z-index: 6;
+}
+
+.title-text {
+    @include title-styles($heraldic-blue);
+}
+
+.w-text-title {
+    @include title-styles($primary-color);
+}
+
+.video-editing-title {
+    @include title-styles($maarashu-green);
+}
+
+.fly__text--title  {
+    @include title-styles($middle-orange);
+}
+
+.title-text-straw {
+    @include title-styles($menu-red);
+}
+.cur--text {
+    width: 25rem;
+    padding: 1rem;
+    color: $heraldic-blue;
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    font-size: 1.1rem;
+    background-color: $heraldic-BG-color;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+.column-two {
+    @extend .cur--text;
+}
+
+@mixin font-weight-more {
+    font-size: 1.1rem;
+    font-family: $secondaryFamily;
+    font-weight: normal;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.w-text {
+    @include font-weight-more;
+    width: 30rem;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
+}
+
+.ww-text {
+    @include font-weight-more;
+    width: 30rem;
+    color: $menu-red;
+    background-color: $wANDw-BG-color;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ve-text {
+    @include  font-weight-more;
+    width: 30rem;
+    color: $maarashu-green;
+    background-color: $dark-greeen;
+    border-radius: 8px;
+}
+.fw-text {
+    @include  font-weight-more;
+    width: 50rem;
+    color: $middle-orange;
+    background-color: $orange-BG-color;
+}
+.strawberry-text {
+    @include  font-weight-more;
+    width: 50rem;
+    color: $primary-color;
+    background-color: $wANDw-BG-color;
+    margin-bottom: 2rem;
+}
+
+.cur--im {
+    width: 35%;
+    height: 35%;
+    border-bottom-right-radius: 9rem;
+    border-bottom-left-radius: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.im-wedd {
+    @extend .cur--im;
+}
+.folt-im {
+    @extend .cur--im;
+}
+.fly-img {
+    @extend .cur--im;
+}
+.shoot-img {
+    @extend .cur--im;
+}

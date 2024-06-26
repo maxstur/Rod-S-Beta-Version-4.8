@@ -1,0 +1,3980 @@
+@charset "UTF-8";
+.max, .shoot, .fly, .folt, .wedd, .cur {
+  width: 100%;
+  height: auto;
+}
+
+.ese, .strawberry, .fw, .ve-ft, .ww {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cur--title, .strawberry-title, .fw-title, .ve-title, .ww-title {
+  width: 34rem;
+  font-family: "Cinzel", serif;
+  font-size: 2.4rem;
+  margin-top: 12rem;
+  margin-bottom: 1rem;
+  color: #0d2337;
+}
+
+.ve-title {
+  color: #32d705;
+}
+
+.fw-title {
+  color: #fa6103;
+}
+
+.strawberry-title {
+  color: #ea0946;
+}
+
+.container-ese-text, .content-text-straw, .content-fly-text, .content-text-ve, .wandw {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 5;
+  margin-bottom: 12rem;
+}
+
+.wandw {
+  margin-bottom: 15rem;
+}
+
+.content-text-ve {
+  height: 30rem;
+  width: auto;
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content-fly-text {
+  height: 65vh;
+  width: auto;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content-text-straw {
+  margin-bottom: 20rem;
+}
+
+.title-text, .title-text-straw, .fly__text--title, .video-editing-title, .w-text-title {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #103357;
+  z-index: 6;
+}
+
+.w-text-title {
+  color: #0d2337;
+}
+
+.video-editing-title {
+  color: #1ffb02;
+}
+
+.fly__text--title {
+  color: #fa6103;
+}
+
+.title-text-straw {
+  color: #ea0946;
+}
+
+.cur--text, .w-text, .column-two {
+  width: 20rem;
+  padding: 1rem;
+  color: #103357;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  background-color: rgba(250, 233, 166, 0.4196078431);
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.w-text {
+  width: 30rem;
+  color: #ea0946;
+  background-color: rgba(250, 166, 195, 0.4196078431);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.cur--text, .column-two, .w-text {
+  width: 20rem;
+  padding: 1rem;
+  color: #103357;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  background-color: rgba(250, 233, 166, 0.4196078431);
+  border-radius: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.ww-text {
+  padding: 1rem;
+  width: 30rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #ea0946;
+  background-color: rgba(250, 166, 195, 0.4196078431);
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+.ve-text {
+  padding: 1rem;
+  width: 50rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #1ffb02;
+  background-color: rgba(8, 115, 4, 0.7960784314);
+  border-radius: 8px;
+  margin-bottom: 17rem;
+}
+
+.fw-text {
+  padding: 1rem;
+  width: 50rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: #fa6103;
+  background-color: #3c1801;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+.strawberry-text {
+  padding: 1rem;
+  width: 50rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 18px;
+  color: #0d2337;
+  background-color: rgba(250, 166, 195, 0.4196078431);
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+
+.cur--im, .shoot-img, .fly-img, .folt-im, .im-wedd {
+  width: 35%;
+  height: 35%;
+  border-bottom-right-radius: 9rem;
+  border-bottom-left-radius: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sign-Up {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #F5F5F5);
+}
+
+.form-container, .between-control, .mi--form, .sign-Up {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mi--form {
+  height: 40rem;
+  width: 35rem;
+  border-radius: 0.3rem;
+  margin-top: 0rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  color: #03aefd;
+  background-color: #0d2337;
+  box-shadow: 0.5rem 0.7rem 2.6rem #0d2337;
+}
+
+.sus {
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+  color: #F5F5F5;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.control {
+  color: #0d2337;
+  font-family: "Cinzel", serif;
+  width: 24rem;
+  height: 2.8rem;
+  padding-left: 1rem;
+  background-color: #e6f7ff;
+  border-radius: 0.2rem;
+  border: 0.1rem solid #03aefd;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.terms-form-cond {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.terms-form-cond a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.terms-form-cond a:hover {
+  color: #03aefd;
+}
+
+.terms-form {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.terms-form a {
+  font-family: "Rubik", sans-serif;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.boton {
+  width: 15rem;
+  height: 2.8rem;
+  font-family: "Cinzel", serif;
+  text-decoration: none;
+  font-size: 1rem;
+  justify-content: center;
+  background-color: #03aefd;
+  border: none;
+  border-radius: 0.2rem;
+  color: #0d2337;
+  text-align: center;
+}
+
+.mi--form a .boton:hover {
+  color: #F5F5F5;
+  cursor: pointer;
+}
+
+.terms-form a:hover {
+  color: #03aefd;
+}
+
+.mi--form p a:hover {
+  color: #03aefd;
+  cursor: pointer;
+}
+
+header {
+  height: 4.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #0d2337;
+}
+
+.hflex {
+  margin: 0;
+}
+
+.hbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.hlog {
+  z-index: 4;
+  background-color: #0d2337;
+  height: 8.3rem;
+  border-radius: 5rem;
+  margin-top: -0.4rem;
+}
+
+.menu {
+  margin-top: 1.4rem;
+  width: 25rem;
+  justify-content: center;
+}
+
+.menu-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  font-family: "cinzel";
+  margin-right: 1rem;
+}
+
+.menu a:hover {
+  color: #03aefd;
+}
+
+.hamburguer {
+  display: flex;
+  color: #F5F5F5;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  justify-content: end;
+}
+
+.hamburguer ul li {
+  list-style: none;
+}
+
+.hamburguer li a {
+  font-family: "cinzel";
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.icon-ham {
+  transform: scale(2);
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.sub-li {
+  background-color: #e6f7ff;
+  width: 16.9rem;
+  height: 17.5rem;
+  margin-left: -1.4rem;
+  border-radius: 0.3rem;
+  z-index: 4;
+}
+
+.hamb-menu {
+  height: 1.8rem;
+  width: 16.8rem;
+  color: #0d2337;
+  display: block;
+  padding-left: 5rem;
+  padding-top: 0.3rem;
+  z-index: 4;
+}
+
+.hamb-menu:hover {
+  color: #941e09;
+  font-size: 1rem;
+}
+
+.hamb-social {
+  height: 1.8rem;
+  color: #0d2337;
+  width: 16.8rem;
+  padding: 0rem;
+  margin-top: 0.22rem;
+  margin-left: 9.4rem;
+  transform: scale(1.2);
+}
+
+.hamb-social:hover {
+  color: #941e09;
+  margin-left: 11.4rem;
+  transform: scale(1.4);
+}
+
+.submenu .button-signUp {
+  margin-top: 2rem;
+  margin-left: 2.8rem;
+  font-family: "cinzel";
+  font-size: 0.85rem;
+  color: #0d2337;
+  border: 0.1rem solid #0d2337;
+  border-radius: 0.4rem;
+  display: inline-block;
+  padding: 0.4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.button-signUp:hover {
+  color: #F5F5F5;
+  background-color: #0d2337;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  padding-top: 0.5rem;
+  margin-left: -13rem;
+  width: 18rem;
+  height: 24rem;
+  border-radius: 0.3rem;
+  background-color: #c3e8fa;
+  box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+}
+
+.hamburguer:hover {
+  color: #03aefd;
+}
+
+.hamburguer:hover .submenu {
+  display: block;
+}
+
+.fone {
+  width: 100%;
+  height: 150vh;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #ebd702, #ea0946);
+}
+
+.container {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.red-yellow {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.utop {
+  font-family: "Cinzel", serif;
+  font-size: 0.7rem;
+  color: #F5F5F5;
+  text-shadow: 1px 2px 2px #a2a1a1;
+}
+
+.top {
+  font-family: "Cinzel", serif;
+  color: #0d2337;
+  font-size: 3rem;
+}
+
+.ttop {
+  color: #0d2337;
+  font-family: "Rubik", sans-serif;
+}
+
+.tm-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  transition: transform 0.3s;
+  position: absolute;
+  width: 100%;
+  margin-top: 40rem;
+  z-index: 1;
+}
+
+.tm-slide {
+  justify-content: center;
+  width: 5rem;
+  height: 100px;
+  display: flex;
+  padding: 1px;
+  overflow: hidden;
+  z-index: 6;
+}
+
+.tm-slide img {
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.tm-slide:after {
+  position: absolute;
+}
+
+.tm-slide:hover {
+  transform: scale(1.2);
+}
+
+.wa-cont {
+  position: fixed;
+  transform: scale(0.8);
+  bottom: 7rem;
+  right: 8rem;
+  z-index: 9;
+}
+
+.wa-align {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wa-bottom {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.3rem groove #0d2337;
+  transition: width 0.15s, height 0.15s;
+}
+
+.wa-cont:hover .wa-bottom {
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+.colafo {
+  width: 100%;
+  background-color: #0d2337;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.sup--part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+}
+
+.logo-cont {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__logo {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.fo-logo img {
+  display: inline;
+  height: 9rem;
+  width: auto;
+}
+
+.slogan {
+  display: block;
+  font-family: "cinzel";
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #F5F5F5;
+  margin-bottom: 1rem;
+}
+
+.fote {
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 1rem;
+  color: #F5F5F5;
+  margin-bottom: 1.5rem;
+}
+
+.av--footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #F5F5F5;
+  font-family: "cinzel";
+}
+
+.flex-social {
+  flex: 1;
+  margin-right: 1rem;
+  width: 12rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+.flex-social li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0.2rem;
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F5F5;
+  font-family: "Rubik";
+}
+
+.flex-social a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+.flex-social a:hover {
+  color: #03aefd;
+  cursor: pointer;
+}
+
+.inf--part {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rights {
+  color: #F5F5F5;
+  font-family: "cinzel";
+}
+
+.rights a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-family: "cinzel";
+  font-size: 0.7rem;
+}
+
+.rights .text {
+  font-family: "cinzel";
+  font-size: 0.7rem;
+}
+
+.rights p a:hover {
+  color: #03aefd;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 2560px) {
+  header {
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hflex {
+    margin: 0;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .hlog {
+    z-index: 4;
+    background-color: #062339;
+    height: 8.3rem;
+    border-radius: 5rem;
+    margin-top: -0.4rem;
+  }
+  .menu {
+    margin-top: 1.4rem;
+    width: 25rem;
+    justify-content: center;
+  }
+  .menu-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 0.9rem;
+    font-family: "cinzel";
+    margin-right: 1rem;
+  }
+  .menu a:hover {
+    color: #03aefd;
+  }
+  .hamburguer {
+    display: flex;
+    color: #F5F5F5;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    justify-content: end;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 16.9rem;
+    height: 17.5rem;
+    margin-left: -1.4rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    height: 1.8rem;
+    width: 16.8rem;
+    color: #062339;
+    display: block;
+    padding-left: 5rem;
+    padding-top: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    padding: 0rem;
+    margin-top: 0.22rem;
+    margin-left: 9.4rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 2.8rem;
+    font-family: "cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    display: none;
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -13rem;
+    width: 18rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .fone {
+    height: 60rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.9);
+    bottom: 4rem;
+    right: 5rem;
+    z-index: 9;
+  }
+  .wa-align {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .wa-bottom {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0.3rem groove #062339;
+    transition: width 0.15s, height 0.15s;
+  }
+  .wa-cont:hover .wa-bottom {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+  .form-container, .sign-Up, .mi--form, .between-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mi--form {
+    height: 45rem;
+    width: 35rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.6rem;
+    color: #F5F5F5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .between-control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .control {
+    width: 24rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.9rem;
+  }
+  .terms-form-cond {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .terms-form-cond a:hover {
+    color: #03aefd;
+  }
+  .terms-form {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .terms-form a:hover {
+    color: #03aefd;
+  }
+  .mi--form a .boton:hover {
+    color: #F5F5F5;
+    cursor: pointer;
+  }
+  .mi--form p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .mi--form .boton:hover {
+    color: #03aefd;
+  }
+  .colafo {
+    width: 100%;
+    background-color: #062339;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .sup--part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .fo-logo img {
+    display: inline;
+    height: 9rem;
+    width: auto;
+  }
+  .slogan {
+    display: block;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #F5F5F5;
+    margin-bottom: 1rem;
+  }
+  .fote {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1rem;
+    color: #F5F5F5;
+    margin-bottom: 1.5rem;
+  }
+  .av--footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: #F5F5F5;
+    font-family: "cinzel";
+  }
+  .flex-social {
+    flex: 1;
+    margin-right: 1rem;
+    width: 12rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  .flex-social li {
+    list-style: none;
+    margin-bottom: 0.2rem;
+    margin-left: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: "Rubik";
+    font-weight: normal;
+  }
+  .flex-social a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .inf--part {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rights {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: "cinzel";
+  }
+  .rights a {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights .text {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .fone {
+    height: 60rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.9);
+    bottom: 4rem;
+    right: 5rem;
+    z-index: 9;
+  }
+  .wa-align {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .wa-bottom {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0.3rem groove #062339;
+    transition: width 0.15s, height 0.15s;
+  }
+  .wa-cont:hover .wa-bottom {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+  .sign-Up {
+    height: 110vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+  }
+  .form-container, .sign-Up, .mi--form, .between-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mi--form {
+    height: 40rem;
+    width: 35rem;
+    border-radius: 0.3rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .between-control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .control {
+    width: 24rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.9rem;
+  }
+  .terms-form-cond {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .terms-form-cond a:hover {
+    color: #03aefd;
+  }
+  .terms-form {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .terms-form a:hover {
+    color: #03aefd;
+  }
+  .mi--form .boton {
+    width: 15rem;
+    height: 2.5rem;
+    justify-content: center;
+    background-color: #03aefd;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .mi--form a .boton:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .mi--form p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .mi--form .boton:hover {
+    color: #03aefd;
+  }
+  .colafo {
+    width: 100%;
+    background-color: #062339;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .sup--part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .fo-logo img {
+    display: inline;
+    height: 9rem;
+    width: auto;
+  }
+  .slogan {
+    display: block;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #f5f5f5;
+    margin-bottom: 1rem;
+  }
+  .fote {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1rem;
+    color: #f5f5f5;
+    margin-bottom: 1.5rem;
+  }
+  .av--footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+    font-family: "cinzel";
+  }
+  .flex-social {
+    flex: 1;
+    margin-right: 1rem;
+    width: 12rem;
+  }
+  .av--footer h6 {
+    font-size: 0.9rem;
+    color: #03aefd;
+  }
+  .flex-social li {
+    list-style: none;
+    margin-bottom: 0.2rem;
+    margin-left: 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik";
+    font-weight: normal;
+  }
+  .flex-social a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .inf--part {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rights {
+    text-decoration: none;
+    color: white;
+    font-family: "cinzel";
+  }
+  .rights a {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights .text {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tm-wrapper {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    bottom: 15rem;
+    right: 4rem;
+    z-index: 9;
+  }
+  .sign-Up {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+  }
+  .form-container, .sign-Up, .mi--form, .between-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mi--form {
+    height: 35rem;
+    width: 35rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .between-control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .control {
+    width: 24rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.9rem;
+  }
+  .terms-form-cond {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .terms-form-cond a:hover {
+    color: #03aefd;
+  }
+  .terms-form {
+    font-family: "cinzel";
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .terms-form a:hover {
+    color: #03aefd;
+  }
+  .mi--form .boton {
+    width: 15rem;
+    height: 2.5rem;
+    justify-content: center;
+    background-color: #03aefd;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .mi--form a .boton:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .mi--form p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .mi--form .boton:hover {
+    color: #03aefd;
+  }
+  .colafo {
+    width: 100%;
+    background-color: #062339;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .sup--part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .fo-logo img {
+    display: inline;
+    height: 9rem;
+    width: auto;
+  }
+  .slogan {
+    display: block;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #f5f5f5;
+    margin-bottom: 1rem;
+  }
+  .fote {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 1rem;
+    color: #f5f5f5;
+    margin-bottom: 1.5rem;
+  }
+  .av--footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+    font-family: "cinzel";
+  }
+  .flex-social {
+    flex: 1;
+    margin-right: 1rem;
+    width: 12rem;
+  }
+  .av--footer h6 {
+    font-size: 0.9rem;
+    color: #03aefd;
+  }
+  .flex-social li {
+    list-style: none;
+    margin-bottom: 0.2rem;
+    margin-left: 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik";
+    font-weight: normal;
+  }
+  .flex-social a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+  .inf--part {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rights {
+    text-decoration: none;
+    color: white;
+    font-family: "cinzel";
+  }
+  .rights a {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights .text {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .rights p a:hover {
+    color: #03aefd;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 1075px) {
+  header {
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+  }
+  .hlog {
+    z-index: 4;
+    height: 5rem;
+    margin-top: 0rem;
+    border-radius: 5rem;
+  }
+  .hamburguer {
+    align-items: center;
+    color: #F5F5F5;
+    width: 1rem;
+    height: 1rem;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 14rem;
+    height: 17.5rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    height: 1.8rem;
+    width: 14rem;
+    color: #062339;
+    display: block;
+    padding-top: 0.3rem;
+    z-index: 4;
+    margin-left: -1rem;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    margin-top: 0.22rem;
+    margin-left: 8.4rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    font-family: "cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -14rem;
+    width: 15.15rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    bottom: 8rem;
+    right: 2rem;
+    z-index: 9;
+  }
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .im-wedd {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .folt-im {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .fly-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .mi--form {
+    height: 30rem;
+    width: 25rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .between-control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .control {
+    width: 20rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    color: rgba(225, 225, 225, 0.9607843137);
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.8rem;
+  }
+  .sup--part {
+    height: 43rem;
+  }
+  h6 {
+    padding-left: 2rem;
+  }
+  .inf--part {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .av--footer h6 {
+    font-size: 0.9rem;
+    color: #03aefd;
+  }
+}
+@media screen and (max-width: 599px) {
+  header {
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+  }
+  .hlog {
+    z-index: 4;
+    height: 4.5rem;
+    margin-top: 0rem;
+    border-radius: 5rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburguer {
+    align-items: center;
+    color: #F5F5F5;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 14rem;
+    height: 17.5rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    height: 1.8rem;
+    width: 14rem;
+    color: #062339;
+    display: block;
+    padding-top: 0.3rem;
+    z-index: 4;
+    margin-left: -1rem;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    margin-top: 0.22rem;
+    margin-left: 8.4rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    font-family: "cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -14rem;
+    width: 15.15rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .fone {
+    height: 60rem;
+  }
+  .red-yellow {
+    margin-top: 7rem;
+  }
+  .top {
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 2rem;
+  }
+  .tm-wrapper {
+    margin-top: 33rem;
+  }
+  .tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    bottom: 16rem;
+    right: 2rem;
+    z-index: 9;
+  }
+  .max, .cur, .wedd, .folt, .fly, .shoot {
+    width: 100%;
+    height: auto;
+  }
+  .cur {
+    height: auto;
+    width: 100%;
+  }
+  .ese, .ww, .ve-ft, .fw, .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
+    display: none;
+  }
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    height: 117vh;
+  }
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .wedd {
+    height: 150vh;
+    width: auto;
+  }
+  .ww {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ww-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .wandw {
+    height: 148vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .w-text-title {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .w-text {
+    width: 30rem;
+    padding: 15px;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .ww-text {
+    padding: 1rem;
+    width: 30rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .im-wedd {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .folt {
+    height: 110vh;
+    width: auto;
+  }
+  .ve-ft {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ve-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: #32d705;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .video-editing {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+  .content-text-ve {
+    height: 65vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ve-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .folt-im {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .fw-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 5rem;
+    color: #fa6103;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-fly-text {
+    height: 76vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .fw-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #fa6103;
+    background-color: #3c1801;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .fly-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .shoot {
+    height: 160vh;
+    width: auto;
+  }
+  .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    color: #ee1515;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-text-straw {
+    height: 70vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
+  }
+  .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #ee1515;
+    z-index: 6;
+  }
+  .strawberry-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #021600;
+    background-color: #fcdede;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .av--footer h6 {
+    font-size: 0.9rem;
+    color: #03aefd;
+  }
+}
+@media screen and (max-width: 425px) {
+  header {
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+  }
+  .hlog {
+    z-index: 4;
+    height: 4.5rem;
+    margin-top: 0rem;
+    border-radius: 5rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburguer {
+    align-items: center;
+    color: #F5F5F5;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 14rem;
+    height: 17.5rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    height: 1.8rem;
+    width: 14rem;
+    color: #062339;
+    display: block;
+    padding-top: 0.3rem;
+    z-index: 4;
+    margin-left: -1rem;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    margin-top: 0.22rem;
+    margin-left: 8.4rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    font-family: "cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -14rem;
+    width: 15.15rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .fone {
+    height: 60rem;
+  }
+  .red-yellow {
+    margin-top: 7rem;
+  }
+  .top {
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 2rem;
+  }
+  .tm-wrapper {
+    margin-top: 33rem;
+  }
+  .tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    bottom: 16rem;
+    right: 2rem;
+    z-index: 9;
+  }
+  .max, .cur, .wedd, .folt, .fly, .shoot {
+    width: 100%;
+    height: auto;
+  }
+  .cur {
+    height: auto;
+    width: 100%;
+  }
+  .ese, .ww, .ve-ft, .fw, .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
+    display: none;
+  }
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    height: 117vh;
+  }
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .wedd {
+    height: 170vh;
+    width: auto;
+  }
+  .ww {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ww-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .wandw {
+    height: 162vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .w-text-title {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .w-text {
+    width: 30rem;
+    padding: 15px;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .ww-text {
+    padding: 1rem;
+    width: 30rem;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .im-wedd {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .folt {
+    height: 120vh;
+    width: auto;
+  }
+  .ve-ft {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ve-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: #32d705;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .video-editing {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+  .content-text-ve {
+    height: 65vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ve-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .folt-im {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .fw-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 5rem;
+    color: #fa6103;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-fly-text {
+    height: 76vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .fw-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #fa6103;
+    background-color: #3c1801;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .fly-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .shoot {
+    height: 160vh;
+    width: auto;
+  }
+  .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    color: #ee1515;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-text-straw {
+    height: 78vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 3rem;
+  }
+  .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #ee1515;
+    z-index: 6;
+  }
+  .strawberry-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #021600;
+    background-color: #fcdede;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .terms-form-cond {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+  }
+  .mi--form {
+    height: 25rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    font-size: 0.9rem;
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .control {
+    width: 14rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    color: rgba(225, 225, 225, 0.9607843137);
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.8rem;
+  }
+  .form__terms-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mi--form .boton {
+    width: 11rem;
+    height: 2.5rem;
+    background-color: #03aefd;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .terms-form {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
+  .sup--part {
+    height: 47rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .av--footer h6 {
+    font-size: 0.9rem;
+    color: #03aefd;
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+  }
+  .hlog {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    height: 4.5rem;
+    margin-top: 0rem;
+    border-radius: 5rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburguer {
+    display: flex;
+    color: #F5F5F5;
+    width: 1.3rem;
+    height: 1.3rem;
+    justify-content: end;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 14rem;
+    height: 17.5rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    height: 1.8rem;
+    width: 14rem;
+    color: #062339;
+    display: block;
+    padding-top: 0.3rem;
+    padding-left: 4rem;
+    z-index: 4;
+    margin-left: 0.2rem;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    margin-top: 0.22rem;
+    margin-left: 8.3rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    font-family: "cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -13rem;
+    width: 15.15rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .fone {
+    height: 70rem;
+  }
+  .red-yellow {
+    margin-top: 5rem;
+  }
+  .utop {
+    font-family: "cinzel";
+    font-size: 0.7rem;
+    color: #fffefe;
+    text-shadow: 1px 2px 2px #a2a1a1;
+  }
+  .top {
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 2rem;
+  }
+  .ttop {
+    color: #062339;
+    font-family: "Rubik";
+  }
+  .tm-wrapper {
+    margin-top: 33rem;
+  }
+  .tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    top: 42.5rem;
+    right: 2rem;
+    z-index: 9;
+  }
+  .max, .cur, .wedd, .folt, .fly, .shoot {
+    width: 100%;
+    height: auto;
+  }
+  .cur {
+    height: auto;
+    width: 100%;
+  }
+  .ese, .ww, .ve-ft, .fw, .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
+    display: none;
+  }
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    width: auto;
+    height: 140vh;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .cur--text .column-two, .column-two .column-two, .w-text .column-two {
+    font-size: 1rem;
+  }
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .wedd {
+    height: auto;
+    width: 100%;
+  }
+  .ww {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ww-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .wandw {
+    height: 140vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .w-text-title {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .w-text {
+    width: 30rem;
+    padding: 15px;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .ww-text {
+    padding: 1rem;
+    width: 30rem;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .im-wedd {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .folt {
+    height: 110vh;
+    width: auto;
+  }
+  .ve-ft {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ve-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 12rem;
+    color: #32d705;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .video-editing {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+  .content-text-ve {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ve-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .folt-im {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .fw-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 6rem;
+    color: #fa6103;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-fly-text {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .fw-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 18px;
+    color: #fa6103;
+    background-color: #3c1801;
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .fly-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .shoot {
+    height: auto;
+    width: 100%;
+  }
+  .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 20rem;
+    color: #ee1515;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-text-straw {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 16rem;
+  }
+  .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #ee1515;
+    z-index: 6;
+  }
+  .strawberry-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: #021600;
+    background-color: #fcdede;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .terms-form-cond {
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+  }
+  .mi--form {
+    height: 25rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .control {
+    width: 14rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    color: rgba(225, 225, 225, 0.9607843137);
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.8rem;
+  }
+  .form__terms-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mi--form .boton {
+    width: 11rem;
+    height: 2.5rem;
+    background-color: #03aefd;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .terms-form {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .sup--part {
+    height: 53rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .fote br {
+    display: none;
+  }
+  .av--footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .flex-social {
+    flex: 10;
+    margin-right: 0rem;
+    width: 16rem;
+    margin-top: 1rem;
+  }
+  .text {
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 336px) {
+  header {
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 10;
+    background-color: #062339;
+  }
+  .hbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+  }
+  .hlog {
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    height: 4.5rem;
+    margin-top: 0rem;
+    border-radius: 5rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburguer {
+    display: flex;
+    color: #F5F5F5;
+    width: 1.3rem;
+    height: 1.3rem;
+    justify-content: end;
+  }
+  .hamburguer ul li {
+    list-style: none;
+  }
+  .hamburguer li a {
+    font-family: "Cinzel";
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  .icon-ham {
+    transform: scale(2);
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .sub-li {
+    background-color: #e6f7ff;
+    width: 14rem;
+    height: 17.5rem;
+    border-radius: 0.3rem;
+    z-index: 4;
+  }
+  .hamb-menu {
+    font-family: "Cinzel";
+    height: 1.8rem;
+    width: 14rem;
+    color: #062339;
+    display: block;
+    padding-top: 0.3rem;
+    padding-left: 4rem;
+    z-index: 4;
+    margin-left: 0.2rem;
+  }
+  .hamb-menu:hover {
+    color: #941e09;
+    font-size: 1rem;
+  }
+  .hamb-social {
+    height: 1.8rem;
+    color: #062339;
+    width: 16.8rem;
+    margin-top: 0.22rem;
+    margin-left: 8.3rem;
+    transform: scale(1.2);
+  }
+  .hamb-social:hover {
+    color: #941e09;
+    margin-left: 11.4rem;
+    transform: scale(1.4);
+  }
+  .submenu .button-signUp {
+    margin-top: 2rem;
+    margin-left: 3.4rem;
+    font-family: "Cinzel";
+    font-size: 0.85rem;
+    color: #062339;
+    border: 0.1rem solid #062339;
+    border-radius: 0.4rem;
+    display: inline-block;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .button-signUp:hover {
+    color: #e6f7ff;
+    background-color: #062339;
+  }
+  .submenu {
+    position: absolute;
+    padding-top: 0.5rem;
+    margin-left: -13rem;
+    width: 15.15rem;
+    height: 24rem;
+    border-radius: 0.3rem;
+    background-color: #c3e8fa;
+    box-shadow: -0.3rem 0.4rem 0.8rem rgba(6, 35, 57, 0.5333333333);
+  }
+  .hamburguer:hover {
+    color: #03aefd;
+  }
+  .hamburguer:hover .submenu {
+    display: block;
+  }
+  .fone {
+    height: 70rem;
+  }
+  .red-yellow {
+    margin-top: 5rem;
+  }
+  .utop {
+    font-family: "Cinzel";
+    font-size: 0.7rem;
+    color: #fffefe;
+    text-shadow: 1px 2px 2px #a2a1a1;
+  }
+  .top {
+    font-family: "Cinzel";
+    color: #062339;
+    font-size: 2rem;
+  }
+  .ttop {
+    color: #062339;
+    font-family: "Rubik";
+  }
+  .tm-wrapper {
+    margin-top: 33rem;
+  }
+  .tm-slide {
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    padding: 1px;
+    overflow: hidden;
+    z-index: 6;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .wa-cont {
+    position: fixed;
+    transform: scale(0.8);
+    top: 42.5rem;
+    right: 2rem;
+    z-index: 9;
+  }
+  .max, .cur, .wedd, .folt, .fly, .shoot {
+    width: 100%;
+    height: auto;
+  }
+  .cur {
+    height: auto;
+    width: 100%;
+  }
+  .ese, .ww, .ve-ft, .fw, .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .cur--title, .ww-title, .ve-title, .fw-title, .strawberry-title {
+    width: 34rem;
+    font-family: "Cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .cur--title br, .ww-title br, .ve-title br, .fw-title br, .strawberry-title br {
+    display: none;
+  }
+  .container-ese-text, .wandw, .content-text-ve, .content-fly-text, .content-text-straw {
+    width: auto;
+    height: 146vh;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .title-text, .w-text-title, .video-editing-title, .fly__text--title, .title-text-straw {
+    font-family: "Cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .cur--text .column-two, .column-two .column-two, .w-text .column-two {
+    font-size: 1rem;
+  }
+  .cur--im, .im-wedd, .folt-im, .fly-img, .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .wedd {
+    height: auto;
+    width: 100%;
+  }
+  .ww {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ww-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: #0d2337;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .wandw {
+    height: 140vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .w-text-title {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #103357;
+    z-index: 6;
+  }
+  .w-text {
+    width: 30rem;
+    padding: 15px;
+    font-family: "Rubik";
+    font-size: 1rem;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .ww-text {
+    padding: 1rem;
+    width: 30rem;
+    font-family: "Rubik";
+    font-size: 1rem;
+    color: #ea0946;
+    background-color: rgba(250, 166, 195, 0.4196078431);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .im-wedd {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .folt {
+    height: 90vh;
+    width: auto;
+  }
+  .ve-ft {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .ve-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: #32d705;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .video-editing {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+  .content-text-ve {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ve-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-size: 1rem;
+    color: #1ffb02;
+    background-color: rgba(8, 115, 4, 0.7960784314);
+    border-radius: 8px;
+    margin-bottom: 10rem;
+  }
+  .folt-im {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .fw-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: #fa6103;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-fly-text {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .fw-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-size: 1rem;
+    color: #fa6103;
+    background-color: #3c1801;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  .fly-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .shoot {
+    height: auto;
+    width: 100%;
+  }
+  .strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  .strawberry-title {
+    width: 34rem;
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-top: 20rem;
+    color: #ee1515;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .content-text-straw {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+    margin-bottom: 12rem;
+  }
+  .title-text-straw {
+    font-family: "cinzel";
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #ee1515;
+    z-index: 6;
+  }
+  .strawberry-text {
+    padding: 1rem;
+    width: 50rem;
+    font-family: "Rubik";
+    font-size: 1rem;
+    color: #021600;
+    background-color: #fcdede;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .shoot-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .terms-form-cond {
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+  }
+  .mi--form {
+    height: 25rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    font-family: "Rubik";
+    color: #03aefd;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .sus {
+    font-family: "cinzel";
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .control {
+    width: 14rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    color: rgba(225, 225, 225, 0.9607843137);
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.8rem;
+  }
+  .form__terms-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mi--form .boton {
+    width: 11rem;
+    height: 2.5rem;
+    background-color: #03aefd;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: "Cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .terms-form {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .sup--part {
+    height: 53rem;
+  }
+  .logo-cont {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .fote br {
+    display: none;
+  }
+  .av--footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .flex-social {
+    flex: 10;
+    margin-right: 0rem;
+    width: 16rem;
+    margin-top: 1rem;
+  }
+  .text {
+    margin-bottom: 4rem;
+    font-family: "Cinzel";
+  }
+}
+/*Para página lern-with*/
+.display--learn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.h2__title--blue {
+  font-family: "Cinzel";
+  font-size: 2.4rem;
+  color: #062339;
+}
+
+.main__section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.aside__main {
+  font-family: "Cinzel";
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.topics {
+  display: inline;
+}
+
+.topics__words {
+  list-style-type: none;
+  width: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topics__words li {
+  padding: 1rem 0rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.topics__words li:last-child {
+  margin-right: 0;
+}
+
+.topics__words li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-family: "Rubik";
+  font-size: 1rem;
+  background-color: #969696;
+  padding: 0.7rem;
+  border-radius: 1.6rem;
+}
+
+.topics__words li a:hover {
+  color: rgba(245, 245, 245, 0.9607843137);
+  background-color: #0d2337;
+  border: 0.1rem solid #f5f5f5;
+}
+
+.aside__index {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.section__cards {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 18.2rem;
+  border: 0.1rem solid #dddddd;
+  border-radius: 0.3rem;
+}
+
+.card img {
+  width: 18rem;
+  height: auto;
+}
+
+.card-title {
+  font-family: "Cinzel";
+  font-size: 1.8rem;
+}
+
+.card-text {
+  font-family: "Rubik";
+  font-size: 1rem;
+}
+
+.card a {
+  color: #c3e8fa;
+  background-color: #0d2337;
+  border: 0.1rem solid #0d2337;
+}
+
+.card a:hover {
+  color: rgba(245, 245, 245, 0.9607843137);
+  background-color: #0d2337;
+  border: 0.1rem solid #f5f5f5;
+}
+
+.la-flowers {
+  margin: 0rem 10rem;
+  padding: 0rem 10rem;
+}
+
+.varios--ads {
+  text-align: center;
+}
+
+.video--ad {
+  max-width: 100%;
+  height: auto;
+}
+
+.learn-article {
+  font-family: "Rubik", sans-serif;
+}
+
+.haute-couture {
+  display: flex;
+  justify-content: center;
+}
+
+.haute-container {
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 61.2rem;
+  height: auto;
+  background-color: #0d2337;
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.video-haute {
+  width: 30rem;
+  height: 15rem;
+  margin-right: 0.1rem;
+}
+
+.ias .frameworks {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  width: 70rem;
+  height: auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Para página de Sign In*/
+@media screen and (min-width: 90px) {
+  .mi--forms {
+    width: 13rem;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .suss {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  .controls {
+    width: 10rem;
+    height: 2rem;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .between-controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .botono {
+    width: 8rem;
+    height: 1.7rem;
+    margin: 2rem;
+    background-color: #f17930;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .botono:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .terms-forms {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .terms-forms a:hover {
+    color: #03aefd;
+  }
+}
+@media screen and (min-width: 426px) {
+  .mi--forms {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .suss {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  .controls {
+    width: 10rem;
+    height: 2rem;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .between-controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .botono {
+    width: 8rem;
+    height: 1.7rem;
+    margin: 2rem;
+    background-color: #f17930;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .botono:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .terms-forms {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .terms-forms a:hover {
+    color: #03aefd;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mi--forms {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .suss {
+    font-family: "cinzel";
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+  }
+  .controls {
+    width: 10rem;
+    height: 2rem;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.7rem;
+  }
+  .between-controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .botono {
+    width: 8rem;
+    height: 1.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    background-color: #f17930;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .botono:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .terms-forms {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 0.7rem;
+    margin-top: 1.7rem;
+  }
+  .terms-forms a:hover {
+    color: #03aefd;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mi--forms {
+    width: 32rem;
+    height: auto;
+    border-radius: 0.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #062339;
+    box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+  }
+  .suss {
+    font-family: "cinzel";
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  .controls {
+    width: 24rem;
+    height: 2.8rem;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    color: #0d2337;
+    background-color: #a6d6fd;
+    border-radius: 0.2rem;
+    border: 0.1rem solid #03aefd;
+    font-family: "cinzel";
+    font-size: 0.9rem;
+  }
+  .between-controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .botono {
+    width: 13.75rem;
+    height: 2.8rem;
+    margin: 2rem;
+    background-color: #f17930;
+    border: none;
+    border-radius: 5px;
+    font-family: "cinzel";
+    color: #062339;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .botono:hover {
+    color: #f5f5f5;
+    cursor: pointer;
+  }
+  .terms-forms a {
+    font-family: "Rubik";
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #F5F5F5;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+  }
+  .terms-forms a:hover {
+    color: #03aefd;
+  }
+}
+/*  Suscriptions page  */
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,2460 @@
+@media screen and (max-width: 2560px) {
+    header {
+        height: 4.5rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hflex {
+        margin: 0;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .hlog {
+        z-index: 4;
+        background-color: #062339;
+        height: 8.3rem;
+        border-radius: 5rem;
+        margin-top: -0.4rem;
+    }
+    
+    .menu{
+        margin-top: 1.4rem;
+        width: 25rem;
+        justify-content: center;
+    }
+    
+    .menu-center {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+    }
+    
+    .menu li {
+        list-style: none;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 0.9rem;
+        font-family: "cinzel";
+        margin-right: 1rem;
+    }
+    
+    .menu a:hover {
+        color: $secondary-color;
+    }
+    
+    .hamburguer {
+        display: flex;
+        color: $basic-white-color;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 1rem;
+        justify-content: end;
+    }
+    
+    .hamburguer ul li {
+        list-style: none;
+    }
+    
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 16.9rem;
+        height: 17.5rem;
+        margin-left: -1.4rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    
+    .hamb-menu {
+        height: 1.8rem;
+        width: 16.8rem;
+        color: #062339;
+        display: block;
+        padding-left: 5rem;
+        padding-top: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        padding: 0rem;
+        margin-top: 0.22rem;
+        margin-left: 9.4rem;
+        transform: scale(1.2);
+    }
+    
+    .hamb-social:hover {
+            color: #941e09;
+            margin-left: 11.4rem;
+            transform: scale(1.4);
+    }
+    
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 2.8rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    
+    .submenu {
+        display: none;
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -13rem;
+        width: 18rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: $secondary-color;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .fone {
+        height: 60rem;
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 45rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        font-weight: normal;
+        color: $secondary-color;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.6rem;
+        color: $basic-white-color;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid $secondary-color;
+        font-family: "cinzel";
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: $secondary-color;
+    }
+    
+    .terms-form {
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: $secondary-color;
+    }
+    
+    
+    .mi--form a .boton:hover {
+        color: $basic-white-color;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: $secondary-color;
+    }
+    .colafo {
+        width: 100%;
+        background-color: #062339;  
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    
+    .sup--part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+    
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fo-logo img {
+        display: inline;
+        height: 9rem;
+        width: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: $basic-white-color;
+        margin-bottom: 1rem;
+    }
+    .fote {
+        font-family: "Rubik";
+        font-weight: normal;
+        font-size: 1rem;
+        color: $basic-white-color;
+        margin-bottom: 1.5rem;
+    }
+    
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: $basic-white-color;
+        font-family: "cinzel";
+    }
+    
+    .flex-social {
+        flex: 1;
+        margin-right: 1rem;
+        width: 12rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    .flex-social li {
+        list-style: none;
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+    }
+    a {
+        text-decoration: none;
+        color: $basic-white-color;
+        font-family: "Rubik";
+        font-weight: normal;;
+    }
+    .flex-social a:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .inf--part {
+        height: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: $basic-white-color;
+        font-family: $primaryFamily;
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-bottom: 0.5rem;
+    }
+    
+}
+@media screen and (max-width: 1800px) {
+    .fone {
+        height: 60rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.9); 
+        bottom: 4rem;
+        right: 5rem;
+        z-index: 9;
+    }
+    .wa-align {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .wa-bottom {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: 0.3rem groove #062339;
+        transition: width 0.15s, height 0.15s;
+    }
+    .wa-cont:hover .wa-bottom {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+    .cur--title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ww-title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ve-title {
+        color: $title-green; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .fw-title {
+        color: $middle-orange; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .strawberry-title {
+        color: $menu-red; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .content-text-ve {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .content-fly-text{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .content-text-straw {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .sign-Up {
+        height: 110vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+    }
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 40rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        font-family: "Rubik";
+        font-weight: normal;
+        color: $secondary-color;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid $secondary-color;
+        font-family: "cinzel";
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        margin-top: -4rem;
+        font-family: "cinzel";
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: #03aefd;
+    }
+    
+    .terms-form {
+        font-family: "cinzel";
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: #03aefd;
+    }
+    
+    .mi--form .boton {
+        width: 13.75rem;
+        height: 2.8rem;
+        justify-content: center;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .mi--form a .boton:hover {
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: #03aefd;
+    }
+    .colafo {
+        width: 100%;
+        background-color: #062339;  
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    
+    .sup--part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 23rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fo-logo img {
+        display: inline;
+        height: 9rem;
+        width: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: "cinzel";
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #f5f5f5;
+        margin-bottom: 1rem;
+    }
+    .fote {
+        font-family: "Rubik";
+        font-weight: normal;
+        font-size: 1rem;
+        color: #f5f5f5;
+        margin-bottom: 1.5rem;
+    }
+    
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: white;
+        font-family: "cinzel";
+    }
+    
+    .flex-social {
+        flex: 1;
+        margin-right: 1rem;
+        width: 12rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    
+    .flex-social li {
+        list-style: none;
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: "Rubik";
+        font-weight: normal;
+    }
+    
+    .flex-social a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    .inf--part {
+        height: 1rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: $basic-white-color;
+        font-family: $primaryFamily;
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-bottom: 0.5rem;
+    }
+}
+@media screen and (max-width: 1441px) {
+    .fone {
+        height: 70rem;
+    }
+    .red-yellow{
+        margin-top: 12rem;
+    }
+    .utop {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+        color: #fffefe;
+        text-shadow: 1px 2px 2px #a2a1a1;
+    }
+    .top {
+        font-family: $primaryFamily;
+        color: #062339;
+        font-size: 3rem;
+    }
+    .ttop {
+        color: #062339;
+        font-family: "Rubik";
+    }
+    .tm-wrapper{
+        margin-top: 38rem;
+        padding: 1rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right:0.5rem;
+    }
+    .cur--title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ww-title {
+        color: $primary-color;
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .ve-title {
+        color: $title-green; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .fw-title {
+        color: $middle-orange; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .strawberry-title {
+        color: $menu-red; 
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .content-text-ve {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .content-fly-text{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .content-text-straw {
+        margin-bottom: 3rem;
+    }
+    .inf--part {
+        height: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: $primaryFamily;
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .red-yellow{
+        margin-top: 8rem;
+    }
+    .top {
+        font-family: $primaryFamily;
+        color: #062339;
+        font-size: 3rem;
+    }
+    .tm-wrapper{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 15rem;
+        right: 4rem;
+        z-index: 9;
+    }
+    .title {
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cur--title {
+        @extend .title;
+        color: $primary-color;
+    }
+    
+    .ww-title {
+        @extend .title;
+    }
+    
+    .ve-title {
+        @extend .title;
+        color: $title-green;
+    }
+    
+    .fw-title {
+        @extend .title;
+        color: $middle-orange;
+    }
+    
+    .strawberry-title {
+        @extend .title;
+        color: $menu-red;
+    }
+    .content-text-ve {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
+    }
+    .ve-text {
+        padding: 1rem;
+        width: 50rem;
+        font-family: "Rubik";
+        font-weight: normal;
+        font-size: 18px;
+        color: #1ffb02;
+        background-color: #087304cb;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .content-text-straw {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 5;
+        margin-bottom: 3rem;
+    }
+    .sign-Up {
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #ea0946, #f17930, #ebd702, #f5f5f5);
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mi--form {
+        height: 35rem;
+        width: 35rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        font-weight: normal;
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    
+    .sus {
+        font-family: $primaryFamily;
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .control {
+        width: 24rem;
+        height: 2.8rem;
+        padding-left: 1rem;
+        color: #0d2337;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: $primaryFamily;
+        font-size: 0.9rem;
+    }
+    
+    .terms-form-cond {
+        font-family: $primaryFamily;
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .terms-form-cond a:hover {
+        color: #03aefd;
+    }
+    
+    .terms-form {
+        font-family: $primaryFamily;
+        font-size: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .terms-form a:hover {
+        color: #03aefd;
+    }
+    
+    .mi--form .boton {
+        width: 15rem;
+        height: 2.5rem;
+        justify-content: center;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: $primaryFamily;
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .mi--form a .boton:hover {
+        color: #f5f5f5;
+        cursor: pointer;
+    }
+    
+    .mi--form p a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    
+    .mi--form .boton:hover {
+        color: #03aefd;
+    }
+    .colafo {
+        width: 100%;
+        background-color: #062339;  
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    .sup--part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+    
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fo-logo img {
+        display: inline;
+        height: 9rem;
+        width: auto;
+    }
+    .slogan {
+        display: block;
+        font-family: $primaryFamily;
+        font-weight: normal;
+        font-size: 0.8rem;
+        color: #f5f5f5;
+        margin-bottom: 1rem;
+    }
+    .fote {
+        font-family: "Rubik";
+        font-weight: normal;    
+        font-size: 1rem;
+        color: #f5f5f5;
+        margin-bottom: 1.5rem;
+    }
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        color: white;
+        font-family: $primaryFamily;
+    }
+    .flex-social {
+        flex: 1;
+        margin-right: 1rem;
+        width: 12rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    .flex-social li {
+        list-style: none;
+        margin-bottom: 0.2rem;
+        margin-left: 0;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: $secondaryFamily;
+        font-weight: normal;
+    }
+    .flex-social a:hover {
+        color: #03aefd;
+        cursor: pointer;
+    }
+    .inf--part {
+        width: 100%;
+        height: 10rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: $primaryFamily;
+    }
+}
+@media screen and (max-width: 1075px) {
+    header {
+        position: fixed;
+        top: 0;
+        height: 4rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        z-index: 4;
+        height: 5.5rem;
+        margin-top: 0.2rem;
+        margin-left: 2rem;
+        border-radius: 4rem;
+    }
+    .hamburguer {
+        align-items: center;
+        color: #F5F5F5;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 1.3rem;
+        margin-right: 2rem;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: $primaryFamily;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+        margin-left: -1rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: $primaryFamily;
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -14rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 8rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    .ve-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $maarashu-green;
+        background-color: $dark-greeen;
+        margin-bottom: 1rem;
+    }
+    .fw-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $middle-orange;
+        background-color: $orange-BG-color;
+    }
+    .strawberry-text {
+        @include  font-weight-more;
+        width: 25rem;
+        color: $primary-color;
+        background-color: $wANDw-BG-color;
+        margin-bottom: 2rem;
+    }
+    .cur--im {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .im-wedd {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .folt-im {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .fly-img {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .shoot-img {
+        width: 50%;
+        height: 50%;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .mi--form {
+        height: 40rem;
+        width: 30rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        font-weight: normal;
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    .between-control {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .control {
+        width: 20rem;
+        height: 2.3rem;
+        padding-left: 1rem;
+        color: #e1e1e1f5;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.8rem;
+    }
+    .sup--part{
+        height: 23rem;
+    }
+    h6 {
+        padding-left: 2rem; 
+    }
+    .inf--part {
+        margin-top: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+}
+@media screen and (max-width: 633px) {
+    .hlog {
+        z-index: 4;
+        height: 5.5rem;
+        margin-top: 0.2rem;
+        margin-left: 0.5rem;
+        border-radius: 4rem;
+    }
+    .hamburguer {
+        align-items: center;
+        color: #F5F5F5;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 1.3rem;
+        margin-right: 0.5rem;
+    }
+    .menu {
+        display: none;
+    }
+    %common-title {
+        width: 34rem;
+        font-family: $primaryFamily;
+        font-size: $h2-title;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .cur--title {
+        @extend %common-title;
+        color: $primary-color;
+    }
+    
+    .ww-title {
+        @extend %common-title;
+        color: $primary-color;
+    }
+    
+    .ve-title {
+        @extend %common-title;
+        color: $title-green; 
+    }
+    
+    .fw-title {
+        @extend %common-title;
+        color: $middle-orange; 
+    }
+}
+@media screen and (max-width: 621px) {
+    .inf--part {
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-top: 18rem;
+    }
+}
+@media screen and (max-width: 599px) {
+    header {
+        position: fixed;
+        top: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
+    }
+    .hamburguer {
+        align-items: center;
+        color: #F5F5F5;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+        margin-left: -1rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -14rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .fone {
+        height: 60rem;
+    }
+    .red-yellow{
+        margin-top: 7rem;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 2.6rem;
+    }
+    .ttop {
+        font-size: 0.8rem;
+    }
+    .tm-wrapper{
+        margin-top: 30rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 16rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    .cur--title {
+        color: $primary-color;
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .ww-title {
+        color: $primary-color;
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .ve-title {
+        color: $title-green; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .fw-title {
+        color: $middle-orange; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .strawberry-title {
+        color: $menu-red; 
+        padding-left: 1rem;
+        width: 23rem;
+        font-family: $primaryFamily;
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .title-text {
+        font-size: 1.4rem;
+    }
+    .w-text-title {
+        font-size: 1.4rem;
+    }
+    .video-editing-title {
+        font-size: 1.4rem;
+    }
+    .fly__text--title  {
+        font-size: 1.4rem;
+    }
+    .title-text-straw {
+        font-size: 1.4rem;
+    }
+    .content-text-ve {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .ve-text{
+        margin-top: 0rem;
+    }
+    .content-fly-text{
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .cur--im {
+        width: 70%;
+        height: 70%;
+        border-bottom-right-radius: 9rem;
+        border-bottom-left-radius: 9rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .im-wedd {
+        @extend .cur--im;
+    }
+    .folt-im {
+        @extend .cur--im;
+    }
+    .fly-img {
+        @extend .cur--im;
+    }
+    .shoot-img {
+        @extend .cur--im;
+    }
+    .terms-button{
+        font-size: 0.7rem;
+    }
+    .sup--part {
+        height: 30rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    .inf--part {
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-top: 18rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mi--form {
+        height: 38rem;
+        width: 23rem;
+    }
+}
+@media screen and (max-width: 425px){
+    header {
+        position: fixed;
+        top: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburguer {
+        align-items: center;
+        color: #F5F5F5;
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        z-index: 4;
+        margin-left: -1rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.4rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -14rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .fone {
+        height: 65rem;
+    }
+    .red-yellow{
+        margin-top: 5rem;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 2.4rem;
+    }
+    .tm-wrapper{
+        margin-top: 28rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        bottom: 16rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    .container-ese-text {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .wandw {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .content-text-ve {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .content-fly-text  {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .content-text-straw {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .terms-form-cond{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-bottom: 1.7rem;
+    }
+    .mi--form {
+        height: 35rem;
+        width: 20rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        font-size: 0.9rem;
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .control {
+        width: 14rem;
+        height: 2.3rem;
+        padding-left: 1rem;
+        color: #e1e1e1f5;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.8rem;
+    }
+    .form__terms-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mi--form .boton {
+        width: 11rem;
+        height: 2.5rem;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .terms-form{
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+    .sup--part {
+        height: 40rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    
+}
+@media screen and (max-width: 375px){
+    header {
+        position: fixed;
+        top: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        position: fixed;
+        top: 0;
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburguer {
+        display: flex;
+        color: #F5F5F5;
+        width: 1.3rem;
+        height: 1.3rem;
+        justify-content: end;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: "cinzel";
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        padding-left: 4rem;
+        z-index: 4;
+        margin-left: 0.2rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.3rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -13rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .fone {
+        height: 70rem;
+    }
+    .red-yellow{
+        margin-top: 5rem;
+    }
+    .utop {
+        font-family: "cinzel";
+        font-size: 0.7rem;
+        color: #fffefe;
+        text-shadow: 1px 2px 2px #a2a1a1;
+    }
+    .top {
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 2rem;
+    }
+    .ttop {
+        color: #062339;
+        font-family: "Rubik";
+    }
+    .tm-wrapper{
+        margin-top: 28rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 1px;
+        overflow: hidden;
+        z-index: 6;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        top: 42.5rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    
+
+
+    .terms-form-cond{
+        margin-top: 1rem;
+        margin-bottom: 1.7rem;
+    }
+    .mi--form {
+        height: 35rem;
+        width: 18rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    .sus {
+        font-family: "cinzel";
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .control {
+        width: 14rem;
+        height: 2.3rem;
+        padding-left: 1rem;
+        color: #e1e1e1f5;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.8rem;
+    }
+    .form__terms-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mi--form .boton {
+        width: 11rem;
+        height: 2.5rem;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: "cinzel";
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .terms-form{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .sup--part{
+        height: 48rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fote br{
+        display: none;
+    }
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .flex-social {
+        flex: 10;
+        margin-right: 0rem;
+        width: 16rem;
+        margin-top: 1rem;
+    }
+    .sup--part {
+        height: 33rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    .inf--part {
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-top: 18rem;
+    }
+}
+@media screen and (max-width: 336px){
+    header {
+        position: fixed;
+        top: 0;
+        height: 3rem;
+        width: 100%;
+        z-index: 10;
+        background-color: #062339;
+    }
+    .hbar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .hlog {
+        position: fixed;
+        top: 0;
+        z-index: 4;
+        height: 4.5rem;
+        margin-top: 0rem;
+        border-radius: 5rem;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburguer {
+        display: flex;
+        color: $basic-white-color;
+        width: 1.3rem;
+        height: 1.3rem;
+        justify-content: end;
+    }
+    .hamburguer ul li {
+        list-style: none;
+    }
+    .hamburguer li a {
+        font-family: $primaryFamily;
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+    .icon-ham {
+        transform: scale(2);
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .sub-li {
+        background-color: #e6f7ff;
+        width: 14rem;
+        height: 17.5rem;
+        border-radius: 0.3rem;
+        z-index: 4;
+    }
+    .hamb-menu {
+        font-family: "Cinzel";
+        height: 1.8rem;
+        width: 14rem;
+        color: #062339;
+        display: block;
+        padding-top: 0.3rem;
+        padding-left: 4rem;
+        z-index: 4;
+        margin-left: 0.2rem;
+    }
+    .hamb-menu:hover{
+        color: #941e09;
+        font-size: 1rem;
+    }
+    
+    .hamb-social {
+        height: 1.8rem;
+        color: #062339;
+        width: 16.8rem;
+        margin-top: 0.22rem;
+        margin-left: 8.3rem;
+        transform: scale(1.2);
+    }
+    .hamb-social:hover {
+        color: #941e09;
+        margin-left: 11.4rem;
+        transform: scale(1.4);
+    }
+    .submenu .button-signUp {
+        margin-top: 2rem;
+        margin-left: 3.4rem;
+        font-family: "Cinzel";
+        font-size: 0.85rem;
+        color: #062339;
+        border: 0.1rem solid #062339;
+        border-radius: 0.4rem;
+        display: inline-block;
+        padding: 0.4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .button-signUp:hover {
+        color: #e6f7ff;
+        background-color: #062339 ;
+    }
+    .submenu {
+        position: absolute;
+        padding-top: 0.5rem;
+        margin-left: -13rem;
+        width: 15.15rem;
+        height: 24rem;
+        border-radius: 0.3rem;
+        background-color: #c3e8fa;
+        box-shadow: -0.3rem 0.4rem 0.8rem #06233988;
+    }
+    .hamburguer:hover  {
+        color: #03aefd;
+    }
+    .hamburguer:hover .submenu{
+        display: block;
+    }
+    .red-yellow{
+        margin-top: 5rem;
+    }
+    .utop {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: #fffefe;
+        text-shadow: 1px 2px 2px #a2a1a1;
+    }
+    .top {
+        font-family: $primaryFamily;
+        color: $primary-color;
+        font-size: 2rem;
+    }
+    .ttop {
+        color: $primary-color;
+        font-family: $secondaryFamily;
+    }
+    .tm-wrapper{
+        margin-top: 30rem;
+    }
+    .tm-slide {
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        padding: 0.5px;
+        overflow: hidden;
+        z-index: 6;
+    }
+    .wa-cont {
+        position: fixed;
+        transform: scale(0.8); 
+        top: 42.5rem;
+        right: 2rem;
+        z-index: 9;
+    }
+    
+    .terms-form-cond{
+        margin-top: 1rem;
+        margin-bottom: 1.7rem;
+    }
+    .mi--form {
+        width: 18rem;
+        border-radius: 0.3rem;
+        margin-top: 0rem;
+        font-family: "Rubik";
+        color: #03aefd;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #062339;
+        box-shadow: 0.5rem 0.7rem 2.6rem #062339;
+    }
+    .sus {
+        font-family: $primaryFamily;
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .control {
+        width: 14rem;
+        height: 2.3rem;
+        padding-left: 1rem;
+        color: #e1e1e1f5;
+        background-color: #a6d6fd;
+        border-radius: 0.2rem;
+        border: 0.1rem solid #03aefd;
+        font-family: "cinzel";
+        font-size: 0.8rem;
+    }
+    .form__terms-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mi--form .boton {
+        width: 11rem;
+        height: 2.5rem;
+        background-color: #03aefd;
+        border: none;
+        border-radius: 0.2rem;
+        font-family: $primaryFamily;
+        color: #062339;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .terms-form{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .sup--part{
+        height: 45rem;
+    }
+    .logo-cont {
+        width: 25rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__logo {
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .fote br{
+        display: none;
+    }
+    .av--footer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .flex-social {
+        flex: 10;
+        margin-right: 0rem;
+        width: 16rem;
+        margin-top: 1rem;
+    }
+    .sup--part {
+        height: 33rem;
+    }
+    .av--footer h6{
+        font-size: 0.9rem;
+        color: #03aefd;
+    }
+    .inf--part {
+        height: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rights {
+        text-decoration: none;
+        color: white;
+        font-family: "cinzel";
+    }
+    .footer__last--copyright {
+        color: $basic-white-color;
+        text-decoration: none;
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+    }
+    .footer__last--copyright:hover {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+    .footer__last--text {
+        font-family: $primaryFamily;
+        font-size: 0.7rem;
+        color: $basic-white-color;
+        margin-top: 18rem;
+    }
+}
